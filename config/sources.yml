@@ -31,3 +31,6 @@ pool:
 rank:
   top_n: 100
   newcomer_days: 180            # 新锐榜只收近期创建的项目
+
+publish:
+  out_dir: data/rankings        # 可重新生成的公开结果

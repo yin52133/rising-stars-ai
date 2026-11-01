@@ -1,0 +1,49 @@
+name: update
+
+on:
+  schedule:
+    - cron: "20 1 * * *"   # 每日 09:20 Asia/Shanghai
+    - cron: "40 1 * * 1"   # 每周一 09:40 重排监控池
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      # shortcut: SQLite 靠 actions/cache 保温，缓存被清后按 90 天重新回填
+      - uses: actions/cache@v4
+        with:
+          path: data/rising_stars.db
+          key: stars-db-${{ github.run_id }}
+          restore-keys: stars-db-
+
+      - name: daily
+        if: github.event.schedule != '40 1 * * 1'
+        run: python -m rising_stars_ai daily
+
+      - name: weekly
+        if: github.event.schedule == '40 1 * * 1'
+        run: python -m rising_stars_ai weekly
+
+      - name: commit rankings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rankings
+          git diff --cached --quiet || git commit -m "data: refresh rankings"
+          git push
