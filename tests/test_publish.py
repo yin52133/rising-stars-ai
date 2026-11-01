@@ -1,5 +1,6 @@
 import csv
 import json
+from html.parser import HTMLParser
 
 from rising_stars_ai import db, publish, rank
 
@@ -68,17 +69,36 @@ def test_publish_keeps_raw_metrics_and_marks_incomplete(con, add_repo, tmp_path)
     assert {row["board"] for row in rows} >= {"daily_growth", "daily_score", "monthly_acceleration"}
 
 
-def test_page_embeds_payload_and_meta(con, add_repo, tmp_path):
+def test_page_preserves_untrusted_description_without_executing_markup(con, add_repo, tmp_path):
     seed(con, add_repo, 1, 100, 5.0)
+    description = '</script><script>alert("injected")</script>'
+    con.execute("UPDATE repositories SET description = ? WHERE repo_id = 1", (description,))
     rank.build(con, CFG, END)
     out = tmp_path / "out"
     publish.publish(con, CFG, END, out_dir=out, generated_at="2026-11-01T00:00:00+00:00")
 
-    page = (out / "index.html").read_text(encoding="utf-8")
-    assert "Rising Stars AI" in page
-    assert "__PAYLOAD__" not in page and "__SUBTITLE__" not in page
-    assert f"截至 {END}" in page
-    assert '"daily_growth"' in page.replace(": ", ": ")
+    class Scripts(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.scripts = []
+            self.current = None
 
-    meta = json.loads((out / "meta.json").read_text(encoding="utf-8"))
-    assert meta["end_day"] == END and meta["pool"]["repos"] == 1
+        def handle_starttag(self, tag, attrs):
+            if tag == "script":
+                self.current = ""
+
+        def handle_data(self, data):
+            if self.current is not None:
+                self.current += data
+
+        def handle_endtag(self, tag):
+            if tag == "script" and self.current is not None:
+                self.scripts.append(self.current)
+                self.current = None
+
+    page = Scripts()
+    page.feed((out / "index.html").read_text(encoding="utf-8"))
+    assert len(page.scripts) == 2
+    payload = json.loads(page.scripts[0])
+    assert payload["boards"]["daily_growth"]["items"][0]["description"] == description
+    assert payload["end_day"] == END and payload["meta"]["pool"]["repos"] == 1
