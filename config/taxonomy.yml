@@ -1,0 +1,68 @@
+# 领域、技术形态与项目类型规则。
+# 关键词小写匹配仓库名称、简介、Topics；纯字母词按词边界匹配（避免 ai 命中 maintain）。
+
+min_signals: 2
+
+kind_order: [resource_list, replica, model, tool]
+
+ai_keywords:
+  - ai
+  - llm
+  - large language model
+  - gpt
+  - openai
+  - anthropic
+  - claude
+  - llama
+  - mistral
+  - qwen
+  - deepseek
+  - transformer
+  - diffusion
+  - stable-diffusion
+  - machine learning
+  - machine-learning
+  - deep learning
+  - deep-learning
+  - neural
+  - embedding
+  - rag
+  - retrieval-augmented
+  - agent
+  - agents
+  - prompt
+  - inference
+  - fine-tuning
+  - finetune
+  - multimodal
+  - generative-ai
+  - artificial intelligence
+  - text-to-image
+  - text-to-video
+  - text-to-speech
+  - speech recognition
+  - vllm
+  - langchain
+  - huggingface
+  - whisper
+
+domains:
+  编程: [coding, code, copilot, ide, editor plugin, code completion, linter, compiler, programming, developer tool, devtool, sdk, cli]
+  Agent: [agent, agents, autonomous, multi-agent, orchestration, workflow automation, mcp, tool use, computer use, browser use, rag]
+  研究: [research, paper, arxiv, benchmark, evaluation, dataset, pretraining, experiment, reproduction]
+  创作: [image generation, video generation, art, design, music, audio, creative, animation, avatar, voice, illustration, storyboard]
+  办公: [productivity, office, spreadsheet, document, notes, email, meeting, transcription, obsidian, notion, slides, pdf]
+  建模: [3d, blender, mesh, cad, rendering, scene, gaussian splatting, texture, point cloud]
+  基础设施: [inference, serving, gpu, training, fine-tuning, deployment, kubernetes, quantization, vector database, observability, distil]
+
+forms:
+  模型: [model, weights, checkpoint, foundation model, diffusion model, language model, pretrained]
+  Agent: [agent, framework, orchestration, langchain, autogen, crewai, tool calling]
+  Harness: [harness, scaffold, coding agent, runtime, sandbox, terminal agent, code agent]
+  工具: [cli, app, extension, plugin, editor, desktop, web ui, vscode, jetbrains, chrome extension]
+  基础设施: [server, engine, inference, serving, gpu, cluster, kubernetes, runtime, proxy, gateway]
+
+kinds:
+  resource_list: [awesome, awesome-list, curated list, course, tutorial, book, roadmap, cheatsheet, papers, resources list, learning path]
+  replica: [replica, replication, reimplementation, re-implementation, implementation of, clone, mini, from scratch, rewrite, port of, unofficial]
+  model: [model, weights, checkpoint, pretrained, foundation]

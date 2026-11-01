@@ -1,0 +1,16 @@
+# 查询、来源与调度参数。
+
+github_search:
+  per_page: 100
+  max_pages: 10                 # Search API 单查询最多 1,000 条，超出不假装全站覆盖
+  pushed_within_days: 365
+  topics: [llm, agents, machine-learning, generative-ai, ai-agent, mcp, rag, stable-diffusion, llmops, text-to-video, ai-coding, embeddings]
+  star_buckets: ["500..2000", "2000..5000", "5000..10000", ">10000"]
+  name_keywords: [llm, agent, diffusion, "large language model", "AI coding"]
+  created_buckets: ["<2024-06-01", "2024-06-01..2025-06-01", ">2025-06-01"]
+  low_star_floor: 200           # 新锐候选允许低于 500 星
+
+stars:
+  endpoint: "https://api.github.com/repos/{full_name}/stargazers/history"
+  backfill_days: 90
+  daily_lookback_days: 3        # 每日只补最近未完成周期
