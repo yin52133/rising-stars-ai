@@ -39,6 +39,7 @@ JSON 与 CSV 保留原始指标（本期/上期新增、速度、加速度、百
 ## 测试
 
 ```bash
+pip install pytest
 python -m pytest
 ```
 
@@ -50,3 +51,4 @@ python -m pytest
 - Search API 单查询最多 1,000 条，查询按 Topic、Star 区间、创建时间分段；被截断的查询记在 `collection_runs`。
 - 官方历史日/周边界不保证按 UTC 对齐，页面展示的是官方新增量，不与自己算的 UTC 快照相减。
 - `data/*.db` 不入库；GitHub Actions 用 `actions/cache` 保温，缓存失效后按 90 天重新回填。
+- 原始 Star 历史响应不落盘，只保存解析后的每日增量、来源页码与采集时间（`star_history_days`、`collection_runs`）；页面展示所需的一切都能从这两张表重算。

@@ -72,10 +72,9 @@ def _board_rows(con: sqlite3.Connection, end_day: str) -> tuple[list[dict], dict
 
 
 def _top(rows: list[dict], key, limit: int) -> list[dict]:
-    ordered = sorted(rows, key=key)
-    for position, row in enumerate(ordered[:limit], start=1):
-        row["rank"] = position
-    return ordered[:limit]
+    """返回副本，避免同一仓库在不同榜里共用 dict 而被后算的榜覆盖名次。"""
+    ordered = sorted(rows, key=key)[:limit]
+    return [dict(row, rank=position) for position, row in enumerate(ordered, start=1)]
 
 
 def build(con: sqlite3.Connection, cfg: dict, end_day: str) -> dict:
