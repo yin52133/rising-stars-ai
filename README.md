@@ -38,7 +38,9 @@ python -m rising_stars_ai publish --end-day 2026-10-31
 
 `data/rankings/`：`daily|weekly|monthly_{growth,acceleration,score}_top100.json`、`newcomers_top100.json`、`rankings_<day>.csv`、`meta.json`、`index.html`。
 
-JSON 与 CSV 保留原始指标（本期/上期新增、速度、加速度、百分位、综合分），页面可离线按周期、领域、技术形态、项目类型筛选；页头标注监控池规模、统计窗口、更新时间与缺测状态。
+JSON 与 CSV 保留原始指标（本期／上期新增、速度、加速度、百分位、综合分）。离线页面支持中英文、日／周／月排行、搜索与领域／技术形态／项目类型筛选；选择项目可查看详细介绍、指标和数据完整性。新锐榜仅提供周榜。
+
+双语项目介绍按 GitHub 仓库 ID 维护于 `rising_stars_ai/repository_descriptions.json`，包含中文、英文及资料来源；尚未收录的项目显示 GitHub 原始简介并链接至仓库，不自动翻译或虚构介绍。
 
 ## 测试
 
