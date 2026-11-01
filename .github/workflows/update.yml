@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update
@@ -16,6 +18,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -47,3 +52,9 @@ jobs:
           git add data/rankings
           git diff --cached --quiet || git commit -m "data: refresh rankings"
           git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: data/rankings
+      - id: deploy
+        uses: actions/deploy-pages@v4
