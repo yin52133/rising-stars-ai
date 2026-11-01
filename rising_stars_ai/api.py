@@ -12,7 +12,25 @@ import urllib.parse
 import urllib.request
 
 API = "https://api.github.com"
+REPO_URL = API + "/repos/{full_name}"
 USER_AGENT = "rising-stars-ai"
+
+
+def repo_from_api(item: dict) -> dict:
+    """GitHub 仓库响应 → repositories 字段；未知值保持 None，绝不用 0 顶替。"""
+    return {
+        "repo_id": item["id"],
+        "full_name": item["full_name"],
+        "description": item.get("description"),
+        "url": item.get("html_url"),
+        "topics": item.get("topics") or [],
+        "stars": item.get("stargazers_count"),
+        "created_at": item.get("created_at"),
+        "pushed_at": item.get("pushed_at"),
+        "archived": item.get("archived", False),
+        "is_fork": item.get("fork", False),
+        "is_template": item.get("is_template", False),
+    }
 
 
 class ApiError(Exception):

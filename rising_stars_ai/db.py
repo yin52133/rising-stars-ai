@@ -232,22 +232,26 @@ def open_memberships(con: sqlite3.Connection) -> dict[int, dict]:
     return {row["repo_id"]: dict(row) for row in rows}
 
 
-def sync_memberships(con: sqlite3.Connection, desired: dict[int, tuple[str, str]], changed_at: str) -> dict:
-    """desired: repo_id -> (pool, reason)。池或身份变化时关闭旧记录并新开一条，保留历史。"""
+def sync_memberships(con: sqlite3.Connection, desired: dict[int, tuple[str, str]],
+                     changed_at: str, close_note: str = "未进入本周池") -> dict:
+    """desired: repo_id -> (pool, reason)。池或身份变化时关闭旧记录并新开一条，保留历史与原因。"""
     current = open_memberships(con)
     promoted = 0
     demoted = 0
     for repo_id, row in current.items():
         want = desired.get(repo_id)
-        if not want or want[0] != row["pool"]:
-            con.execute(
-                "UPDATE pool_memberships SET valid_to = ? WHERE repo_id = ? AND valid_from = ?",
-                (changed_at, repo_id, row["valid_from"]),
-            )
-            if want:
-                promoted += 1
-            else:
-                demoted += 1
+        if want and want[0] == row["pool"]:
+            continue
+        note = f" | 晋级: {want[0]}" if want else f" | 移出: {close_note}"
+        con.execute(
+            "UPDATE pool_memberships SET valid_to = ?, reason = COALESCE(reason, '') || ?"
+            " WHERE repo_id = ? AND valid_from = ?",
+            (changed_at, note, repo_id, row["valid_from"]),
+        )
+        if want:
+            promoted += 1
+        else:
+            demoted += 1
     added = 0
     for repo_id, (pool, reason) in desired.items():
         row = current.get(repo_id)

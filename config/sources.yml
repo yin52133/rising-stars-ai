@@ -14,3 +14,16 @@ stars:
   endpoint: "https://api.github.com/repos/{full_name}/stargazers/history"
   backfill_days: 90
   daily_lookback_days: 3        # 每日只补最近未完成周期
+
+pool:
+  regular_size: 800
+  newcomer_size: 200            # 展示榜从约 1,000 个精算对象计算
+  domain_base_quota: 40         # 各领域基础名额，剩余按近期表现分配
+  min_stars: 500
+  pushed_within_days: 365
+  strong_growth_7d: 50          # 增长证据足够强时可放宽 pushed_at
+  newcomer_days: 180
+  newcomer_max_stars: 5000
+  newcomer_growth_7d: 30
+  manual_keep: {}               # owner/repo: 原因，强制留在常规池
+  manual_exclude: {}            # owner/repo: 原因，强制移出

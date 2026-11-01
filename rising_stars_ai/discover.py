@@ -8,7 +8,7 @@ import urllib.parse
 from datetime import date, timedelta
 
 from . import db
-from .api import API, ApiError
+from .api import API, ApiError, repo_from_api
 
 SEARCH_URL = f"{API}/search/repositories"
 RESULT_CAP = 1000  # Search API 单查询上限，超过部分拿不到
@@ -33,22 +33,6 @@ def build_queries(cfg: dict, today: date) -> list[dict]:
                       f"stars:>={search['low_star_floor']} archived:false"),
             })
     return queries
-
-
-def to_repo(item: dict) -> dict:
-    return {
-        "repo_id": item["id"],
-        "full_name": item["full_name"],
-        "description": item.get("description"),
-        "url": item.get("html_url"),
-        "topics": item.get("topics") or [],
-        "stars": item.get("stargazers_count"),
-        "created_at": item.get("created_at"),
-        "pushed_at": item.get("pushed_at"),
-        "archived": item.get("archived", False),
-        "is_fork": item.get("fork", False),
-        "is_template": item.get("is_template", False),
-    }
 
 
 def query_url(q: str) -> str:
@@ -79,7 +63,7 @@ def run_search(con: sqlite3.Connection, client, cfg: dict, run_id: str,
             if page == 1 and total > RESULT_CAP:
                 truncated += 1
             for item in items:
-                repo = to_repo(item)
+                repo = repo_from_api(item)
                 db.upsert_repository(con, repo, seen_at)
                 db.add_source(con, repo["repo_id"], "github_search", query["key"],
                               query_url(query["q"]),
