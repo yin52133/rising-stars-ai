@@ -46,3 +46,7 @@
 4. 用浏览器打开 `data/rankings/index.html`，查看页面显示的统计截止日期和更新时间。
 
 如果提示没有 Star 历史，检查网络、Token 和请求结果。查看已生成的页面不需要 Python 或 Token。
+
+## Star 历史
+
+[![Rising Stars AI 的 Star 历史](https://api.star-history.com/chart?repos=yin52133/rising-stars-ai&type=date&legend=top-left)](https://www.star-history.com/?repos=yin52133%2Frising-stars-ai&type=date&legend=top-left)

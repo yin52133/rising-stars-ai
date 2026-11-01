@@ -46,3 +46,7 @@ You need Python 3.12 and a network connection. A GitHub token is recommended to 
 4. Open `data/rankings/index.html` in a browser. Check the data cutoff and update time shown on the page.
 
 If the command reports that no star history is available, check your network connection, token, and request results. Viewing an already generated page requires neither Python nor a token.
+
+## Star history
+
+[![Star history of Rising Stars AI](https://api.star-history.com/chart?repos=yin52133/rising-stars-ai&type=date&legend=top-left)](https://www.star-history.com/?repos=yin52133%2Frising-stars-ai&type=date&legend=top-left)
