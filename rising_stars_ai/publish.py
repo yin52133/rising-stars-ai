@@ -171,151 +171,16 @@ def _write_csv(path: pathlib.Path, boards: dict[str, dict]) -> None:
                 writer.writerow(row)
 
 
-PAGE = """<!doctype html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rising Stars AI · GitHub AI 项目趋势</title>
-<style>
-:root { color-scheme: light dark; --line: #d9dde3; --muted: #6b7280; --accent: #2563eb; }
-* { box-sizing: border-box; }
-body { margin: 0; font: 14px/1.55 -apple-system, "Segoe UI", "Noto Sans SC", sans-serif; }
-header { padding: 24px clamp(16px, 4vw, 48px) 8px; }
-h1 { margin: 0 0 4px; font-size: 22px; }
-.sub { margin: 0 0 16px; color: var(--muted); }
-dl.meta { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 0; }
-dl.meta div { display: flex; gap: 6px; align-items: baseline; }
-dt { color: var(--muted); font-size: 12px; }
-dd { margin: 0; font-variant-numeric: tabular-nums; }
-main { padding: 8px clamp(16px, 4vw, 48px) 40px; }
-.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 16px 0; }
-.controls label { display: flex; gap: 6px; align-items: center; color: var(--muted); }
-select { font: inherit; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; }
-table { width: 100%; border-collapse: collapse; }
-th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: right; }
-th:nth-child(2), td:nth-child(2) { text-align: left; }
-th { font-size: 12px; color: var(--muted); font-weight: 600; white-space: nowrap; }
-td.num { font-variant-numeric: tabular-nums; }
-td a { color: var(--accent); text-decoration: none; }
-td a:hover { text-decoration: underline; }
-.desc { color: var(--muted); font-size: 12px; display: block; max-width: 52ch;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.tag { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--line);
-  border-radius: 999px; font-size: 11px; color: var(--muted); }
-.warn { color: #b45309; }
-.muted { color: var(--muted); }
-footer { padding: 0 clamp(16px, 4vw, 48px) 40px; color: var(--muted); font-size: 12px; }
-</style>
-</head>
-<body>
-<header>
-  <h1>Rising Stars AI</h1>
-  <p class="sub">__SUBTITLE__</p>
-  <dl class="meta" id="meta"></dl>
-</header>
-<main>
-  <div class="controls">
-    <label>榜单 <select id="board"></select></label>
-    <label>领域 <select id="domain"></select></label>
-    <label>技术形态 <select id="form"></select></label>
-    <label>项目类型 <select id="kind"></select></label>
-    <span class="muted" id="count"></span>
-  </div>
-  <table>
-    <thead><tr>
-      <th>#</th><th>项目</th><th>总 Star</th><th>本期新增</th><th>上期新增</th>
-      <th>速度</th><th>加速度</th><th>综合分</th><th>标签</th><th>完整性</th>
-    </tr></thead>
-    <tbody id="rows"></tbody>
-  </table>
-</main>
-<footer>数据可离线重算：JSON 与 CSV 保留原始指标；综合分只含增长与加速度的百分位。</footer>
-<script id="payload" type="application/json">__PAYLOAD__</script>
-<script>
-const data = JSON.parse(document.getElementById("payload").textContent);
-const ALL = "__ALL__";
-const fmt = (value, digits) => (value === null || value === undefined) ? "—" :
-  Number(value).toLocaleString("zh-CN", { maximumFractionDigits: digits === undefined ? 2 : digits });
-const fill = (id, values, withAll) => {
-  const select = document.getElementById(id);
-  if (withAll) {
-    const option = document.createElement("option");
-    option.value = ALL;
-    option.textContent = "全部";
-    select.append(option);
-  }
-  [...new Set(values)].forEach(value => {
-    const option = document.createElement("option");
-    option.value = option.textContent = value;
-    select.append(option);
-  });
-};
-const ORDER = ["daily_growth", "daily_acceleration", "daily_score", "weekly_growth",
-  "weekly_acceleration", "weekly_score", "monthly_growth", "monthly_acceleration",
-  "monthly_score", "newcomers"];
-const unique = values => [...new Set(values)].sort();
-const orderRank = name => ORDER.includes(name) ? ORDER.indexOf(name) : ORDER.length;
-const boardNames = Object.keys(data.boards).sort((a, b) => orderRank(a) - orderRank(b));
-fill("board", boardNames, false);
-fill("domain", unique(boardNames.flatMap(name => data.boards[name].items.flatMap(item => item.domains))), true);
-fill("form", unique(boardNames.flatMap(name => data.boards[name].items.flatMap(item => item.forms))), true);
-fill("kind", unique(boardNames.flatMap(name => data.boards[name].items.flatMap(item => item.kinds))), true);
-
-const meta = data.meta;
-for (const [label, value] of [
-  ["监控池", meta.pool.repos + " 个仓库（常规 " + meta.pool.regular + " / 新锐 " + meta.pool.newcomer + "）"],
-  ["统计窗口", "截至 " + data.end_day],
-  ["数据更新", meta.generated_at],
-  ["缺测", meta.pool.no_history ? meta.pool.no_history + " 个仓库无历史数据" : "无缺失历史"],
-]) {
-  const wrap = document.createElement("div");
-  wrap.innerHTML = "<dt>" + label + "</dt><dd>" + value + "</dd>";
-  document.getElementById("meta").append(wrap);
-}
-
-function render() {
-  const board = data.boards[document.getElementById("board").value];
-  const domain = document.getElementById("domain").value;
-  const form = document.getElementById("form").value;
-  const kind = document.getElementById("kind").value;
-  const items = board.items.filter(item =>
-    (!domain || domain === ALL || item.domains.includes(domain)) &&
-    (!form || form === ALL || item.forms.includes(form)) &&
-    (!kind || kind === ALL || item.kinds.includes(kind)));
-  document.getElementById("count").textContent =
-    board.board_label + " · 显示 " + items.length + " 项（入榜 " + board.items.length + " 项）";
-  document.getElementById("rows").innerHTML = items.map(item => {
-    const tags = [...item.domains, ...item.forms.map(tag => "形·" + tag), ...item.kinds.map(tag => "类·" + tag)]
-      .map(tag => '<span class="tag">' + tag + "</span>").join("");
-    const desc = item.description ? '<span class="desc">' + item.description + "</span>" : "";
-    const integrity = item.complete ? "完整" :
-      '<span class="warn">可用 ' + item.days_available + " 天</span>";
-    return "<tr>" +
-      '<td class="num">' + item.rank + "</td>" +
-      '<td><a href="' + item.url + '" target="_blank" rel="noopener">' + item.full_name + "</a>" + desc + "</td>" +
-      '<td class="num">' + fmt(item.stars, 0) + "</td>" +
-      '<td class="num">' + fmt(item.added, 0) + "</td>" +
-      '<td class="num">' + fmt(item.added_previous, 0) + "</td>" +
-      '<td class="num">' + fmt(item.velocity) + "</td>" +
-      '<td class="num">' + fmt(item.acceleration) + "</td>" +
-      '<td class="num">' + fmt(item.score) + "</td>" +
-      "<td>" + tags + "</td>" +
-      "<td>" + integrity + "</td>" +
-      "</tr>";
-  }).join("");
-}
-["board", "domain", "form", "kind"].forEach(id =>
-  document.getElementById(id).addEventListener("change", render));
-render();
-</script>
-</body>
-</html>
-"""
 
 
 def render_page(boards: dict[str, dict], pool: dict, end_day: str, generated_at: str) -> str:
-    payload = json.dumps({"meta": {"pool": pool, "generated_at": generated_at}, "end_day": end_day,
-                          "boards": boards}, ensure_ascii=False).replace("</", "<\\/")
-    subtitle = f"截至 {end_day} · {pool['repos']} 个监控仓库 · 数据更新 {generated_at}"
-    return PAGE.replace("__SUBTITLE__", subtitle).replace("__PAYLOAD__", payload)
+    directory = pathlib.Path(__file__).parent
+    descriptions = json.loads((directory / "repository_descriptions.json").read_text(encoding="utf-8"))
+    repo_ids = {str(item["repo_id"]) for board in boards.values() for item in board["items"]}
+    payload = json.dumps({
+        "meta": {"pool": pool, "generated_at": generated_at},
+        "end_day": end_day,
+        "boards": boards,
+        "descriptions": {repo_id: descriptions[repo_id] for repo_id in repo_ids if repo_id in descriptions},
+    }, ensure_ascii=False).replace("</", "<\\/")
+    return (directory / "rankings.html").read_text(encoding="utf-8").replace("__PAYLOAD__", payload)

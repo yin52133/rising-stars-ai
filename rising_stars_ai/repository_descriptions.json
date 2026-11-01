@@ -1,0 +1,242 @@
+{
+  "1048065319": {
+    "full_name": "thedotmack/claude-mem",
+    "zh": "为 Claude Code 等智能体提供跨会话记忆，自动记录工具使用观察并生成语义摘要，供后续会话恢复项目上下文。它提供记忆搜索和本地网页查看器，也可用 private 标签排除不希望保存的内容。",
+    "en": "Claude-Mem provides cross-session memory for agents including Claude Code, capturing tool-use observations and producing semantic summaries for later sessions. It offers memory search and a local web viewer, with private tags to exclude sensitive content from storage.",
+    "source": "https://github.com/thedotmack/claude-mem"
+  },
+  "1432967563": {
+    "full_name": "ccch1mneyyy/dsh-Go",
+    "zh": "DSH Go 是 DeepSeek Harness 的 Android 客户端，既能在手机内置 Linux 环境中运行，也能切换到电脑上的 DSH 会话。它支持生成时插话、消息排队，以及在原生界面和官方网页版之间切换。",
+    "en": "DSH Go is an Android client for DeepSeek Harness that runs in a built-in Linux environment or connects to DSH on a computer. It supports steering during responses, queued messages, and switching between its native interface and the official web interface.",
+    "source": "https://github.com/ccch1mneyyy/dsh-Go"
+  },
+  "1097346685": {
+    "full_name": "pbakaus/impeccable",
+    "zh": "Impeccable 为编程智能体提供界面设计指令，帮助调整已有页面或组件，也可用于创建新页面。其 critique 和 audit 工作流分别检查设计与可用性以及无障碍、性能、主题和响应式表现，还提供无需模型调用的确定性问题检测。",
+    "en": "Impeccable gives coding agents design instructions for refining existing interfaces or building new pages. Its critique and audit workflows review design and usability, accessibility, performance, theming, and responsiveness; deterministic checks also flag common design issues without an LLM.",
+    "source": "https://github.com/pbakaus/impeccable"
+  },
+  "1136590548": {
+    "full_name": "affaan-m/ECC",
+    "zh": "ECC 为编码智能体提供一套可复用的工程工作流，包含规划、代码审查、构建修复和安全等专用智能体与技能。它还提供规则、钩子、记忆及安全扫描，支持 Claude Code、Codex 等工具，不同平台的支持程度有所不同。",
+    "en": "ECC supplies reusable engineering workflows for coding agents, including specialized agents and skills for planning, review, build repair, and security. It also includes rules, hooks, memory, and security scanning, with varying levels of support across Claude Code, Codex, and other tools.",
+    "source": "https://github.com/affaan-m/ECC"
+  },
+  "1162099055": {
+    "full_name": "Leonxlnx/taste-skill",
+    "zh": "Taste Skill 是面向编码智能体的前端设计技能，用于设计网站和应用界面，而不只是拼装常见落地页。它引导智能体选择艺术方向、寻找参考图片，并在真实浏览器中检查生成结果。",
+    "en": "Taste Skill is a frontend design skill for coding agents building websites and app screens rather than assembling generic landing pages. It guides the agent through art direction, finding reference images, and checking the result in a real browser.",
+    "source": "https://github.com/Leonxlnx/taste-skill"
+  },
+  "1266797999": {
+    "full_name": "DietrichGebert/ponytail",
+    "zh": "Ponytail 为编程智能体提供一套简洁开发规则，优先复用现有代码和平台能力，避免不必要的抽象与依赖。它强调不能为减少代码而牺牲验证、安全或无障碍，并提供审查和梳理简化债务的命令。",
+    "en": "Ponytail gives coding agents a set of simplicity-oriented development rules that favor existing code and native capabilities over unnecessary abstractions and dependencies. It explicitly preserves validation, security, and accessibility, and includes commands for review and tracking deliberate simplifications.",
+    "source": "https://github.com/DietrichGebert/ponytail"
+  },
+  "909213664": {
+    "full_name": "TauricResearch/TradingAgents",
+    "zh": "TradingAgents 是基于大语言模型的多智能体金融交易研究框架，模拟不同角色协作分析市场并形成交易决策。项目提供命令行运行和历史回测等能力，适合研究多智能体交易分析流程，不能据此保证投资收益。",
+    "en": "TradingAgents is an LLM-based multi-agent financial trading research framework that models collaboration among different roles to analyze markets and make trading decisions. It supports command-line runs and historical backtesting; it does not guarantee investment returns.",
+    "source": "https://github.com/TauricResearch/TradingAgents"
+  },
+  "1200597263": {
+    "full_name": "Graphify-Labs/graphify",
+    "zh": "Graphify 将代码、文档等项目资料整理成可查询的知识图谱，帮助编码智能体探索项目结构和关联。代码使用本地 tree-sitter AST 解析；文档、PDF、图像和视频的语义处理则使用智能体模型或配置的 API。",
+    "en": "Graphify turns project materials such as code and documentation into a queryable knowledge graph for exploring structure and relationships. Code is parsed locally with tree-sitter ASTs, while semantic processing of documents, PDFs, images, and video uses an agent model or configured API.",
+    "source": "https://github.com/Graphify-Labs/graphify"
+  },
+  "1061953414": {
+    "full_name": "anthropics/skills",
+    "zh": "Anthropic 的公开技能示例库展示如何用包含指令、脚本和资源的文件夹扩展 Claude 的专项能力，覆盖创意、开发、文档及企业工作流。每个技能通过 SKILL.md 提供说明；仓库还包含 DOCX、PDF、PPTX 和 XLSX 技能，其许可与开源示例不同。",
+    "en": "Anthropic’s public skills repository demonstrates how folders of instructions, scripts, and resources extend Claude for creative, development, document, and business workflows. Each skill uses a SKILL.md file; the included DOCX, PDF, PPTX, and XLSX skills have different licensing from the open-source examples.",
+    "source": "https://github.com/anthropics/skills"
+  },
+  "1165277268": {
+    "full_name": "Panniantong/Agent-Reach",
+    "zh": "Agent Reach 为命令行智能体提供访问和搜索多个互联网平台的渠道。它可按渠道执行操作或根据链接读取内容，涵盖 GitHub 仓库和 issue、B 站及 YouTube 字幕等场景。",
+    "en": "Agent Reach gives command-line agents channels for accessing and searching multiple internet platforms. It can run channel-specific actions or read a supported URL, including GitHub repositories and issues and subtitles from Bilibili and YouTube.",
+    "source": "https://github.com/Panniantong/Agent-Reach"
+  },
+  "1170821064": {
+    "full_name": "paperclipai/paperclip",
+    "zh": "Paperclip 是管理 AI 智能体团队的应用，包含 Node.js 服务端和 React 界面，可将不同智能体组织到共同目标下。用户可分配任务、设定预算与权限，并在仪表盘跟踪工作、成本和历史记录。",
+    "en": "Paperclip is an application for managing teams of AI agents, with a Node.js server and React interface for coordinating different agents around shared goals. Users can assign tasks, set budgets and permissions, and track work, costs, and history in a dashboard.",
+    "source": "https://github.com/paperclipai/paperclip"
+  },
+  "1157102282": {
+    "full_name": "cheaper-inference/OmniRoute",
+    "zh": "OmniRoute 是统一 AI 模型访问的网关，为编码工具提供单一入口并连接多个模型供应商。它支持配额感知的自动回退，并提供免费额度目录；第三方免费额度需要用户自行满足供应商的账户和使用条件。",
+    "en": "OmniRoute is an AI gateway that gives coding tools a single endpoint for connecting to multiple model providers. It supports quota-aware automatic fallback and catalogs free tiers, which remain subject to each third-party provider’s account requirements and terms.",
+    "source": "https://github.com/cheaper-inference/OmniRoute"
+  },
+  "1024554267": {
+    "full_name": "NousResearch/hermes-agent",
+    "zh": "Hermes Agent 是 Nous Research 开发的 AI 智能体，可通过终端或 Telegram、Discord 等消息平台交互。它支持跨会话记忆、从经验创建和改进技能、定时任务及多种模型提供商，也可委派子智能体并行工作。",
+    "en": "Hermes Agent is an AI agent from Nous Research that can be used through a terminal or messaging platforms such as Telegram and Discord. It supports cross-session memory, creating and improving skills from experience, scheduled tasks, multiple model providers, and parallel subagents.",
+    "source": "https://github.com/NousResearch/hermes-agent"
+  },
+  "1031912724": {
+    "full_name": "farion1231/cc-switch",
+    "zh": "CC Switch 是适用于 Windows、macOS 和 Linux 的桌面管理工具，面向 Claude Code、Codex、Gemini CLI 等智能体工具。它支持切换 API 供应商，并集中管理 MCP、技能和提示词，减少手工编辑配置文件的需要。",
+    "en": "CC Switch is a desktop manager for Windows, macOS, and Linux that works with tools including Claude Code, Codex, and Gemini CLI. It switches API providers and centralizes MCP, skills, and prompt management to reduce manual configuration editing.",
+    "source": "https://github.com/farion1231/cc-switch"
+  },
+  "1182081931": {
+    "full_name": "Egonex-AI/Understand-Anything",
+    "zh": "Understand Anything 将代码库、知识库或文档转换为可交互的知识图谱，帮助开发者理解项目结构。它通过多智能体分析文件、函数、类及依赖，并提供图谱浏览、语义搜索、架构导览和变更影响分析。",
+    "en": "Understand Anything turns codebases, knowledge bases, and documentation into interactive knowledge graphs for exploration. Its multi-agent analysis maps files, functions, classes, and dependencies, with semantic search, architecture tours, and change-impact analysis.",
+    "source": "https://github.com/Egonex-AI/Understand-Anything/blob/main/README.md"
+  },
+  "787076358": {
+    "full_name": "firecrawl/firecrawl",
+    "zh": "Firecrawl 提供面向 AI 应用的网页搜索、抓取和交互 API，可将网页内容转为 Markdown、结构化 JSON 或截图。它还支持整站爬取、URL 发现、批量抓取以及 PDF 和 DOCX 文档解析，并提供托管服务。",
+    "en": "Firecrawl provides web search, scraping, and interaction APIs for AI applications, returning content as Markdown, structured JSON, or screenshots. It also supports site crawling, URL discovery, batch scraping, and PDF and DOCX parsing, with a hosted service available.",
+    "source": "https://github.com/firecrawl/firecrawl/blob/main/README.md"
+  },
+  "1075372545": {
+    "full_name": "msitarzewski/agency-agents",
+    "zh": "Agency Agents 是一组按专业领域组织的 AI 智能体角色和工作流程，覆盖工程、设计、营销等任务。每个角色文件描述其职责、工作方式及交付物，可安装到 Claude Code 等工具中使用，也可作为参考。",
+    "en": "Agency Agents is a collection of specialized AI agent roles and workflows covering areas such as engineering, design, and marketing. Each agent file describes its mission, working style, and deliverables; the agents can be installed into tools such as Claude Code or used as reference material.",
+    "source": "https://github.com/msitarzewski/agency-agents/blob/main/README.md"
+  },
+  "1201476594": {
+    "full_name": "career-ops-hq/career-ops",
+    "zh": "career-ops 是面向求职者的开源 AI 求职助手，在本机和已有 AI CLI 中运行。用户提供职位后，它会检查职位是否仍开放、评估匹配度，并协助定制简历和起草申请回答；最终由用户自行提交。",
+    "en": "career-ops is an open-source AI job-search assistant that runs locally in an existing AI CLI. Given a job listing, it checks whether the role is still open, evaluates fit, and helps tailor a CV and draft application answers; the user submits the application.",
+    "source": "https://github.com/career-ops-hq/career-ops/blob/main/README.md"
+  },
+  "1035029907": {
+    "full_name": "earendil-works/pi",
+    "zh": "Pi 是一个精简且可扩展的智能体运行框架，包含交互式编程智能体 CLI 及相关 TypeScript 库。用户可通过扩展、技能、提示词模板和主题调整工作流，也可使用 JSON、RPC 或 SDK 将其集成到应用中。",
+    "en": "Pi is a minimal, extensible agent harness with an interactive coding-agent CLI and supporting TypeScript libraries. Its workflow can be customized with extensions, skills, prompt templates, and themes, or integrated into applications through JSON mode, RPC, and an SDK.",
+    "source": "https://github.com/earendil-works/pi/blob/main/README.md"
+  },
+  "1201173969": {
+    "full_name": "JuliusBrussee/caveman",
+    "zh": "Caveman 面向 AI 智能体的 token 使用优化，提供精简回答的技能，以及压缩日志、JSON 和网页等输入的功能。它还提供模型与推理强度选择及可复用脚本等组件，可与 Claude Code、Codex 和其他智能体配合使用。",
+    "en": "Caveman aims to reduce AI-agent token use through concise-answer skills and compression of inputs such as logs, JSON, and web pages. It also offers model and reasoning-effort selection and reusable scripts, and integrates with Claude Code, Codex, and other agents.",
+    "source": "https://github.com/JuliusBrussee/caveman/blob/main/README.md"
+  },
+  "1104332987": {
+    "full_name": "666ghj/MiroFish",
+    "zh": "MiroFish 是基于多智能体模拟的预测与情景探索工具。用户上传新闻、报告或故事等材料并描述问题后，系统构建模拟环境，让不同角色互动，生成预测报告，并支持与模拟角色或报告智能体对话；模拟结果不等于可靠预测。",
+    "en": "MiroFish is a multi-agent simulation tool for forecasting and exploring scenarios. Given source materials such as news, reports, or stories and a natural-language question, it builds a simulated environment, generates a report, and lets users interact with simulated agents or the report agent; simulated outcomes are not guaranteed predictions.",
+    "source": "https://github.com/666ghj/MiroFish/blob/main/README.md"
+  },
+  "1311850318": {
+    "full_name": "AhmadHassan-BTed/AutoSwarm-Shadow-Adapter",
+    "zh": "AutoSwarm Shadow Adapter 是 AutoSwarm 的外部智能体适配器，用于在工作流中接入人工审核或远程计算节点。它将等待任务保存在独立的 SQLite 数据库中，提供审核与远程工作门户，并在交付提交后恢复工作流状态。",
+    "en": "AutoSwarm Shadow Adapter is an external-agent adapter for adding human review or remote computing workers to AutoSwarm workflows. It parks waiting tasks in a separate SQLite database, provides a reviewer and worker portal, and resumes workflow state after deliverables are submitted.",
+    "source": "https://github.com/AhmadHassan-BTed/AutoSwarm-Shadow-Adapter/blob/main/README.md"
+  },
+  "1255479245": {
+    "full_name": "AhmadHassan-BTed/Noria",
+    "zh": "Noria 是用于发现和评估机会的流水线编排工具，面向奖学金和远程职位等场景。它抓取网页、通过语言模型将内容与申请人资料匹配，并可通过 WhatsApp 发送符合条件的机会提醒；系统采用可替换的抓取、模型和消息适配器。",
+    "en": "Noria orchestrates pipelines for discovering and evaluating opportunities such as scholarships and remote jobs. It scrapes web pages, uses language models to compare opportunities with applicant profiles, and can send matching alerts through WhatsApp using replaceable scraping, model, and messaging adapters.",
+    "source": "https://github.com/AhmadHassan-BTed/Noria/blob/main/README.md"
+  },
+  "1223170290": {
+    "full_name": "nexu-io/open-design",
+    "zh": "OpenDesign 是供团队与 AI 设计智能体协作的工作空间，可从设计需求出发创建遵循设计系统的原型并根据反馈迭代。其 Studio 展示了交互式网页原型、幻灯片、图片和动态图形等工作流，并提供可调整的模板、技能和插件。",
+    "en": "OpenDesign is a collaborative workspace for creating and refining design-system-aware prototypes with AI agents. Its Studio supports workflows for interactive web prototypes, slides, images, and motion graphics, alongside adaptable templates, skills, and plugins.",
+    "source": "https://github.com/nexu-io/open-design/blob/main/README.md"
+  },
+  "995029641": {
+    "full_name": "ruvnet/ruflo",
+    "zh": "Ruflo 是面向 Claude Code 和 Codex 的智能体编排框架，为任务提供多智能体协作、记忆和路由等能力。它支持通过 Claude Code 插件或 MCP 接入，并提供用于查看任务、事件和智能体群组的控制台。",
+    "en": "Ruflo is an agent orchestration harness for Claude Code and Codex, adding multi-agent coordination, memory, and routing to development workflows. It can be connected through Claude Code plugins or MCP and provides a console for viewing missions, events, and agent swarms.",
+    "source": "https://github.com/ruvnet/ruflo/blob/main/README.md"
+  },
+  "1129940957": {
+    "full_name": "headroomlabs-ai/headroom",
+    "zh": "Headroom 在工具输出、日志、检索结果和对话历史进入语言模型前进行本地压缩，以减少上下文中的 token。它提供 Python 和 TypeScript 库、本地代理及 MCP 服务，并可在本地缓存原文以便按需取回。",
+    "en": "Headroom locally compresses tool output, logs, retrieval results, and conversation history before they reach a language model, aiming to reduce context tokens. It offers Python and TypeScript libraries, a local proxy, and an MCP server, and can cache originals locally for retrieval when needed.",
+    "source": "https://github.com/headroomlabs-ai/headroom/blob/main/README.md"
+  },
+  "771302083": {
+    "full_name": "OpenHands/OpenHands",
+    "zh": "OpenHands 仓库提供 Agent Canvas，一个可自托管的编程智能体与自动化控制中心。它可运行 OpenHands 或兼容 ACP 的第三方智能体，连接本地、Docker、远程或云端后端，并通过定时任务或事件触发工作流。",
+    "en": "The OpenHands repository provides Agent Canvas, a self-hostable control center for coding agents and automations. It can run OpenHands or third-party ACP-compatible agents across local, Docker, remote, or cloud backends, and trigger workflows on schedules or events.",
+    "source": "https://github.com/OpenHands/OpenHands/blob/main/README.md"
+  },
+  "881458615": {
+    "full_name": "browser-use/browser-use",
+    "zh": "Browser Use 是面向 AI 浏览器代理的开源工具，开发者可在 Python 中结合所选模型，让代理操作本地或云端浏览器完成网页任务。项目还提供命令行工具；配套云服务提供托管浏览器和代理 API。",
+    "en": "Browser Use is an open-source toolkit for AI browser agents that can use a chosen model to operate local or cloud browsers from Python. It also offers a CLI and a separate cloud service with hosted browsers and an agent API.",
+    "source": "https://github.com/browser-use/browser-use"
+  },
+  "626805178": {
+    "full_name": "langgenius/dify",
+    "zh": "Dify 是用于开发大模型应用的平台，提供可视化工作流、模型管理和提示词编辑等功能。它支持从文档导入到检索的 RAG 流程、工具连接和代理，并提供云端及自托管选项。",
+    "en": "Dify is a platform for building LLM applications with visual workflows, model management, and prompt editing. It supports RAG from document ingestion to retrieval, tool-connected agents, and both cloud and self-hosted deployments.",
+    "source": "https://github.com/langgenius/dify"
+  },
+  "701547123": {
+    "full_name": "open-webui/open-webui",
+    "zh": "Open WebUI 是可自托管的 AI 交互平台，为本地及云端模型提供统一界面。它支持 Ollama 和兼容 OpenAI 的 API，并可扩展和离线运行。",
+    "en": "Open WebUI is a self-hosted AI interface for working with local and cloud models. It supports Ollama and OpenAI-compatible APIs, offers extensibility, and can run entirely offline.",
+    "source": "https://github.com/open-webui/open-webui"
+  },
+  "552661142": {
+    "full_name": "langchain-ai/langchain",
+    "zh": "LangChain 是构建 AI 代理和大模型应用的开发框架，通过可组合组件与第三方集成连接模型、工具和数据源。它为模型、向量存储和检索器等提供统一接口，并可结合 LangGraph 编排更复杂的代理流程。",
+    "en": "LangChain is a framework for building agents and LLM applications from interoperable components and third-party integrations. It provides interfaces for models, vector stores, and retrievers, and can be used with LangGraph for more advanced agent orchestration.",
+    "source": "https://github.com/langchain-ai/langchain"
+  },
+  "1174820787": {
+    "full_name": "karpathy/autoresearch",
+    "zh": "autoresearch 为 AI 代理提供单 GPU 的小型语言模型训练实验环境。代理反复修改训练代码、运行固定五分钟的实验，并依据验证集每字节比特数决定保留或舍弃改动；用户通过 program.md 调整代理指令。",
+    "en": "autoresearch gives an AI agent a small single-GPU language-model training environment for autonomous experiments. The agent edits training code, runs fixed five-minute trials, and keeps or discards changes based on validation bits per byte; the user adjusts its instructions in program.md.",
+    "source": "https://github.com/karpathy/autoresearch"
+  },
+  "614765452": {
+    "full_name": "Significant-Gravitas/AutoGPT",
+    "zh": "AutoGPT 提供可协作的 AI 专家，用户可用自然语言分派内容、销售研究和行政等工作，并调整专家的指令与连接的应用。它提供托管平台，也可在自己的基础设施上部署，自托管时由用户提供模型凭据并负责运维。",
+    "en": "AutoGPT provides AI specialists that users can brief in natural language for work such as content, sales research, and administration. It offers a hosted platform and a self-hosted option, where users supply model credentials and manage operations.",
+    "source": "https://github.com/Significant-Gravitas/AutoGPT"
+  },
+  "1343011496": {
+    "full_name": "Vincentwei1021/video-talkcraft",
+    "zh": "video-talkcraft 是用于制作口播解说视频的 AI 代理技能，可与 Claude Code 或 Codex 配合使用。它将口播稿与配音按字对齐，以分镜和动效配方组织画面，再通过 Remotion 渲染，并提供画面和音效检查。",
+    "en": "video-talkcraft is an AI agent skill for making narrated explainer videos with Claude Code or Codex. It aligns scripts to voice recordings at word level, organizes visuals using storyboards and motion recipes, renders with Remotion, and includes visual and audio checks.",
+    "source": "https://github.com/Vincentwei1021/video-talkcraft"
+  },
+  "1258301311": {
+    "full_name": "rlaope/oh-my-hermes",
+    "zh": "oh-my-hermes 是构建在 Hermes Agent 之上的工作层，按任务类别选择技能与模型，不替换 Hermes 本身。它可以将目标拆成依赖图并并行执行节点，同时提供独立验证、可配置的模型链和终端界面。",
+    "en": "oh-my-hermes is an operating layer for Hermes Agent that selects skills and models by work category without replacing Hermes. It can split goals into dependency graphs and run ready nodes in parallel, with separate verification, configurable model chains, and a terminal interface.",
+    "source": "https://github.com/rlaope/oh-my-hermes"
+  },
+  "1285705904": {
+    "full_name": "isjiamu/gzh-design-skill",
+    "zh": "gzh-design-skill 是面向 Claude Code、Codex 等代理的微信公众号排版技能，将 Markdown 转成适合粘贴到公众号编辑器的内联样式 HTML。它提供多套主题和主题生成器，处理代码块、图片与章节编号，并用脚本检查组件和最终 HTML。",
+    "en": "gzh-design-skill is an agent skill for formatting Markdown as inline-styled HTML suitable for pasting into the WeChat Official Account editor. It offers themes and a theme generator, handles code blocks, images, and section numbering, and checks components and output HTML with scripts.",
+    "source": "https://github.com/isjiamu/gzh-design-skill"
+  },
+  "1303258850": {
+    "full_name": "kirodotdev/KiroCrew",
+    "zh": "Kiro Crew 是可运行在自己设备或远程主机上的持久化开发工作区，支持跨会话保留上下文和任务状态。它支持定时工作、可恢复的长任务及并行子代理，并可通过桌面、Web、命令行及消息渠道访问。",
+    "en": "Kiro Crew is a persistent development workspace that runs on your own hardware or a remote host and retains context and task state across sessions. It supports scheduled work, resumable long-running tasks, and parallel subagents, with desktop, web, CLI, and messaging access.",
+    "source": "https://github.com/kirodotdev/KiroCrew"
+  },
+  "1258203278": {
+    "full_name": "inkeep/open-knowledge",
+    "zh": "OpenKnowledge 是面向知识库、笔记和技术规范的本地 Markdown 编辑器，提供所见即所得编辑和桌面及 Web 界面。它支持与 Claude、Codex 等代理并排协作，提供知识图谱查看、MCP 和可选的 Git 同步与分享。",
+    "en": "OpenKnowledge is a local Markdown editor for knowledge bases, notes, and technical specifications, with WYSIWYG editing and desktop and web interfaces. It integrates side-by-side AI editing with agents such as Claude and Codex, and offers a graph viewer, MCP, and optional Git-based syncing and sharing.",
+    "source": "https://github.com/inkeep/open-knowledge"
+  },
+  "1288402762": {
+    "full_name": "synthetic-sciences/openscience",
+    "zh": "OpenScience 是面向科研的 AI 工作台，可根据自然语言任务查找资料、编写并运行代码，帮助分析数据或复现实验。它提供桌面、浏览器和命令行入口，记录工作过程，并支持 Python、R 和科研数据库连接。",
+    "en": "OpenScience is an AI workbench for scientific research that can search sources, write and run code, analyze data, and help reproduce experiments from natural-language tasks. It provides desktop, browser, and CLI interfaces, records the work trace, and supports Python, R, and scientific database connectors.",
+    "source": "https://github.com/synthetic-sciences/openscience"
+  },
+  "1250822765": {
+    "full_name": "nexu-io/html-video",
+    "zh": "html-video 让编程代理根据提示、文章链接或 GitHub 仓库生成动画视频，并在本地渲染 MP4。它提供模板、分镜编辑和可选配乐；目前已接入 Hyperframes 渲染，其他引擎仍在规划中。",
+    "en": "html-video lets coding agents turn prompts, article links, or GitHub repositories into animated videos rendered locally as MP4s. It provides templates, storyboard editing, and optional soundtracks; Hyperframes is currently integrated, while other engines remain planned.",
+    "source": "https://github.com/nexu-io/html-video"
+  }
+}
