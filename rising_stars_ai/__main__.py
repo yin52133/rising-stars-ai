@@ -40,6 +40,8 @@ def run_daily(con, client, cfg, now: str) -> dict:
     run_id = db.start_run(con, "daily", now)
     result = {
         "discover": discover.run_search(con, client, cfg, run_id, now),
+        "trending": discover.run_trending(con, client, cfg, run_id, now),
+        "ossinsight": discover.run_ossinsight(con, client, cfg, run_id, now),
         "classify": classify.classify_pending(con, config.taxonomy(), now),
     }
     result["pool"] = select.build_pool(con, cfg, date.fromisoformat(now[:10]), now)

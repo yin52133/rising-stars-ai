@@ -10,6 +10,18 @@ github_search:
   created_buckets: ["<2024-06-01", "2024-06-01..2025-06-01", ">2025-06-01"]
   low_star_floor: 200           # 新锐候选允许低于 500 星
 
+github_trending:
+  enabled: true
+  since: [daily, weekly]
+  url: "https://github.com/trending?since={since}"
+  max_items: 50
+
+ossinsight:
+  enabled: false                # 未验证可用性与指标口径前只保留开关，不参与 Star 计算
+  url: "https://api.ossinsight.io/v1/trends/repos/"
+  period: past_24_hours
+  max_items: 50
+
 stars:
   endpoint: "https://api.github.com/repos/{full_name}/stargazers/history"
   backfill_days: 90

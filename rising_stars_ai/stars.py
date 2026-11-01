@@ -52,7 +52,7 @@ def pool_repos(con: sqlite3.Connection) -> list[dict]:
 def _store(con, repo_id: int, data: list[dict], run_id: str, collected_at: str) -> int:
     for row in data:
         row["week"] = iso_week(row["day"])
-    return db.upsert_star_days(con, repo_id, data, "github_history", run_id, collected_at)
+    return db.upsert_star_days(con, repo_id, data, "github_history", run_id, collected_at, page=1)
 
 
 def backfill(con: sqlite3.Connection, client, cfg: dict, run_id: str, collected_at: str,

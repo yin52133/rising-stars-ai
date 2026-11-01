@@ -34,8 +34,9 @@ def test_publish_writes_boards_csv_and_page(con, add_repo, tmp_path):
                 for period in ("daily", "weekly", "monthly")
                 for board in ("growth", "acceleration", "score")}
     assert expected <= names
-    assert {"meta.json", "index.html", f"rankings_{END}.csv"} <= names
+    assert {"meta.json", "index.html", "newcomers_top100.json", f"rankings_{END}.csv"} <= names
     assert result["boards"]["daily_growth"] == 3
+    assert result["boards"]["newcomers"] == 0
 
     payload = json.loads((out / "daily_growth_top100.json").read_text(encoding="utf-8"))
     assert payload["board"] == "daily_growth" and payload["window"] == 1

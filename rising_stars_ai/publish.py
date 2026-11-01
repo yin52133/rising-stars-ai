@@ -61,14 +61,15 @@ def pool_meta(con: sqlite3.Connection) -> dict:
 
 
 def board_names(con: sqlite3.Connection, end_day: str) -> list[tuple[str, int, str]]:
-    names = []
-    for row in con.execute(
-            "SELECT DISTINCT window, board FROM ranking_snapshots WHERE end_day = ?"
-            " ORDER BY window, board", (end_day,)):
-        if row["board"] == "newcomers":
-            names.append(("newcomers", row["window"], "newcomers"))
-        else:
-            names.append((f"{PERIOD_NAMES[row['window']]}_{row['board']}", row["window"], row["board"]))
+    """出榜当天固定输出 3 周期 × 3 榜 + 新锐榜；空榜也落一份空文件，方便下游稳定读取。"""
+    windows = {row["window"] for row in con.execute(
+        "SELECT DISTINCT window FROM ranking_snapshots WHERE end_day = ?", (end_day,))}
+    if not windows:
+        return []
+    names = [(f"{PERIOD_NAMES[window]}_{board}", window, board)
+             for window in (1, 7, 30) if window in windows
+             for board in ("growth", "acceleration", "score")]
+    names.append(("newcomers", 7, "newcomers"))
     return names
 
 
