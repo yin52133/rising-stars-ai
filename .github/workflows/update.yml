@@ -24,14 +24,14 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
 
       # shortcut: SQLite 靠 actions/cache 保温，缓存被清后按 90 天重新回填
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: data/rising_stars.db
           key: stars-db-${{ github.run_id }}
@@ -53,8 +53,8 @@ jobs:
           git diff --cached --quiet || git commit -m "data: refresh rankings"
           git push
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: data/rankings
       - id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
