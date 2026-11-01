@@ -27,3 +27,7 @@ pool:
   newcomer_growth_7d: 30
   manual_keep: {}               # owner/repo: 原因，强制留在常规池
   manual_exclude: {}            # owner/repo: 原因，强制移出
+
+rank:
+  top_n: 100
+  newcomer_days: 180            # 新锐榜只收近期创建的项目
