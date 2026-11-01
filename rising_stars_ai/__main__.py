@@ -80,7 +80,19 @@ def run_weekly(con, client, cfg, now: str) -> dict:
     return result
 
 
+def _load_dotenv(path: str = ".env") -> None:
+    # shortcut: 只认单行 KEY=VALUE，不处理引号/多行；需要这些时换 python-dotenv
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            key, _, value = line.strip().partition("=")
+            if key and not key.startswith("#") and value.strip():
+                os.environ.setdefault(key, value.strip())  # 显式环境变量优先，CI 不被覆盖
+
+
 def main(argv: list[str] | None = None) -> int:
+    _load_dotenv()
     parser = argparse.ArgumentParser(prog="rising-stars-ai", description="GitHub AI 项目趋势监控")
     parser.add_argument("--db", default="data/rising_stars.db")
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN"))

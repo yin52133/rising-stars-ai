@@ -11,6 +11,10 @@ GitHub AI 项目趋势监控：多来源发现候选，统一计算 Star 增长�
 pip install -r requirements.txt
 export GITHUB_TOKEN=...          # Windows: $env:GITHUB_TOKEN="..."
 
+# 或写进仓库根目录的 .env（已被 .gitignore 忽略，值不要加引号）
+#   GITHUB_TOKEN=github_pat_xxx
+# 环境变量优先于 .env，CI 的 secrets.GITHUB_TOKEN 不会被覆盖。
+
 python -m rising_stars_ai daily   # 每日：发现 → 分类 → 候补 → 采集 → 指标 → 排名 → 发布
 python -m rising_stars_ai weekly  # 每周：重排监控池后出榜
 ```
