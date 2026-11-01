@@ -69,6 +69,28 @@ def test_publish_keeps_raw_metrics_and_marks_incomplete(con, add_repo, tmp_path)
     assert {row["board"] for row in rows} >= {"daily_growth", "daily_score", "monthly_acceleration"}
 
 
+def test_pool_dataset_covers_whole_pool_with_tags_and_windows(con, add_repo, tmp_path):
+    for repo_id in (1, 2, 3):
+        seed(con, add_repo, repo_id, added=repo_id * 10, accel=float(repo_id))
+    con.execute("UPDATE repositories SET created_at = '2026-10-01T00:00:00Z' WHERE repo_id = 3")
+    con.execute("UPDATE repositories SET url = 'https://github.com/acme/repo1' WHERE repo_id = 1")
+    con.execute("UPDATE pool_memberships SET pool = 'newcomer' WHERE repo_id = 3")
+
+    out = tmp_path / "out"
+    rank.build(con, CFG, END)
+    publish.publish(con, CFG, END, out_dir=out, generated_at="2026-11-01T00:00:00+00:00")
+
+    rows = json.loads((out / "pool.json").read_text(encoding="utf-8"))
+    assert [row["repo_id"] for row in rows] == [1, 2, 3]
+    first = rows[0]
+    assert first["domains"] == ["Agent"] and first["forms"] == ["Harness"] and first["kinds"] == ["tool"]
+    assert first["url"] == "https://github.com/acme/repo1"
+    assert sorted(first["windows"], key=int) == ["1", "7", "30"]
+    assert first["windows"]["1"]["added"] == 10
+    assert first["windows"]["1"]["score"] is not None and first["windows"]["1"]["complete"] is True
+    assert [row["newcomer"] for row in rows] == [False, False, True]
+
+
 def test_page_preserves_untrusted_description_without_executing_markup(con, add_repo, tmp_path):
     seed(con, add_repo, 1, 100, 5.0)
     description = '</script><script>alert("injected")</script>'

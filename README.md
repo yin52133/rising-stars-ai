@@ -15,7 +15,7 @@ Discover open-source AI projects gaining attention on GitHub. Rising Stars AI he
 - **Choose a period:** daily, weekly, or monthly. The newcomers ranking is weekly only.
 - **Compare growth:** see new stars and how growth speed has changed. Negative acceleration means growth is slowing; it does not necessarily mean stars were lost.
 - **Use the overall score:** compare projects using growth and acceleration together. Total stars do not determine the score.
-- **Find a project:** search or filter by category, then select a project to read its introduction and metrics. Switch between English and Chinese at any time.
+- **Find a project:** narrow by tags (multi-select, several tags combine as a union) or search names, descriptions and tags. Filtering re-ranks the whole monitored pool by the current metric and shows the top 100, not just the top 100 on the board. Select a project to read its introduction and metrics. Switch between English and Chinese at any time.
 
 Unavailable metrics show `—` rather than zero. Some projects may show their original GitHub description until a bilingual introduction is available.
 

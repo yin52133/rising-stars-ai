@@ -32,9 +32,10 @@ h1 { font-size:clamp(31px,4vw,48px); letter-spacing:-.05em; line-height:1.1; mar
 .group button { border:0; background:transparent; border-radius:7px; padding:8px 12px; color:var(--muted); font-size:12px; font-weight:700; }
 .group button[aria-pressed="true"] { background:var(--ink); color:#fff; }
 .group button[data-sort="newcomers"][aria-pressed="true"] { background:var(--accent); }
-.filters input,.filters select { height:40px; border:1px solid var(--line); background:var(--paper); border-radius:9px; padding:0 11px; font-size:12px; }
-.filters input { flex:1; min-width:210px; max-width:300px; }
-.filters select { max-width:170px; }
+.filters input { flex:1; min-width:210px; max-width:360px; height:40px; border:1px solid var(--line); background:var(--paper); border-radius:9px; padding:0 11px; font-size:12px; }
+.tagbar { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:0 0 4px; }
+.chip { border:1px solid var(--line); background:var(--paper); border-radius:999px; padding:6px 12px; color:var(--muted); font-size:12px; font-weight:650; }
+.chip[aria-pressed="true"] { border-color:var(--accent); background:var(--accent); color:#fff; }
 .result-heading { display:flex; justify-content:space-between; align-items:baseline; gap:14px; margin:24px 0 11px; }
 .result-heading strong { font-size:15px; }
 .result-heading span { color:var(--muted); font-size:11px; }
@@ -87,7 +88,6 @@ footer strong { color:var(--ink); }
  .group { width:100%; }
  .group button { flex:1; padding:8px 6px; }
  .filters input { max-width:none; width:100%; }
- .filters select { flex:1; min-width:100px; max-width:none; }
  .result-heading { display:block; }
  .result-heading span { display:block; margin-top:5px; }
  .workspace { grid-template-columns:1fr; }
@@ -105,24 +105,26 @@ footer strong { color:var(--ink); }
 const data = JSON.parse(document.getElementById('payload').textContent);
 const words = {
   zh: {
-    title:'发现 AI 的上升星', tagline:'从真实增长数据中发现值得关注的 AI 开源项目。选择项目，查看完整介绍与趋势指标。',
-    updated:'更新于', asOf:'统计截止', monitored:'个监控仓库', period:'统计周期', sort:'排行方式',
-    daily:'日榜', weekly:'周榜', monthly:'月榜', growth:'新增增长', acceleration:'加速度', score:'综合评分', newcomers:'新锐周榜',
-    search:'搜索项目、介绍或标签', domain:'领域', form:'技术形态', kind:'项目类型', all:'全部', projects:'个项目',
-    totalRanked:'当前榜单共', poolScope:'仅限当前监控池，不代表 GitHub 全站排名', newcomerNote:'新锐榜仅提供周榜。',
-    details:'项目详情', noResults:'没有匹配的项目，请调整筛选条件。', noBoards:'当前没有可用的榜单数据。',
-    noIntro:'暂无双语详细介绍，以下是 GitHub 原始简介。', noDescription:'暂无项目简介。', original:'GitHub 原始简介',
-    readme:'查看项目资料', repository:'打开 GitHub 仓库', stars:'总 Star', current:'本期新增', previous:'上期新增',
-    speed:'速度 / 天', accel:'加速度 / 天²', points:'综合分', complete:'数据完整', incomplete:'历史不足', days:'天',
-    metrics:'指标说明', explanation:'新增来自官方 Star 历史，不是净变化。速度 = 本期新增 ÷ 天数；加速度 =（本期速度 − 上期速度）÷ 天数，负值表示增速放缓。综合分由增长与加速度百分位等权计算；“—”表示数据不足或未进入综合榜。',
-    regular:'常规', newcomerPool:'新锐', history:'无历史数据的仓库', boundary:'官方日／周统计边界不保证按 UTC 对齐。', labels:'分类由现有规则生成，仅供参考。'
+    title:'找到正在上升的 AI 项目', tagline:'用真实的 Star 增长数据，筛出值得关注的 AI 开源项目。点开任意一个，看它的简介和趋势指标。',
+    eyebrow:'开源趋势情报', updated:'生成于', asOf:'数据截止', monitored:'个仓库在监控', period:'统计周期', sort:'排序依据',
+    daily:'日榜', weekly:'周榜', monthly:'月榜', growth:'Star 增长', acceleration:'加速度', score:'综合评分', newcomers:'新锐周榜',
+    search:'搜项目名、简介或标签', tag:'标签', tagHint:'多个标签取并集', all:'全部', projects:'个项目',
+    totalRanked:'本榜收录', poolScope:'只统计监控池里的仓库，不是 GitHub 全站排名', rerankNote:'已在监控池内按当前指标重排',
+    loadingNote:'正在载入监控池…', newcomerNote:'新锐榜只有周榜。',
+    details:'项目详情', noResults:'没有符合条件的项目，换个标签或少选几个再试试。', noBoards:'今天还没有榜单数据。',
+    noIntro:'还没有整理中文简介，下面是 GitHub 原始简介。', noDescription:'暂无项目简介。', original:'GitHub 原始简介',
+    readme:'读项目文档', repository:'去 GitHub 看仓库', stars:'Star 总数', current:'本期新增', previous:'上期新增',
+    speed:'日均新增', accel:'加速度 / 天²', points:'综合得分', complete:'历史完整', incomplete:'历史不足', days:'天',
+    metrics:'指标说明', explanation:'新增 Star 取自官方 Star 历史，是这段时间的增量，不是净增。速度 = 本期新增 ÷ 天数；加速度 =（本期速度 − 上期速度）÷ 天数，负值说明涨得慢了。综合评分把增长和加速度各自的百分位各算一半后相加；“—”表示数据不够，或者没进综合榜。',
+    regular:'常规池', newcomerPool:'新锐池', history:'没有 Star 历史', boundary:'官方按日／周统计的分界不一定对齐 UTC。', labels:'标签由规则自动生成，仅供参考。'
   },
   en: {
     title:'Discover what’s rising.', tagline:'Explore rising open-source AI projects through real growth data. Select a project for its introduction and metrics.',
-    updated:'Updated', asOf:'As of', monitored:'monitored repos', period:'Period', sort:'Rank by',
+    eyebrow:'OPEN SOURCE INTELLIGENCE', updated:'Updated', asOf:'As of', monitored:'monitored repos', period:'Period', sort:'Rank by',
     daily:'Daily', weekly:'Weekly', monthly:'Monthly', growth:'Star growth', acceleration:'Acceleration', score:'Overall score', newcomers:'Newcomers · weekly',
-    search:'Search projects, descriptions or tags', domain:'Domain', form:'Form', kind:'Type', all:'All', projects:'projects',
-    totalRanked:'Ranked total', poolScope:'Monitored pool only, not all of GitHub', newcomerNote:'The newcomer board is weekly only.',
+    search:'Search projects, descriptions or tags', tag:'Tag', tagHint:'multiple tags are combined', all:'All', projects:'projects',
+    totalRanked:'Ranked total', poolScope:'Monitored pool only, not all of GitHub', rerankNote:'Re-ranked across the monitored pool',
+    loadingNote:'Loading the pool…', newcomerNote:'The newcomer board is weekly only.',
     details:'Project details', noResults:'No matching projects. Adjust your filters.', noBoards:'No ranking data is available.',
     noIntro:'No bilingual introduction has been curated yet. The original GitHub description is shown below.', noDescription:'No project description is available.', original:'Original GitHub description',
     readme:'View project source', repository:'Open GitHub repository', stars:'Total stars', current:'New stars', previous:'Previous period',
@@ -135,8 +137,10 @@ const englishLabels = {'编程':'Coding','创作':'Creation','办公':'Productiv
 const chineseLabels = {'tool':'工具','model':'模型','replica':'复刻','resource_list':'资源列表'};
 const periods = ['daily','weekly','monthly'];
 const sorts = ['growth','acceleration','score','newcomers'];
+const windows = {daily:1, weekly:7, monthly:30};
 const firstPeriod = periods.find(period => data.boards[`${period}_growth`]) || 'weekly';
-const state = {lang:'zh', period:data.boards.weekly_growth ? 'weekly' : firstPeriod, sort:'growth', domain:'', form:'', kind:'', search:'', selected:null};
+const state = {lang:'zh', period:data.boards.weekly_growth ? 'weekly' : firstPeriod, sort:'growth', tags:[], search:'', selected:null};
+let pool = null, poolRequest = null;
 const t = key => words[state.lang][key] || key;
 const label = value => (state.lang === 'en' ? englishLabels[value] : chineseLabels[value]) || value;
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -146,43 +150,89 @@ const boardKey = () => state.sort === 'newcomers' ? 'newcomers' : `${state.perio
 const board = () => data.boards[boardKey()];
 const description = item => data.descriptions[String(item.repo_id)];
 const summary = item => description(item)?.[state.lang] || item.description || t('noDescription');
+const tagsOf = item => [...item.domains, ...item.forms, ...item.kinds];
+const filtering = () => state.tags.length > 0 || state.search.trim() !== '';
+const windowOf = () => state.sort === 'newcomers' ? 7 : windows[state.period];
+// 排序与合格条件必须和 rank.py 一致，否则筛选后重排的名次会和发布的 JSON 对不上
+const eligible = {
+  growth: item => item.added != null,
+  acceleration: item => item.acceleration != null,
+  score: item => item.added != null && item.acceleration != null,
+};
+eligible.newcomers = eligible.growth;
+const compare = {
+  growth: (a, b) => b.added - a.added || (b.acceleration || 0) - (a.acceleration || 0) || a.repo_id - b.repo_id,
+  acceleration: (a, b) => b.acceleration - a.acceleration || (b.added || 0) - (a.added || 0) || a.repo_id - b.repo_id,
+  score: (a, b) => b.score - a.score || b.added - a.added || (b.acceleration || 0) - (a.acceleration || 0) || a.repo_id - b.repo_id,
+};
+compare.newcomers = compare.growth;
 function safeURL(value) {
   try { const url = new URL(value); return url.protocol === 'https:' && url.hostname === 'github.com' ? url.href : ''; }
   catch { return ''; }
 }
-function items() {
+function matches(item, query) {
+  return !query || [item.full_name, item.description, summary(item), ...tagsOf(item), ...tagsOf(item).map(label)]
+    .join(' ').toLocaleLowerCase().includes(query);
+}
+function boardItems() {
   const scores = new Map((data.boards[`${state.period}_score`]?.items || []).map(item => [item.repo_id, item.score]));
   return (board()?.items || []).map(item => ({...item, score:scores.get(item.repo_id) ?? item.score ?? null}));
 }
-function filtered() {
+function poolItems() {
+  if (!pool) return null;
   const query = state.search.trim().toLocaleLowerCase();
-  return items().filter(item => (!state.domain || item.domains.includes(state.domain)) &&
-    (!state.form || item.forms.includes(state.form)) && (!state.kind || item.kinds.includes(state.kind)) &&
-    (!query || [item.full_name, item.description, summary(item), ...item.domains, ...item.forms, ...item.kinds,
-      ...item.domains.map(label), ...item.forms.map(label), ...item.kinds.map(label)].join(' ').toLocaleLowerCase().includes(query)));
+  return pool
+    .filter(repo => (state.sort !== 'newcomers' || repo.newcomer) &&
+      (!state.tags.length || tagsOf(repo).some(tag => state.tags.includes(tag))))
+    .map(repo => ({...repo, ...repo.windows[windowOf()]}))
+    .filter(item => eligible[state.sort](item) && matches(item, query))
+    .sort(compare[state.sort])
+    .slice(0, 100)
+    .map((item, position) => ({...item, rank:position + 1}));
+}
+function results() { return filtering() ? poolItems() : boardItems(); }
+function ensurePool() {
+  return poolRequest ||= fetch('pool.json')
+    .then(response => response.ok ? response.json() : [])
+    .catch(() => [])
+    .then(rows => { pool = rows || []; renderTags(); renderResults(); });
+}
+// 标签条要覆盖全池，空闲时就把池取回来，用户点第一个标签时不必等
+if (window.requestIdleCallback) window.requestIdleCallback(() => ensurePool(), {timeout:3000});
+function tagGroups() {
+  const groups = new Map();
+  const source = pool || Object.values(data.boards).flatMap(entry => entry.items);
+  for (const row of source) for (const raw of tagsOf(row)) {
+    const name = label(raw);
+    if (!groups.has(name)) groups.set(name, []);
+    if (!groups.get(name).includes(raw)) groups.get(name).push(raw);
+  }
+  return [...groups].sort((a, b) => a[0].localeCompare(b[0], 'zh-CN'));
+}
+function renderTags() {
+  const chips = tagGroups().map(([name, raws]) => `<button type="button" class="chip" data-tag="${escapeHTML(name)}" aria-pressed="${raws.some(raw => state.tags.includes(raw))}">${escapeHTML(name)}</button>`).join('');
+  document.getElementById('tagbar').innerHTML = `<button type="button" class="chip" data-tag="" aria-pressed="${!state.tags.length}">${escapeHTML(t('all'))}</button>${chips}`;
 }
 function toggle(group, value, active, disabled=false) {
   return `<button type="button" data-${group}="${value}" aria-pressed="${active}" ${disabled ? 'disabled' : ''}>${escapeHTML(t(value))}</button>`;
 }
-function options(key) {
-  const field = {domain:'domains', form:'forms', kind:'kinds'}[key];
-  const values = [...new Set(Object.values(data.boards).flatMap(entry => entry.items.flatMap(item => item[field])))].sort();
-  return `<select id="${key}" aria-label="${escapeHTML(t(key))}"><option value="">${escapeHTML(t(key))} · ${escapeHTML(t('all'))}</option>${values.map(value => `<option value="${escapeHTML(value)}" ${state[key] === value ? 'selected' : ''}>${escapeHTML(label(value))}</option>`).join('')}</select>`;
-}
 function render() {
   document.documentElement.lang = state.lang === 'zh' ? 'zh-CN' : 'en';
   document.title = `Rising Stars AI · ${t('title')}`;
-  const pool = data.meta.pool;
+  const poolMeta = data.meta.pool;
+  const stamp = data.meta.generated_at.replace('T',' ').replace('+00:00',' UTC');
   document.getElementById('app').innerHTML = `
     <header class="top"><div class="logo"><span class="logo-mark">✦</span>Rising Stars <span style="color:var(--accent)">AI</span></div>
-      <div class="top-right"><span class="updated">${escapeHTML(t('updated'))} ${escapeHTML(data.meta.generated_at.replace('T',' ').replace('+00:00',' UTC'))}</span><button class="language" id="language" type="button" aria-label="${state.lang === 'zh' ? 'Switch to English' : '切换到中文'}">中 / EN</button></div></header>
-    <section class="hero"><div><div class="eyebrow">OPEN SOURCE INTELLIGENCE / ${escapeHTML(t('asOf'))} ${escapeHTML(data.end_day)}</div><h1>${escapeHTML(t('title'))}</h1><p>${escapeHTML(t('tagline'))}</p></div>
-      <div class="pool"><strong>${number(pool.repos)}</strong><span>${escapeHTML(t('monitored'))}</span></div></section>
+      <div class="top-right"><span class="updated">${escapeHTML(t('updated'))} ${escapeHTML(stamp)}</span><button class="language" id="language" type="button" aria-label="${state.lang === 'zh' ? 'Switch to English' : '切换到中文'}">中 / EN</button></div></header>
+    <section class="hero"><div><div class="eyebrow">${escapeHTML(t('eyebrow'))} / ${escapeHTML(t('asOf'))} ${escapeHTML(data.end_day)}</div><h1>${escapeHTML(t('title'))}</h1><p>${escapeHTML(t('tagline'))}</p></div>
+      <div class="pool"><strong>${number(poolMeta.repos)}</strong><span>${escapeHTML(t('monitored'))}</span></div></section>
     <div class="toolbar"><div class="group" role="group" aria-label="${escapeHTML(t('period'))}">${periods.map(period => toggle('period', period, state.period === period, !data.boards[`${period}_growth`])).join('')}</div>
       <div class="group" role="group" aria-label="${escapeHTML(t('sort'))}">${sorts.map(sort => toggle('sort', sort, state.sort === sort, !data.boards[sort === 'newcomers' ? sort : `${state.period}_${sort}`])).join('')}</div></div>
-    <div class="filters"><input id="search" type="search" value="${escapeHTML(state.search)}" placeholder="⌕  ${escapeHTML(t('search'))}" aria-label="${escapeHTML(t('search'))}">${['domain','form','kind'].map(options).join('')}</div>
+    <div class="filters"><input id="search" type="search" value="${escapeHTML(state.search)}" placeholder="⌕  ${escapeHTML(t('search'))}" aria-label="${escapeHTML(t('search'))}"></div>
+    <div class="tagbar" id="tagbar" role="group" aria-label="${escapeHTML(t('tag'))}"></div>
     <div class="result-heading"><strong id="result-title"></strong><span id="result-note"></span></div><div id="results"></div>
-    <footer><strong>${escapeHTML(t('metrics'))}.</strong> ${escapeHTML(t('explanation'))}<br>${escapeHTML(t('poolScope'))} · ${escapeHTML(t('labels'))}<br>${escapeHTML(t('regular'))}: ${number(pool.regular)} · ${escapeHTML(t('newcomerPool'))}: ${number(pool.newcomer)} · ${escapeHTML(t('history'))}: ${number(pool.no_history)}<br>${escapeHTML(t('updated'))}: ${escapeHTML(data.meta.generated_at)} · ${escapeHTML(t('boundary'))}</footer>`;
+    <footer><strong>${escapeHTML(t('metrics'))}</strong><br>${escapeHTML(t('explanation'))}<br>${escapeHTML(t('poolScope'))} · ${escapeHTML(t('labels'))}<br>${escapeHTML(t('regular'))} ${number(poolMeta.regular)} · ${escapeHTML(t('newcomerPool'))} ${number(poolMeta.newcomer)} · ${escapeHTML(t('history'))} ${number(poolMeta.no_history)}<br>${escapeHTML(t('updated'))} ${escapeHTML(stamp)} · ${escapeHTML(t('boundary'))}</footer>`;
+  renderTags();
   renderResults();
 }
 function rank(item) { return String(item.rank).padStart(2, '0'); }
@@ -198,7 +248,8 @@ function detail(item) {
   const repoURL = safeURL(item.url);
   const sourceURL = safeURL(info?.source || (repoURL ? `${repoURL}#readme` : ''));
   const link = repoURL ? `<a href="${escapeHTML(repoURL)}" target="_blank" rel="noopener noreferrer">${repoName(item)} ↗</a>` : repoName(item);
-  const tags = [...item.domains.map(value => [value,false]), ...item.forms.map(value => [value,true]), ...item.kinds.map(value => [value,true])];
+  const tags = [...item.domains.map(value => [value,false]), ...item.forms.map(value => [value,true]), ...item.kinds.map(value => [value,true])]
+    .filter(([value], index, all) => all.findIndex(([other]) => label(other) === label(value)) === index);
   const values = [['stars',number(item.stars)],['current',signed(item.added)],['previous',signed(item.added_previous)],['speed',number(item.velocity,2)],['accel',signed(item.acceleration,2)],['points',number(item.score,2)]];
   const activeMetric = state.sort === 'acceleration' ? 'accel' : state.sort === 'score' ? 'points' : 'current';
   return `<aside class="detail" id="detail" aria-label="${escapeHTML(t('details'))}"><div class="eyebrow">${escapeHTML(t('details'))} / #${rank(item)}</div><h2>${link}</h2>
@@ -210,18 +261,39 @@ function detail(item) {
     ${info && item.description ? `<details class="original"><summary>${escapeHTML(t('original'))}</summary><p>${escapeHTML(item.description)}</p></details>` : ''}</aside>`;
 }
 function renderResults() {
-  const list = filtered();
+  const list = results();
   const current = board();
   const name = state.sort === 'newcomers' ? t('newcomers') : `${t(state.period)} · ${t(state.sort)}`;
-  document.getElementById('result-title').textContent = `${name} · ${number(list.length)} ${t('projects')}`;
-  document.getElementById('result-note').textContent = `${t('totalRanked')} ${number(current?.items.length || 0)} · ${t('poolScope')}${state.sort === 'newcomers' ? ' · '+t('newcomerNote') : ''}`;
+  const title = document.getElementById('result-title');
+  const note = document.getElementById('result-note');
   const target = document.getElementById('results');
+  if (list === null) {
+    title.textContent = name;
+    note.textContent = t('poolScope');
+    target.innerHTML = `<div class="empty">${escapeHTML(t('loadingNote'))}</div>`;
+    ensurePool();
+    return;
+  }
+  title.textContent = `${name} · ${number(list.length)} ${t('projects')}`;
+  note.textContent = filtering()
+    ? `${t('rerankNote')} ${number(pool.length)} · ${t('tagHint')}`
+    : `${t('totalRanked')} ${number(current?.items.length || 0)} · ${t('poolScope')}${state.sort === 'newcomers' ? ' · '+t('newcomerNote') : ''}`;
   if (!list.length) { target.innerHTML = `<div class="empty">${escapeHTML(current ? t('noResults') : t('noBoards'))}</div>`; return; }
   const selected = list.find(item => item.repo_id === state.selected) || list[0];
   state.selected = selected.repo_id;
   target.innerHTML = `<div class="workspace"><div class="repo-list">${list.map(item => `<button type="button" class="repo-row" data-repo="${item.repo_id}" aria-pressed="${item.repo_id === selected.repo_id}"><span class="rank">${rank(item)}</span><span><span class="repo-name">${repoName(item)}</span><span class="summary">${escapeHTML(summary(item))}</span>${mini(item)}</span></button>`).join('')}</div>${detail(selected)}</div>`;
 }
 document.addEventListener('click', event => {
+  const chip = event.target.closest('.chip');
+  if (chip) {
+    const raws = tagGroups().find(([name]) => name === chip.dataset.tag)?.[1] || [];
+    if (!chip.dataset.tag) state.tags = [];
+    else if (raws.some(raw => state.tags.includes(raw))) state.tags = state.tags.filter(tag => !raws.includes(tag));
+    else state.tags = [...new Set([...state.tags, ...raws])];
+    renderTags(); renderResults();
+    document.querySelector(`.chip[data-tag="${CSS.escape(chip.dataset.tag)}"]`)?.focus();
+    return;
+  }
   const button = event.target.closest('button');
   if (!button) return;
   if (button.id === 'language') { state.lang = state.lang === 'zh' ? 'en' : 'zh'; render(); document.getElementById('language').focus(); }
@@ -232,9 +304,6 @@ document.addEventListener('click', event => {
     document.querySelector(`[data-repo="${state.selected}"]`).focus({preventScroll:true});
     if (window.matchMedia('(max-width:760px)').matches) document.getElementById('detail').scrollIntoView({block:'start'});
   }
-});
-document.addEventListener('change', event => {
-  if (['domain','form','kind'].includes(event.target.id)) { state[event.target.id] = event.target.value; renderResults(); }
 });
 document.addEventListener('input', event => {
   if (event.target.id === 'search') { state.search = event.target.value; renderResults(); }

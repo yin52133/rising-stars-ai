@@ -8,6 +8,7 @@ import json
 import pathlib
 import sqlite3
 
+from . import rank
 from .metrics import PERIOD_NAMES
 
 BOARD_LABELS = {
@@ -101,6 +102,40 @@ def _items(con: sqlite3.Connection, window: int, board: str, end_day: str) -> li
     return items
 
 
+def _pool_dataset(con: sqlite3.Connection, cfg: dict, end_day: str) -> list[dict]:
+    """全池每个仓库的三周期指标：页面据此在标签筛选后重新排序，不落库。"""
+    rows, repos = rank.pool_rows(con, end_day)
+    for window in (1, 7, 30):
+        rank.score_window(rows, window)
+    recent = rank.newcomer_ids(repos, end_day, int(cfg["rank"]["newcomer_days"]))
+    repos_out: dict[int, dict] = {}
+    for row in rows:
+        item = repos_out.setdefault(row["repo_id"], {
+            "repo_id": row["repo_id"],
+            "full_name": row["full_name"],
+            "url": row["url"],
+            "description": row["description"],
+            "stars": row["stars"],
+            "created_at": row["created_at"],
+            "pool": row["pool"],
+            "newcomer": row["repo_id"] in recent,
+            "domains": _labels(row["domains"]),
+            "forms": _labels(row["forms"]),
+            "kinds": _labels(row["kinds"]),
+            "windows": {},
+        })
+        item["windows"][row["window"]] = {
+            "added": row["added"],
+            "added_previous": row["added_previous"],
+            "velocity": row["velocity"],
+            "acceleration": row["acceleration"],
+            "score": row.get("score"),
+            "complete": bool(row["complete"]),
+            "days_available": row["days_available"],
+        }
+    return list(repos_out.values())
+
+
 def publish(con: sqlite3.Connection, cfg: dict, end_day: str,
             out_dir: str | pathlib.Path | None = None, generated_at: str | None = None) -> dict:
     target = pathlib.Path(out_dir or cfg["publish"]["out_dir"])
@@ -133,6 +168,12 @@ def publish(con: sqlite3.Connection, cfg: dict, end_day: str,
     csv_path = target / f"rankings_{end_day}.csv"
     _write_csv(csv_path, boards)
     files.append(csv_path)
+
+    pool_path = target / "pool.json"
+    pool_path.write_text(
+        json.dumps(_pool_dataset(con, cfg, end_day), ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8")
+    files.append(pool_path)
 
     meta_path = target / "meta.json"
     meta_path.write_text(json.dumps(

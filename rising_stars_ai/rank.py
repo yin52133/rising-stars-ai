@@ -15,7 +15,7 @@ from .metrics import PERIOD_NAMES, WINDOWS
 WINDOW_BY_PERIOD = {period: window for window, period in PERIOD_NAMES.items()}
 
 POOL_SQL = """
-SELECT r.repo_id, r.full_name, r.description, r.stars, r.created_at, r.archived, m.pool,
+SELECT r.repo_id, r.full_name, r.description, r.url, r.stars, r.created_at, r.archived, m.pool,
        (SELECT group_concat(label) FROM repository_labels l
          WHERE l.repo_id = r.repo_id AND l.dimension = 'domain') AS domains,
        (SELECT group_concat(label) FROM repository_labels l
@@ -49,7 +49,8 @@ def percentile(values: list[float]) -> list[float]:
     return ranks
 
 
-def _board_rows(con: sqlite3.Connection, end_day: str) -> tuple[list[dict], dict]:
+def pool_rows(con: sqlite3.Connection, end_day: str) -> tuple[list[dict], dict]:
+    """全池每个 (仓库, 周期) 一行；榜单和页面重排都从这里取数。"""
     repos = {row["repo_id"]: dict(row) for row in con.execute(POOL_SQL)}
     metrics = {}
     for row in con.execute("SELECT * FROM metric_windows WHERE end_day = ?", (end_day,)):
@@ -62,6 +63,7 @@ def _board_rows(con: sqlite3.Connection, end_day: str) -> tuple[list[dict], dict
             row.update({
                 "window": window,
                 "added": metric["added_current"] if metric else None,
+                "added_previous": metric["added_previous"] if metric else None,
                 "velocity": metric["velocity"] if metric else None,
                 "acceleration": metric["acceleration"] if metric else None,
                 "complete": metric["complete"] if metric else 0,
@@ -69,6 +71,26 @@ def _board_rows(con: sqlite3.Connection, end_day: str) -> tuple[list[dict], dict
             })
             rows.append(row)
     return rows, repos
+
+
+def score_window(rows: list[dict], window: int) -> list[dict]:
+    """该周期的全部行，给指标齐全的行补上百分位与综合分（原地写回）。"""
+    current = [row for row in rows if row["window"] == window]
+    scored = [row for row in current if row["added"] is not None and row["acceleration"] is not None]
+    p_added = percentile([row["added"] for row in scored])
+    p_accel = percentile([row["acceleration"] for row in scored])
+    for row, pa, pb in zip(scored, p_added, p_accel):
+        row["p_added"] = round(pa, 2)
+        row["p_accel"] = round(pb, 2)
+        row["score"] = round(0.5 * pa + 0.5 * pb, 2)
+    return current
+
+
+def newcomer_ids(repos: dict, end_day: str, days: int) -> set[int]:
+    """新锐池里在 days 天内创建的仓库；没有创建时间的不排除。"""
+    cutoff = (date.fromisoformat(end_day) - timedelta(days=days)).isoformat()
+    return {repo_id for repo_id, repo in repos.items()
+            if repo["pool"] == "newcomer" and not ((repo["created_at"] or "")[:10] < cutoff)}
 
 
 def _top(rows: list[dict], key, limit: int) -> list[dict]:
@@ -79,12 +101,12 @@ def _top(rows: list[dict], key, limit: int) -> list[dict]:
 
 def build(con: sqlite3.Connection, cfg: dict, end_day: str) -> dict:
     limit = int(cfg["rank"]["top_n"])
-    rows, repos = _board_rows(con, end_day)
+    rows, repos = pool_rows(con, end_day)
     boards: dict[str, list[dict]] = {}
     eligible: dict[str, int] = {}
 
     for window, period in PERIOD_NAMES.items():
-        current = [row for row in rows if row["window"] == window]
+        current = score_window(rows, window)
 
         growth = [row for row in current if row["added"] is not None]
         eligible[f"{period}_growth"] = len(growth)
@@ -96,29 +118,15 @@ def build(con: sqlite3.Connection, cfg: dict, end_day: str) -> dict:
         boards[f"{period}_acceleration"] = _top(
             accel, lambda row: (-row["acceleration"], -(row["added"] or 0), row["repo_id"]), limit)
 
-        scored = [row for row in current if row["added"] is not None and row["acceleration"] is not None]
+        scored = [row for row in current if row.get("score") is not None]
         eligible[f"{period}_score"] = len(scored)
-        p_added = percentile([row["added"] for row in scored])
-        p_accel = percentile([row["acceleration"] for row in scored])
-        for row, pa, pb in zip(scored, p_added, p_accel):
-            row["p_added"] = round(pa, 2)
-            row["p_accel"] = round(pb, 2)
-            row["score"] = round(0.5 * pa + 0.5 * pb, 2)
         boards[f"{period}_score"] = _top(
             scored, lambda row: (-row["score"], -row["added"], -row["acceleration"], row["repo_id"]), limit)
 
     newcomer_days = int(cfg["rank"]["newcomer_days"])
-    newcomer_ids = {repo_id for repo_id, repo in repos.items() if repo["pool"] == "newcomer"}
-    cutoff = (date.fromisoformat(end_day) - timedelta(days=newcomer_days)).isoformat()
-    newcomers = []
-    for row in rows:
-        if row["repo_id"] not in newcomer_ids or row["window"] != 7:
-            continue
-        created = (row["created_at"] or "")[:10]
-        if created and created < cutoff:
-            continue
-        if row["added"] is not None:
-            newcomers.append(row)
+    recent = newcomer_ids(repos, end_day, newcomer_days)
+    newcomers = [row for row in rows
+                 if row["repo_id"] in recent and row["window"] == 7 and row["added"] is not None]
     eligible["newcomers"] = len(newcomers)
     boards["newcomers"] = _top(
         newcomers, lambda row: (-row["added"], -(row["acceleration"] or 0), row["repo_id"]), limit)
