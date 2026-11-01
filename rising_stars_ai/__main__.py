@@ -114,6 +114,7 @@ def main(argv: list[str] | None = None) -> int:
     cfg = config.sources()
     client = api.Client(token=args.token)
     now = db.now_iso()
+    failed = False
 
     if args.command == "discover":
         run_id = db.start_run(con, "discover", now)
@@ -131,9 +132,13 @@ def main(argv: list[str] | None = None) -> int:
         db.finish_run(con, run_id, "ok" if client.errors == 0 else "partial",
                       client.requests, client.errors)
     elif args.command == "daily":
-        _report(run_daily(con, client, cfg, now))
+        result = run_daily(con, client, cfg, now)
+        _report(result)
+        failed = "error" in result
     elif args.command == "weekly":
-        _report(run_weekly(con, client, cfg, now))
+        result = run_weekly(con, client, cfg, now)
+        _report(result)
+        failed = "error" in result
     else:
         end = _end_day(con, args.end_day)
         if end is None:
@@ -147,7 +152,7 @@ def main(argv: list[str] | None = None) -> int:
 
     con.commit()
     con.close()
-    return 0
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":

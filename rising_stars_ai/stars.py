@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import sqlite3
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 from . import db
 from .api import REPO_URL, ApiError, repo_from_api
@@ -15,15 +15,24 @@ def iso_week(day: str) -> str:
 
 
 def parse_history(payload) -> list[dict]:
-    """兼容 {"days": [...]} 与直接列表；缺 added 的行按缺测跳过，不当成 0。"""
+    """兼容周桶（官方真实返回）、{"days": [...]} 与直接列表；缺 added 的行按缺测跳过，不当成 0。"""
     rows = payload
     if isinstance(payload, dict):
         rows = payload.get("days") or payload.get("history") or payload.get("data") or []
     if not isinstance(rows, list):
         return []
+    today = datetime.now(timezone.utc).date()
     out = []
     for row in rows:
         if not isinstance(row, dict):
+            continue
+        if "week" in row and isinstance(row.get("days"), list):
+            # week 是周日零点 epoch 秒，days[i] 是第 i 天新增；未到的那天不落地，避免当成 0 计入
+            start = date(1970, 1, 1) + timedelta(days=int(row["week"]) // 86400)
+            for offset, added in enumerate(row["days"]):
+                day = start + timedelta(days=offset)
+                if added is not None and day <= today:
+                    out.append({"day": day.isoformat(), "added": int(added)})
             continue
         day = row.get("day") or row.get("date")
         added = row.get("added", row.get("count"))
