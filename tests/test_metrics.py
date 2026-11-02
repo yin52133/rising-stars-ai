@@ -84,3 +84,25 @@ def test_resolve_end_day_uses_latest_day(con, add_repo, add_days):
     add_repo(1)
     add_days(1, END, [1, 2, 3])
     assert metrics.resolve_end_day(con) == END
+
+
+def test_resolve_end_day_skips_a_just_started_day(con, add_repo, add_days):
+    # 09:20 Asia/Shanghai 跑流水线时 UTC 新一天才开始，只有个别仓库有数据
+    for repo_id in range(1, 11):
+        add_repo(repo_id)
+        add_days(repo_id, END, [5])
+    add_repo(99)
+    add_days(99, END + timedelta(days=1), [1])
+    assert metrics.resolve_end_day(con) == END
+
+
+def test_resolve_end_day_keeps_new_day_once_coverage_recovers(con, add_repo, add_days):
+    for repo_id in range(1, 11):
+        add_repo(repo_id)
+        add_days(repo_id, END, [5])
+        add_days(repo_id, END + timedelta(days=1), [5])
+    assert metrics.resolve_end_day(con) == END + timedelta(days=1)
+
+
+def test_resolve_end_day_without_history(con):
+    assert metrics.resolve_end_day(con) is None

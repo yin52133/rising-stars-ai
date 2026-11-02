@@ -15,8 +15,15 @@ PERIOD_NAMES = {1: "daily", 7: "weekly", 30: "monthly"}
 
 
 def resolve_end_day(con: sqlite3.Connection) -> date | None:
-    row = con.execute("SELECT MAX(day) AS day FROM star_history_days").fetchone()
-    return date.fromisoformat(row["day"]) if row and row["day"] else None
+    rows = con.execute(
+        "SELECT day, COUNT(DISTINCT repo_id) AS n FROM star_history_days "
+        "GROUP BY day ORDER BY day DESC LIMIT 2").fetchall()
+    if not rows:
+        return None
+    # shortcut: 新的一天刚开始时官方几乎没有数据，退一天用完整的一天；缺口超过一天要换策略
+    if len(rows) > 1 and rows[0]["n"] * 2 < rows[1]["n"]:
+        return date.fromisoformat(rows[1]["day"])
+    return date.fromisoformat(rows[0]["day"])
 
 
 def _days(end_day: date, count: int) -> list[str]:
