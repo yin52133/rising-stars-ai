@@ -4,13 +4,13 @@
   "window": 1,
   "board_type": "score",
   "board_label": "综合分",
-  "end_day": "2026-11-15",
-  "generated_at": "2026-11-15T07:56:29+00:00",
+  "end_day": "2026-11-16",
+  "generated_at": "2026-11-16T08:34:07+00:00",
   "pool": {
     "repos": 1000,
     "regular": 800,
     "newcomer": 200,
-    "no_history": 0,
+    "no_history": 8,
     "scope": "Top 100 是当前监控池内排名，不宣称全站无遗漏",
     "window_note": "指标来自官方 Star 历史接口的新增 Star；官方日/周边界不保证按 UTC 对齐"
   },
@@ -18,12 +18,118 @@
   "items": [
     {
       "rank": 1,
-      "repo_id": 715884951,
-      "full_name": "wdndev/llm_interview_note",
-      "url": "https://github.com/wdndev/llm_interview_note",
-      "description": "主要记录大语言大模型（LLMs） 算法（应用）工程师相关的知识及面试题",
-      "stars": 15390,
-      "created_at": "2023-11-08T02:52:13Z",
+      "repo_id": 195408640,
+      "full_name": "NLP-LOVE/ML-NLP",
+      "url": "https://github.com/NLP-LOVE/ML-NLP",
+      "description": "此项目是机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现，也是作为一个算法工程师必会的理论基础知识。",
+      "stars": 17843,
+      "created_at": "2019-07-05T12:49:53Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 0,
+      "velocity": 1.0,
+      "acceleration": 1.0,
+      "p_added": 65.86,
+      "p_accel": 99.95,
+      "score": 82.9,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 2,
+      "repo_id": 815634288,
+      "full_name": "tambo-ai/tambo",
+      "url": "https://github.com/tambo-ai/tambo",
+      "description": "Generative UI SDK for React",
+      "stars": 11223,
+      "created_at": "2024-06-15T17:11:37Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 0,
+      "velocity": 1.0,
+      "acceleration": 1.0,
+      "p_added": 65.86,
+      "p_accel": 99.95,
+      "score": 82.9,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 3,
+      "repo_id": 68619379,
+      "full_name": "bbfamily/abu",
+      "url": "https://github.com/bbfamily/abu",
+      "description": "阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构",
+      "stars": 19197,
+      "created_at": "2016-09-19T15:31:53Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2,
+      "added_previous": 4,
+      "velocity": 2.0,
+      "acceleration": -2.0,
+      "p_added": 78.47,
+      "p_accel": 84.35,
+      "score": 81.41,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 4,
+      "repo_id": 833984877,
+      "full_name": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "stars": 19680,
+      "created_at": "2024-07-26T07:18:28Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2,
+      "added_previous": 4,
+      "velocity": 2.0,
+      "acceleration": -2.0,
+      "p_added": 78.47,
+      "p_accel": 84.35,
+      "score": 81.41,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 5,
+      "repo_id": 257913595,
+      "full_name": "voxel51/fiftyone",
+      "url": "https://github.com/voxel51/fiftyone",
+      "description": "Refine high-quality datasets and visual AI models",
+      "stars": 11310,
+      "created_at": "2020-04-22T13:43:28Z",
       "pool": "regular",
       "domains": [],
       "forms": [],
@@ -34,26 +140,247 @@
       "added_previous": 1,
       "velocity": 1.0,
       "acceleration": 0.0,
-      "p_added": 88.05,
-      "p_accel": 97.04,
-      "score": 92.54,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 2,
-      "repo_id": 184657328,
-      "full_name": "NVIDIA/TensorRT",
-      "url": "https://github.com/NVIDIA/TensorRT",
-      "description": "NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT.",
-      "stars": 13457,
-      "created_at": "2019-05-02T22:02:08Z",
+      "rank": 6,
+      "repo_id": 274625369,
+      "full_name": "infracost/infracost",
+      "url": "https://github.com/infracost/infracost",
+      "description": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
+      "stars": 12620,
+      "created_at": "2020-06-24T09:11:56Z",
       "pool": "regular",
       "domains": [
-        "基础设施",
+        "Agent",
         "编程"
       ],
       "forms": [
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 1,
+      "velocity": 1.0,
+      "acceleration": 0.0,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 7,
+      "repo_id": 502863191,
+      "full_name": "xszyou/Fay",
+      "url": "https://github.com/xszyou/Fay",
+      "description": "fay是一个帮助数字人（2.5d、3d、移动、pc、网页）或大语言模型（openai兼容、deepseek）连通业务系统的agent框架。",
+      "stars": 13625,
+      "created_at": "2022-06-13T08:06:19Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "建模"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 1,
+      "velocity": 1.0,
+      "acceleration": 0.0,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 8,
+      "repo_id": 615403340,
+      "full_name": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "description": "Structured Outputs",
+      "stars": 16011,
+      "created_at": "2023-03-17T16:01:18Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 1,
+      "velocity": 1.0,
+      "acceleration": 0.0,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 9,
+      "repo_id": 656264456,
+      "full_name": "langchain4j/langchain4j",
+      "url": "https://github.com/langchain4j/langchain4j",
+      "description": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
+      "stars": 13408,
+      "created_at": "2023-06-20T15:30:29Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 1,
+      "velocity": 1.0,
+      "acceleration": 0.0,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 10,
+      "repo_id": 1072539730,
+      "full_name": "datalab-to/chandra",
+      "url": "https://github.com/datalab-to/chandra",
+      "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
+      "stars": 12725,
+      "created_at": "2025-10-08T21:34:16Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 1,
+      "velocity": 1.0,
+      "acceleration": 0.0,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 11,
+      "repo_id": 1243618131,
+      "full_name": "elvisun/newsjack",
+      "url": "https://github.com/elvisun/newsjack",
+      "description": "The open-source skills that turn your agent into a full PR team.",
+      "stars": 1696,
+      "created_at": "2026-05-19T14:01:25Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "办公"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 1,
+      "velocity": 1.0,
+      "acceleration": 0.0,
+      "p_added": 65.86,
+      "p_accel": 96.81,
+      "score": 81.33,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 12,
+      "repo_id": 674075444,
+      "full_name": "QwenLM/Qwen",
+      "url": "https://github.com/QwenLM/Qwen",
+      "description": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+      "stars": 22041,
+      "created_at": "2023-08-03T04:56:38Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 3,
+      "added_previous": 7,
+      "velocity": 3.0,
+      "acceleration": -4.0,
+      "p_added": 83.99,
+      "p_accel": 73.51,
+      "score": 78.75,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 13,
+      "repo_id": 629749002,
+      "full_name": "bentoml/OpenLLM",
+      "url": "https://github.com/bentoml/OpenLLM",
+      "description": "Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.",
+      "stars": 12603,
+      "created_at": "2023-04-19T00:27:52Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 2,
+      "velocity": 1.0,
+      "acceleration": -1.0,
+      "p_added": 65.86,
+      "p_accel": 90.83,
+      "score": 78.34,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 14,
+      "repo_id": 931892749,
+      "full_name": "GLips/Figma-Context-MCP",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+      "stars": 16214,
+      "created_at": "2025-02-13T02:55:06Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Harness",
         "基础设施"
       ],
       "kinds": [
@@ -63,21 +390,80 @@
       "added_previous": 2,
       "velocity": 1.0,
       "acceleration": -1.0,
-      "p_added": 88.05,
-      "p_accel": 89.99,
-      "score": 89.02,
+      "p_added": 65.86,
+      "p_accel": 90.83,
+      "score": 78.34,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 3,
-      "repo_id": 153097643,
-      "full_name": "openvinotoolkit/openvino",
-      "url": "https://github.com/openvinotoolkit/openvino",
-      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "stars": 11161,
-      "created_at": "2018-10-15T10:54:40Z",
-      "pool": "regular",
+      "rank": 15,
+      "repo_id": 1282650900,
+      "full_name": "deer-flow/llm-space",
+      "url": "https://github.com/deer-flow/llm-space",
+      "description": "A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place. Local-first, cloud-ready for managed agents.",
+      "stars": 2133,
+      "created_at": "2026-06-28T03:39:34Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 2,
+      "velocity": 1.0,
+      "acceleration": -1.0,
+      "p_added": 65.86,
+      "p_accel": 90.83,
+      "score": 78.34,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 16,
+      "repo_id": 1379166549,
+      "full_name": "nokia-applied-research/AnyJev",
+      "url": "https://github.com/nokia-applied-research/AnyJev",
+      "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
+      "stars": 1612,
+      "created_at": "2026-09-21T05:55:40Z",
+      "pool": "newcomer",
+      "domains": [
+        "基础设施",
+        "研究"
+      ],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 2,
+      "velocity": 1.0,
+      "acceleration": -1.0,
+      "p_added": 65.86,
+      "p_accel": 90.83,
+      "score": 78.34,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 17,
+      "repo_id": 1347320778,
+      "full_name": "peonist-ai/halogen-flash-server",
+      "url": "https://github.com/peonist-ai/halogen-flash-server",
+      "description": "Local inference that behaves like a frontier API: Qwen3.8-Flash-Next on AMD Strix Halo plus small NPU models, over the OpenAI and Anthropic APIs on one port.",
+      "stars": 1357,
+      "created_at": "2026-08-26T12:41:30Z",
+      "pool": "newcomer",
       "domains": [
         "基础设施"
       ],
@@ -88,28 +474,61 @@
         "tool"
       ],
       "added": 2,
-      "added_previous": 5,
+      "added_previous": 6,
       "velocity": 2.0,
-      "acceleration": -3.0,
-      "p_added": 94.69,
-      "p_accel": 75.74,
-      "score": 85.21,
+      "acceleration": -4.0,
+      "p_added": 78.47,
+      "p_accel": 73.51,
+      "score": 75.99,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 4,
-      "repo_id": 283046497,
-      "full_name": "airbytehq/airbyte",
-      "url": "https://github.com/airbytehq/airbyte",
-      "description": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
-      "stars": 22380,
-      "created_at": "2020-07-27T23:55:54Z",
+      "rank": 18,
+      "repo_id": 1339271188,
+      "full_name": "0sec-labs/0security",
+      "url": "https://github.com/0sec-labs/0security",
+      "description": "Sovereign infrastructure to build and deploy security agents that find, prove and fix security risks. Open source. Web UI, CLI, CI and MCP.",
+      "stars": 1381,
+      "created_at": "2026-08-19T07:54:37Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "研究",
+        "编程"
+      ],
+      "forms": [
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 7,
+      "added_previous": 15,
+      "velocity": 7.0,
+      "acceleration": -8.0,
+      "p_added": 92.91,
+      "p_accel": 58.26,
+      "score": 75.58,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 19,
+      "repo_id": 34777562,
+      "full_name": "ossrs/srs",
+      "url": "https://github.com/ossrs/srs",
+      "description": "SRS is a simple, high-performance, AI-driven real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, HTTP-TS, SRT, MPEG-DASH, and GB28181, with codec support for H.264, H.265, AV1, VP9, AAC, Opus, and G.711.",
+      "stars": 29441,
+      "created_at": "2015-04-29T06:59:32Z",
       "pool": "regular",
       "domains": [
-        "Agent"
+        "创作"
       ],
-      "forms": [],
+      "forms": [
+        "基础设施"
+      ],
       "kinds": [
         "tool"
       ],
@@ -117,23 +536,302 @@
       "added_previous": 3,
       "velocity": 1.0,
       "acceleration": -2.0,
-      "p_added": 88.05,
-      "p_accel": 82.33,
-      "score": 85.19,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 5,
-      "repo_id": 982587624,
-      "full_name": "opendataloader-project/opendataloader-pdf",
-      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "stars": 30300,
-      "created_at": "2025-05-13T05:48:02Z",
+      "rank": 20,
+      "repo_id": 77145066,
+      "full_name": "budtmo/docker-android",
+      "url": "https://github.com/budtmo/docker-android",
+      "description": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
+      "stars": 16140,
+      "created_at": "2016-12-22T13:02:48Z",
       "pool": "regular",
       "domains": [
         "Agent",
+        "基础设施"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 21,
+      "repo_id": 99919302,
+      "full_name": "apache/doris",
+      "url": "https://github.com/apache/doris",
+      "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
+      "stars": 16224,
+      "created_at": "2017-08-10T12:13:30Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "基础设施"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 22,
+      "repo_id": 393874035,
+      "full_name": "BlinkDL/RWKV-LM",
+      "url": "https://github.com/BlinkDL/RWKV-LM",
+      "description": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding.",
+      "stars": 14777,
+      "created_at": "2021-08-08T06:05:27Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 23,
+      "repo_id": 644235905,
+      "full_name": "liguodongiot/llm-action",
+      "url": "https://github.com/liguodongiot/llm-action",
+      "description": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
+      "stars": 25281,
+      "created_at": "2023-05-23T05:29:16Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 24,
+      "repo_id": 761974775,
+      "full_name": "openai/swarm",
+      "url": "https://github.com/openai/swarm",
+      "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+      "stars": 22144,
+      "created_at": "2024-02-22T20:53:54Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 25,
+      "repo_id": 1028070615,
+      "full_name": "NevaMind-AI/memU",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "description": "Personal memory across agents",
+      "stars": 14625,
+      "created_at": "2025-07-29T01:54:40Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 26,
+      "repo_id": 1135791677,
+      "full_name": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "stars": 14425,
+      "created_at": "2026-01-16T15:45:24Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 3,
+      "velocity": 1.0,
+      "acceleration": -2.0,
+      "p_added": 65.86,
+      "p_accel": 84.35,
+      "score": 75.1,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 27,
+      "repo_id": 218952803,
+      "full_name": "doocs/md",
+      "url": "https://github.com/doocs/md",
+      "description": "✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性",
+      "stars": 13544,
+      "created_at": "2019-11-01T09:14:36Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 4,
+      "velocity": 1.0,
+      "acceleration": -3.0,
+      "p_added": 65.86,
+      "p_accel": 78.37,
+      "score": 72.11,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 28,
+      "repo_id": 1048601047,
+      "full_name": "Adam-CAD/CADAM",
+      "url": "https://github.com/Adam-CAD/CADAM",
+      "description": "CADAM is the open source text-to-CAD web application",
+      "stars": 5433,
+      "created_at": "2025-09-01T17:53:58Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "建模"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 4,
+      "velocity": 1.0,
+      "acceleration": -3.0,
+      "p_added": 65.86,
+      "p_accel": 78.37,
+      "score": 72.11,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 29,
+      "repo_id": 63477612,
+      "full_name": "TheAlgorithms/C-Plus-Plus",
+      "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.",
+      "stars": 34889,
+      "created_at": "2016-07-16T10:19:45Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 5,
+      "velocity": 1.0,
+      "acceleration": -4.0,
+      "p_added": 65.86,
+      "p_accel": 73.51,
+      "score": 69.68,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 30,
+      "repo_id": 109484365,
+      "full_name": "fengdu78/Coursera-ML-AndrewNg-Notes",
+      "url": "https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes",
+      "description": "吴恩达老师的机器学习课程个人笔记",
+      "stars": 38120,
+      "created_at": "2017-11-04T10:04:08Z",
+      "pool": "regular",
+      "domains": [
         "办公"
       ],
       "forms": [],
@@ -144,134 +842,81 @@
       "added_previous": 5,
       "velocity": 1.0,
       "acceleration": -4.0,
-      "p_added": 88.05,
-      "p_accel": 70.12,
-      "score": 79.09,
+      "p_added": 65.86,
+      "p_accel": 73.51,
+      "score": 69.68,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 6,
-      "repo_id": 156939672,
-      "full_name": "microsoft/onnxruntime",
-      "url": "https://github.com/microsoft/onnxruntime",
-      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
-      "stars": 22310,
-      "created_at": "2018-11-10T02:22:53Z",
+      "rank": 31,
+      "repo_id": 942756187,
+      "full_name": "ConardLi/easy-dataset",
+      "url": "https://github.com/ConardLi/easy-dataset",
+      "description": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
+      "stars": 15124,
+      "created_at": "2025-03-04T16:14:14Z",
       "pool": "regular",
       "domains": [
-        "基础设施"
-      ],
-      "forms": [
         "Agent",
-        "Harness",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 6,
-      "velocity": 1.0,
-      "acceleration": -5.0,
-      "p_added": 88.05,
-      "p_accel": 65.63,
-      "score": 76.84,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 7,
-      "repo_id": 163591278,
-      "full_name": "GitHubDaily/GitHubDaily",
-      "url": "https://github.com/GitHubDaily/GitHubDaily",
-      "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
-      "stars": 48456,
-      "created_at": "2018-12-30T13:56:58Z",
-      "pool": "regular",
-      "domains": [
-        "基础设施"
-      ],
-      "forms": [
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 6,
-      "velocity": 1.0,
-      "acceleration": -5.0,
-      "p_added": 88.05,
-      "p_accel": 65.63,
-      "score": 76.84,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 8,
-      "repo_id": 162405963,
-      "full_name": "gradio-app/gradio",
-      "url": "https://github.com/gradio-app/gradio",
-      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
-      "stars": 44060,
-      "created_at": "2018-12-19T08:24:04Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 8,
-      "velocity": 1.0,
-      "acceleration": -7.0,
-      "p_added": 88.05,
-      "p_accel": 58.58,
-      "score": 73.31,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 9,
-      "repo_id": 722844356,
-      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
-      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D avatar running locally across platforms",
-      "stars": 14714,
-      "created_at": "2023-11-24T04:55:43Z",
-      "pool": "regular",
-      "domains": [
-        "创作"
+        "基础设施",
+        "研究"
       ],
       "forms": [],
       "kinds": [
         "tool"
       ],
       "added": 1,
-      "added_previous": 8,
+      "added_previous": 5,
       "velocity": 1.0,
-      "acceleration": -7.0,
-      "p_added": 88.05,
-      "p_accel": 58.58,
-      "score": 73.31,
+      "acceleration": -4.0,
+      "p_added": 65.86,
+      "p_accel": 73.51,
+      "score": 69.68,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 10,
-      "repo_id": 899407931,
-      "full_name": "firecrawl/firecrawl-mcp-server",
-      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
-      "description": "Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor, from any MCP client.",
-      "stars": 7822,
-      "created_at": "2024-12-06T07:50:27Z",
+      "rank": 32,
+      "repo_id": 1368569221,
+      "full_name": "sixtysevenlf/dsh-blender-plugin",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+      "description": "DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 228 op 契约层；npm 安装 + addon zip，GUI 优先、无头备用；dsh-TUI 选中 chip / @ 提及 / /blender，随包建模 skill，支持 WSL / Windows / macOS。",
+      "stars": 2130,
+      "created_at": "2026-09-13T16:07:04Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "建模"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 3,
+      "added_previous": 12,
+      "velocity": 3.0,
+      "acceleration": -9.0,
+      "p_added": 83.99,
+      "p_accel": 55.27,
+      "score": 69.63,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 33,
+      "repo_id": 425387994,
+      "full_name": "Evil0ctal/Douyin_TikTok_Download_API",
+      "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+      "description": "🚀 自托管的抖音、TikTok、B 站数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok, Douyin & Bilibili scraper and no-watermark video downloader — async REST API, MCP server for AI agents, CLI and web console, plus offline speech-to-text for downloaded videos. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
+      "stars": 21424,
+      "created_at": "2021-11-07T01:35:09Z",
       "pool": "regular",
       "domains": [
         "Agent",
-        "建模",
         "编程"
       ],
       "forms": [
@@ -283,27 +928,28 @@
       "kinds": [
         "model"
       ],
-      "added": 1,
-      "added_previous": 8,
-      "velocity": 1.0,
-      "acceleration": -7.0,
-      "p_added": 88.05,
-      "p_accel": 58.58,
-      "score": 73.31,
+      "added": 4,
+      "added_previous": 16,
+      "velocity": 4.0,
+      "acceleration": -12.0,
+      "p_added": 87.59,
+      "p_accel": 49.54,
+      "score": 68.57,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 11,
-      "repo_id": 1129759677,
-      "full_name": "snarktank/ralph",
-      "url": "https://github.com/snarktank/ralph",
-      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. ",
-      "stars": 22234,
-      "created_at": "2026-01-07T14:45:10Z",
+      "rank": 34,
+      "repo_id": 707441527,
+      "full_name": "livekit/agents",
+      "url": "https://github.com/livekit/agents",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+      "stars": 15243,
+      "created_at": "2023-10-19T23:00:55Z",
       "pool": "regular",
       "domains": [
-        "Agent"
+        "Agent",
+        "创作"
       ],
       "forms": [
         "Agent"
@@ -311,54 +957,139 @@
       "kinds": [
         "tool"
       ],
-      "added": 1,
-      "added_previous": 9,
-      "velocity": 1.0,
+      "added": 2,
+      "added_previous": 10,
+      "velocity": 2.0,
       "acceleration": -8.0,
-      "p_added": 88.05,
-      "p_accel": 56.08,
-      "score": 72.06,
+      "p_added": 78.47,
+      "p_accel": 58.26,
+      "score": 68.36,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 12,
-      "repo_id": 1176129893,
-      "full_name": "tanweai/pua",
-      "url": "https://github.com/tanweai/pua",
-      "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement. | Lead: Minwei Wang (https://www.minwei.wang · ORCID: 0009-0002-7976-4689 · DOI: 10.5281/zenodo.24156132)",
-      "stars": 19843,
-      "created_at": "2026-03-08T16:55:16Z",
+      "rank": 35,
+      "repo_id": 525592995,
+      "full_name": "invoke-ai/InvokeAI",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
+      "stars": 29100,
+      "created_at": "2022-08-17T01:04:27Z",
       "pool": "regular",
       "domains": [
-        "Agent"
+        "创作"
       ],
       "forms": [
-        "Agent"
+        "基础设施",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 6,
+      "velocity": 1.0,
+      "acceleration": -5.0,
+      "p_added": 65.86,
+      "p_accel": 69.15,
+      "score": 67.5,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 36,
+      "repo_id": 807305060,
+      "full_name": "LMCache/LMCache",
+      "url": "https://github.com/LMCache/LMCache",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "stars": 12373,
+      "created_at": "2024-05-28T21:06:04Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施"
       ],
       "kinds": [
         "tool"
       ],
       "added": 1,
-      "added_previous": 9,
+      "added_previous": 6,
       "velocity": 1.0,
-      "acceleration": -8.0,
-      "p_added": 88.05,
-      "p_accel": 56.08,
-      "score": 72.06,
+      "acceleration": -5.0,
+      "p_added": 65.86,
+      "p_accel": 69.15,
+      "score": 67.5,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 13,
-      "repo_id": 738733003,
-      "full_name": "danielmiessler/Fabric",
-      "url": "https://github.com/danielmiessler/Fabric",
-      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
-      "stars": 44640,
-      "created_at": "2024-01-03T23:18:31Z",
+      "rank": 37,
+      "repo_id": 839428333,
+      "full_name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build voice agents with open-source models",
+      "stars": 13700,
+      "created_at": "2024-08-07T15:32:09Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作"
+      ],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 6,
+      "velocity": 1.0,
+      "acceleration": -5.0,
+      "p_added": 65.86,
+      "p_accel": 69.15,
+      "score": 67.5,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 38,
+      "repo_id": 1078049937,
+      "full_name": "deepseek-ai/DeepSeek-OCR",
+      "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "description": "Contexts Optical Compression",
+      "stars": 24168,
+      "created_at": "2025-10-17T06:14:27Z",
       "pool": "regular",
       "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 6,
+      "velocity": 1.0,
+      "acceleration": -5.0,
+      "p_added": 65.86,
+      "p_accel": 69.15,
+      "score": 67.5,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 39,
+      "repo_id": 1298021489,
+      "full_name": "coji/natural-japanese",
+      "url": "https://github.com/coji/natural-japanese",
+      "description": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
+      "stars": 2065,
+      "created_at": "2026-07-12T05:54:55Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
       "forms": [
         "Agent"
       ],
@@ -366,52 +1097,113 @@
         "tool"
       ],
       "added": 1,
-      "added_previous": 10,
+      "added_previous": 6,
       "velocity": 1.0,
-      "acceleration": -9.0,
-      "p_added": 88.05,
-      "p_accel": 53.52,
-      "score": 70.79,
+      "acceleration": -5.0,
+      "p_added": 65.86,
+      "p_accel": 69.15,
+      "score": 67.5,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 14,
-      "repo_id": 1129786550,
-      "full_name": "teng-lin/notebooklm-py",
-      "url": "https://github.com/teng-lin/notebooklm-py",
-      "description": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Notebook's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-      "stars": 20232,
-      "created_at": "2026-01-07T15:27:19Z",
+      "rank": 40,
+      "repo_id": 1209889782,
+      "full_name": "getagentseal/codeburn",
+      "url": "https://github.com/getagentseal/codeburn",
+      "description": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "stars": 11825,
+      "created_at": "2026-04-13T22:11:53Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "基础设施",
+        "编程"
+      ],
+      "forms": [
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 3,
+      "added_previous": 15,
+      "velocity": 3.0,
+      "acceleration": -12.0,
+      "p_added": 83.99,
+      "p_accel": 49.54,
+      "score": 66.77,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 41,
+      "repo_id": 66670819,
+      "full_name": "apify/crawlee",
+      "url": "https://github.com/apify/crawlee",
+      "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+      "stars": 26462,
+      "created_at": "2016-08-26T18:35:03Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "办公"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2,
+      "added_previous": 12,
+      "velocity": 2.0,
+      "acceleration": -10.0,
+      "p_added": 78.47,
+      "p_accel": 53.19,
+      "score": 65.83,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 42,
+      "repo_id": 1191372811,
+      "full_name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "stars": 18128,
+      "created_at": "2026-03-25T07:13:30Z",
       "pool": "regular",
       "domains": [
         "Agent",
         "编程"
       ],
       "forms": [
+        "Agent",
         "工具"
       ],
       "kinds": [
-        "replica"
+        "tool"
       ],
-      "added": 1,
-      "added_previous": 10,
-      "velocity": 1.0,
-      "acceleration": -9.0,
-      "p_added": 88.05,
-      "p_accel": 53.52,
-      "score": 70.79,
+      "added": 2,
+      "added_previous": 12,
+      "velocity": 2.0,
+      "acceleration": -10.0,
+      "p_added": 78.47,
+      "p_accel": 53.19,
+      "score": 65.83,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 15,
-      "repo_id": 996626040,
-      "full_name": "datawhalechina/all-in-rag",
-      "url": "https://github.com/datawhalechina/all-in-rag",
-      "description": "🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/",
-      "stars": 13131,
-      "created_at": "2025-06-05T08:12:35Z",
+      "rank": 43,
+      "repo_id": 107111421,
+      "full_name": "thedaviddias/Front-End-Checklist",
+      "url": "https://github.com/thedaviddias/Front-End-Checklist",
+      "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
+      "stars": 74748,
+      "created_at": "2017-10-16T10:12:36Z",
       "pool": "regular",
       "domains": [
         "Agent"
@@ -423,49 +1215,243 @@
         "tool"
       ],
       "added": 1,
-      "added_previous": 11,
+      "added_previous": 7,
       "velocity": 1.0,
-      "acceleration": -10.0,
-      "p_added": 88.05,
-      "p_accel": 51.17,
-      "score": 69.61,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 16,
-      "repo_id": 1069943001,
-      "full_name": "voyager-crew/voyager",
-      "url": "https://github.com/voyager-crew/voyager",
-      "description": "Enhancement suite for Gemini, AI Studio, Claude, ChatGPT & DeepSeek — plus a prompt manager for any website, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude、ChatGPT 与 DeepSeek 的增强套件；其中的提示词管理器可用于任意网站，如 DeepSeek Harness。",
-      "stars": 20634,
-      "created_at": "2025-10-04T23:42:35Z",
+      "rank": 44,
+      "repo_id": 283046497,
+      "full_name": "airbytehq/airbyte",
+      "url": "https://github.com/airbytehq/airbyte",
+      "description": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
+      "stars": 22386,
+      "created_at": "2020-07-27T23:55:54Z",
       "pool": "regular",
-      "domains": [],
+      "domains": [
+        "Agent"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 7,
+      "velocity": 1.0,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 45,
+      "repo_id": 778431525,
+      "full_name": "microsoft/graphrag",
+      "url": "https://github.com/microsoft/graphrag",
+      "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+      "stars": 36653,
+      "created_at": "2024-03-27T17:57:52Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 7,
+      "velocity": 1.0,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 46,
+      "repo_id": 838542536,
+      "full_name": "humanlayer/humanlayer",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+      "stars": 12889,
+      "created_at": "2024-08-05T21:26:44Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
       "forms": [
-        "Harness",
-        "工具"
+        "Harness"
       ],
       "kinds": [
         "tool"
       ],
       "added": 1,
-      "added_previous": 11,
+      "added_previous": 7,
       "velocity": 1.0,
-      "acceleration": -10.0,
-      "p_added": 88.05,
-      "p_accel": 51.17,
-      "score": 69.61,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 17,
+      "rank": 47,
+      "repo_id": 849239437,
+      "full_name": "QwenLM/Qwen3-VL",
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "description": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
+      "stars": 20217,
+      "created_at": "2024-08-29T08:30:38Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1,
+      "added_previous": 7,
+      "velocity": 1.0,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 48,
+      "repo_id": 963223041,
+      "full_name": "koharu-rs/koharu",
+      "url": "https://github.com/koharu-rs/koharu",
+      "description": "ML-powered manga translator, written in Rust.",
+      "stars": 6678,
+      "created_at": "2025-04-09T10:52:34Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施",
+        "建模"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 7,
+      "velocity": 1.0,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 49,
+      "repo_id": 1296036886,
+      "full_name": "AlephAITech/WorkBuddyGuide",
+      "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+      "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+      "stars": 3822,
+      "created_at": "2026-07-10T04:13:51Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 7,
+      "velocity": 1.0,
+      "acceleration": -6.0,
+      "p_added": 65.86,
+      "p_accel": 65.05,
+      "score": 65.45,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 50,
+      "repo_id": 1232669890,
+      "full_name": "microsoft/SkillOpt",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "stars": 19096,
+      "created_at": "2026-05-08T06:41:01Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2,
+      "added_previous": 13,
+      "velocity": 2.0,
+      "acceleration": -11.0,
+      "p_added": 78.47,
+      "p_accel": 51.47,
+      "score": 64.97,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 51,
+      "repo_id": 1416386910,
+      "full_name": "Arekejoker/qwen21-nsfw-pose-skill",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+      "stars": 4425,
+      "created_at": "2026-10-13T03:09:42Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2,
+      "added_previous": 13,
+      "velocity": 2.0,
+      "acceleration": -11.0,
+      "p_added": 78.47,
+      "p_accel": 51.47,
+      "score": 64.97,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 52,
       "repo_id": 1251086916,
       "full_name": "yb2460/harness-anything",
       "url": "https://github.com/yb2460/harness-anything",
       "description": "Harness Anything - AI agent control hub: WPS, MS Office, Zotero, Photoshop, 47 CLI commands, 27 academic skills, SVG-to-PPTX",
-      "stars": 3110,
+      "stars": 3125,
       "created_at": "2026-05-27T08:25:28Z",
       "pool": "newcomer",
       "domains": [
@@ -481,26 +1467,263 @@
       "kinds": [
         "tool"
       ],
-      "added": 1,
-      "added_previous": 11,
-      "velocity": 1.0,
-      "acceleration": -10.0,
-      "p_added": 88.05,
-      "p_accel": 51.17,
-      "score": 69.61,
+      "added": 2,
+      "added_previous": 14,
+      "velocity": 2.0,
+      "acceleration": -12.0,
+      "p_added": 78.47,
+      "p_accel": 49.54,
+      "score": 64.01,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 18,
-      "repo_id": 1196321162,
-      "full_name": "openai/codex-plugin-cc",
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "stars": 35130,
-      "created_at": "2026-03-30T15:29:52Z",
+      "rank": 53,
+      "repo_id": 764287615,
+      "full_name": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "stars": 31635,
+      "created_at": "2024-02-27T20:10:04Z",
       "pool": "regular",
       "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 8,
+      "velocity": 1.0,
+      "acceleration": -7.0,
+      "p_added": 65.86,
+      "p_accel": 61.45,
+      "score": 63.65,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 54,
+      "repo_id": 812044182,
+      "full_name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "stars": 16886,
+      "created_at": "2024-06-07T20:52:54Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 8,
+      "velocity": 1.0,
+      "acceleration": -7.0,
+      "p_added": 65.86,
+      "p_accel": 61.45,
+      "score": 63.65,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 55,
+      "repo_id": 870189331,
+      "full_name": "simular-ai/Agent-S",
+      "url": "https://github.com/simular-ai/Agent-S",
+      "description": "Agent S: the state-of-the-art open source computer use agents",
+      "stars": 12982,
+      "created_at": "2024-10-09T15:43:12Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 8,
+      "velocity": 1.0,
+      "acceleration": -7.0,
+      "p_added": 65.86,
+      "p_accel": 61.45,
+      "score": 63.65,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 56,
+      "repo_id": 1110782890,
+      "full_name": "YishenTu/claudian",
+      "url": "https://github.com/YishenTu/claudian",
+      "description": "An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.",
+      "stars": 16004,
+      "created_at": "2025-12-05T17:58:26Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "办公",
+        "编程"
+      ],
+      "forms": [
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 8,
+      "velocity": 1.0,
+      "acceleration": -7.0,
+      "p_added": 65.86,
+      "p_accel": 61.45,
+      "score": 63.65,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 57,
+      "repo_id": 1243377527,
+      "full_name": "Javis603/token-monitor",
+      "url": "https://github.com/Javis603/token-monitor",
+      "description": "Local-first desktop widget for tracking token usage, costs, limits, and session activity across 54+ AI coding tools—including Claude Code, Codex, Cursor, OpenCode, OpenClaw, and more—with multi-device sync.",
+      "stars": 3706,
+      "created_at": "2026-05-19T09:33:54Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 8,
+      "velocity": 1.0,
+      "acceleration": -7.0,
+      "p_added": 65.86,
+      "p_accel": 61.45,
+      "score": 63.65,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 58,
+      "repo_id": 1334657231,
+      "full_name": "soumatheusgomes/vibe-coding-toolkit",
+      "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
+      "description": "A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality gates, and ready-to-copy prompts, extracted from real production use.",
+      "stars": 2433,
+      "created_at": "2026-08-14T23:41:31Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1,
+      "added_previous": 8,
+      "velocity": 1.0,
+      "acceleration": -7.0,
+      "p_added": 65.86,
+      "p_accel": 61.45,
+      "score": 63.65,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 59,
+      "repo_id": 1202599845,
+      "full_name": "KKKKhazix/khazix-skills",
+      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+      "stars": 22292,
+      "created_at": "2026-04-06T07:37:02Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 6,
+      "added_previous": 27,
+      "velocity": 6.0,
+      "acceleration": -21.0,
+      "p_added": 91.79,
+      "p_accel": 35.16,
+      "score": 63.48,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 60,
+      "repo_id": 806854629,
+      "full_name": "datawhalechina/happy-llm",
+      "url": "https://github.com/datawhalechina/happy-llm",
+      "description": "📚 从零开始构建大模型",
+      "stars": 34946,
+      "created_at": "2024-05-28T03:22:50Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 3,
+      "added_previous": 18,
+      "velocity": 3.0,
+      "acceleration": -15.0,
+      "p_added": 83.99,
+      "p_accel": 42.91,
+      "score": 63.45,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 61,
+      "repo_id": 1318893208,
+      "full_name": "memorax-ai/memorax-code",
+      "url": "https://github.com/memorax-ai/memorax-code",
+      "description": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.",
+      "stars": 2122,
+      "created_at": "2026-08-01T02:13:37Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
         "编程"
       ],
       "forms": [
@@ -510,23 +1733,84 @@
         "tool"
       ],
       "added": 2,
-      "added_previous": 16,
+      "added_previous": 15,
       "velocity": 2.0,
-      "acceleration": -14.0,
-      "p_added": 94.69,
-      "p_accel": 44.02,
-      "score": 69.36,
+      "acceleration": -13.0,
+      "p_added": 78.47,
+      "p_accel": 47.32,
+      "score": 62.89,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 19,
-      "repo_id": 299862,
-      "full_name": "nltk/nltk",
-      "url": "https://github.com/nltk/nltk",
-      "description": "NLTK Source",
-      "stars": 14771,
-      "created_at": "2009-09-07T10:53:58Z",
+      "rank": 62,
+      "repo_id": 1597789,
+      "full_name": "melonjs/melonJS",
+      "url": "https://github.com/melonjs/melonJS",
+      "description": "A modern & fully featured HTML5 game engine (2D & 3D) for JavaScript/TypeScript, with WebGL/WebGPU rendering, built-in physics, Tiled map & glTF support and WebAudio.",
+      "stars": 6506,
+      "created_at": "2011-04-11T07:03:14Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "建模"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 63,
+      "repo_id": 2579069,
+      "full_name": "datopian/portaljs",
+      "url": "https://github.com/datopian/portaljs",
+      "description": "🌀 AI-native framework for building data portals. Scaffold a full portal from a brief and load datasets in minutes with agentic skills — any backend (CKAN, GitHub, Frictionless).",
+      "stars": 2371,
+      "created_at": "2011-10-14T21:44:30Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "建模",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 64,
+      "repo_id": 16331291,
+      "full_name": "davisking/dlib",
+      "url": "https://github.com/davisking/dlib",
+      "description": "A toolkit for making real world machine learning and data analysis applications in C++",
+      "stars": 14476,
+      "created_at": "2014-01-29T00:45:33Z",
       "pool": "regular",
       "domains": [],
       "forms": [],
@@ -537,19 +1821,45 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 20,
+      "rank": 65,
+      "repo_id": 24561828,
+      "full_name": "gunthercox/ChatterBot",
+      "url": "https://github.com/gunthercox/ChatterBot",
+      "description": "ChatterBot is a machine learning, conversational dialog engine for creating chat bots",
+      "stars": 14523,
+      "created_at": "2014-09-28T14:49:00Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 66,
       "repo_id": 25459400,
       "full_name": "pinpoint-apm/pinpoint",
       "url": "https://github.com/pinpoint-apm/pinpoint",
       "description": "APM, (Application Performance Management) tool for large-scale distributed systems. ",
-      "stars": 13878,
+      "stars": 13876,
       "created_at": "2014-10-20T09:27:22Z",
       "pool": "regular",
       "domains": [
@@ -565,22 +1875,47 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 21,
-      "repo_id": 49346299,
-      "full_name": "Data-Centric-AI-Community/fg-data-profiling",
-      "url": "https://github.com/Data-Centric-AI-Community/fg-data-profiling",
-      "description": "1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames. ",
-      "stars": 13752,
-      "created_at": "2016-01-09T23:47:55Z",
+      "rank": 67,
+      "repo_id": 51863547,
+      "full_name": "ageron/handson-ml",
+      "url": "https://github.com/ageron/handson-ml",
+      "description": "⛔️ DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead.",
+      "stars": 25605,
+      "created_at": "2016-02-16T19:48:39Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 68,
+      "repo_id": 53133861,
+      "full_name": "nikivdev/code",
+      "url": "https://github.com/nikivdev/code",
+      "description": null,
+      "stars": 21099,
+      "created_at": "2016-03-04T12:26:34Z",
       "pool": "regular",
       "domains": [
+        "Agent",
         "编程"
       ],
       "forms": [],
@@ -591,52 +1926,23 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 22,
-      "repo_id": 68619759,
-      "full_name": "creativetimofficial/ui",
-      "url": "https://github.com/creativetimofficial/ui",
-      "description": "Open-source components, blocks, and AI agents designed to speed up your workflow. Import them seamlessly into your favorite tools through Registry and MCPs.",
-      "stars": 12124,
-      "created_at": "2016-09-19T15:36:24Z",
+      "rank": 69,
+      "repo_id": 73964895,
+      "full_name": "botpress/botpress",
+      "url": "https://github.com/botpress/botpress",
+      "description": "The open-source hub to build & deploy GPT/LLM Agents ⚡️",
+      "stars": 15000,
+      "created_at": "2016-11-16T21:57:59Z",
       "pool": "regular",
       "domains": [
-        "Agent",
-        "创作",
-        "基础设施"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 23,
-      "repo_id": 70908208,
-      "full_name": "RasaHQ/rasa",
-      "url": "https://github.com/RasaHQ/rasa",
-      "description": "💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
-      "stars": 21383,
-      "created_at": "2016-10-14T12:27:49Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作"
+        "Agent"
       ],
       "forms": [
         "Agent"
@@ -648,14 +1954,14 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 24,
+      "rank": 70,
       "repo_id": 79723839,
       "full_name": "teambit/bit",
       "url": "https://github.com/teambit/bit",
@@ -672,25 +1978,47 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 25,
-      "repo_id": 86981606,
-      "full_name": "halfrost/Halfrost-Field",
-      "url": "https://github.com/halfrost/Halfrost-Field",
-      "description": "✍🏻 Source Code Deep Dives, System Design & Engineering Blogs | Halfrost-Field 冰霜之地：源码解析、系统设计与工程实践笔记 ",
-      "stars": 13257,
-      "created_at": "2017-04-02T11:24:18Z",
+      "rank": 71,
+      "repo_id": 92983437,
+      "full_name": "jacobgil/pytorch-grad-cam",
+      "url": "https://github.com/jacobgil/pytorch-grad-cam",
+      "description": "Advanced AI Explainability for computer vision.  Support for CNNs, Vision Transformers, Classification, Object detection, Segmentation, Image similarity and more.",
+      "stars": 13013,
+      "created_at": "2017-05-31T19:55:15Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 72,
+      "repo_id": 102973646,
+      "full_name": "fastai/fastai",
+      "url": "https://github.com/fastai/fastai",
+      "description": "The fastai deep learning library",
+      "stars": 28270,
+      "created_at": "2017-09-09T17:43:36Z",
       "pool": "regular",
       "domains": [
-        "创作",
-        "基础设施",
-        "编程"
+        "基础设施"
       ],
       "forms": [
         "基础设施"
@@ -702,38 +2030,14 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 26,
-      "repo_id": 106024057,
-      "full_name": "pyg-team/pytorch_geometric",
-      "url": "https://github.com/pyg-team/pytorch_geometric",
-      "description": "Graph Neural Network Library for PyTorch",
-      "stars": 24141,
-      "created_at": "2017-10-06T16:03:03Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 27,
+      "rank": 73,
       "repo_id": 123870315,
       "full_name": "tensorflow/tfjs",
       "url": "https://github.com/tensorflow/tfjs",
@@ -754,51 +2058,24 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 28,
-      "repo_id": 136914524,
-      "full_name": "flairNLP/flair",
-      "url": "https://github.com/flairNLP/flair",
-      "description": "A very simple framework for state-of-the-art Natural Language Processing (NLP)",
-      "stars": 14400,
-      "created_at": "2018-06-11T11:04:18Z",
+      "rank": 74,
+      "repo_id": 221787282,
+      "full_name": "NVIDIAGameWorks/kaolin",
+      "url": "https://github.com/NVIDIAGameWorks/kaolin",
+      "description": "A PyTorch Library for Accelerating 3D Deep Learning Research",
+      "stars": 5198,
+      "created_at": "2019-11-14T21:09:40Z",
       "pool": "regular",
       "domains": [
-        "创作"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 29,
-      "repo_id": 149026292,
-      "full_name": "cube-js/cube",
-      "url": "https://github.com/cube-js/cube",
-      "description": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
-      "stars": 21224,
-      "created_at": "2018-09-16T18:58:46Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
+        "建模",
+        "研究"
       ],
       "forms": [],
       "kinds": [
@@ -808,108 +2085,26 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 30,
-      "repo_id": 159091924,
-      "full_name": "kmario23/deep-learning-drizzle",
-      "url": "https://github.com/kmario23/deep-learning-drizzle",
-      "description": "Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!!",
-      "stars": 12988,
-      "created_at": "2018-11-26T01:17:36Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 31,
-      "repo_id": 178626720,
-      "full_name": "Lightning-AI/pytorch-lightning",
-      "url": "https://github.com/Lightning-AI/pytorch-lightning",
-      "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
-      "stars": 31447,
-      "created_at": "2019-03-31T00:45:57Z",
+      "rank": 75,
+      "repo_id": 225260962,
+      "full_name": "udecode/plate",
+      "url": "https://github.com/udecode/plate",
+      "description": "Rich-text editor with AI and shadcn/ui",
+      "stars": 16706,
+      "created_at": "2019-12-02T01:40:10Z",
       "pool": "regular",
       "domains": [
-        "编程"
+        "Agent"
       ],
       "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 32,
-      "repo_id": 198350484,
-      "full_name": "microsoft/unilm",
-      "url": "https://github.com/microsoft/unilm",
-      "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
-      "stars": 22242,
-      "created_at": "2019-07-23T04:15:28Z",
-      "pool": "regular",
-      "domains": [
-        "办公",
-        "基础设施"
-      ],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 33,
-      "repo_id": 274625369,
-      "full_name": "infracost/infracost",
-      "url": "https://github.com/infracost/infracost",
-      "description": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
-      "stars": 12619,
-      "created_at": "2020-06-24T09:11:56Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Harness"
+        "工具"
       ],
       "kinds": [
         "tool"
@@ -918,14 +2113,14 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 34,
+      "rank": 76,
       "repo_id": 305522835,
       "full_name": "google-research-datasets/Objectron",
       "url": "https://github.com/google-research-datasets/Objectron",
@@ -945,246 +2140,82 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 35,
-      "repo_id": 359419233,
-      "full_name": "kubeshark/kubeshark",
-      "url": "https://github.com/kubeshark/kubeshark",
-      "description": "eBPF-powered network observability for Kubernetes. Indexes L4/L7 traffic with full K8s context, decrypts TLS without keys. Queryable by AI agents via MCP and humans via dashboard.",
-      "stars": 12137,
-      "created_at": "2021-04-19T10:29:56Z",
+      "rank": 77,
+      "repo_id": 352933140,
+      "full_name": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
+      "stars": 41229,
+      "created_at": "2021-03-30T08:51:34Z",
       "pool": "regular",
       "domains": [
         "Agent",
-        "基础设施"
-      ],
-      "forms": [
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 36,
-      "repo_id": 393874035,
-      "full_name": "BlinkDL/RWKV-LM",
-      "url": "https://github.com/BlinkDL/RWKV-LM",
-      "description": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding.",
-      "stars": 14774,
-      "created_at": "2021-08-08T06:05:27Z",
-      "pool": "regular",
-      "domains": [
-        "基础设施"
-      ],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 37,
-      "repo_id": 564443255,
-      "full_name": "guidance-ai/guidance",
-      "url": "https://github.com/guidance-ai/guidance",
-      "description": "A guidance language for controlling large language models.",
-      "stars": 21823,
-      "created_at": "2022-11-10T18:21:45Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 38,
-      "repo_id": 566576114,
-      "full_name": "apple-aiml-research/ml-stable-diffusion",
-      "url": "https://github.com/apple-aiml-research/ml-stable-diffusion",
-      "description": "Stable Diffusion with Core ML on Apple Silicon",
-      "stars": 17958,
-      "created_at": "2022-11-16T00:48:18Z",
-      "pool": "regular",
-      "domains": [
-        "研究"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 39,
-      "repo_id": 598342280,
-      "full_name": "langchain-ai/langchainjs",
-      "url": "https://github.com/langchain-ai/langchainjs",
-      "description": "The agent engineering platform",
-      "stars": 18344,
-      "created_at": "2023-02-06T22:50:27Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 40,
-      "repo_id": 608660982,
-      "full_name": "GaiZhenbiao/ChuanhuChatGPT",
-      "url": "https://github.com/GaiZhenbiao/ChuanhuChatGPT",
-      "description": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.",
-      "stars": 15239,
-      "created_at": "2023-03-02T13:37:13Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 41,
-      "repo_id": 628296906,
-      "full_name": "OpenMOSS/MOSS",
-      "url": "https://github.com/OpenMOSS/MOSS",
-      "description": "An open-source, tool-augmented conversational language model from Fudan University",
-      "stars": 12366,
-      "created_at": "2023-04-15T14:07:44Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 42,
-      "repo_id": 629749002,
-      "full_name": "bentoml/OpenLLM",
-      "url": "https://github.com/bentoml/OpenLLM",
-      "description": "Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.",
-      "stars": 12600,
-      "created_at": "2023-04-19T00:27:52Z",
-      "pool": "regular",
-      "domains": [
-        "基础设施"
-      ],
-      "forms": [
         "基础设施",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 43,
-      "repo_id": 656227652,
-      "full_name": "OtterMind/Chat2DB",
-      "url": "https://github.com/OtterMind/Chat2DB",
-      "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
-      "stars": 28362,
-      "created_at": "2023-06-20T14:05:26Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
         "编程"
       ],
       "forms": [
+        "Agent",
         "基础设施",
-        "工具",
+        "工具"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 78,
+      "repo_id": 609721722,
+      "full_name": "xx025/carrot",
+      "url": "https://github.com/xx025/carrot",
+      "description": "AI 工具导航大全，帮你快速筛选免费、实用、高效的网站资源",
+      "stars": 17224,
+      "created_at": "2023-03-05T02:56:17Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 79,
+      "repo_id": 634081686,
+      "full_name": "mlc-ai/mlc-llm",
+      "url": "https://github.com/mlc-ai/mlc-llm",
+      "description": "Universal LLM Deployment Engine with ML Compilation",
+      "stars": 23414,
+      "created_at": "2023-04-29T01:59:25Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施",
         "模型"
       ],
       "kinds": [
@@ -1194,23 +2225,23 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 44,
-      "repo_id": 660489378,
-      "full_name": "microsoft/promptflow",
-      "url": "https://github.com/microsoft/promptflow",
-      "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
-      "stars": 11265,
-      "created_at": "2023-06-30T06:03:06Z",
+      "rank": 80,
+      "repo_id": 641205268,
+      "full_name": "jujumilk3/leaked-system-prompts",
+      "url": "https://github.com/jujumilk3/leaked-system-prompts",
+      "description": "Collection of leaked system prompts",
+      "stars": 15017,
+      "created_at": "2023-05-16T02:09:06Z",
       "pool": "regular",
       "domains": [
-        "基础设施"
+        "办公"
       ],
       "forms": [],
       "kinds": [
@@ -1220,45 +2251,41 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 45,
-      "repo_id": 667297720,
-      "full_name": "meta-llama/llama-cookbook",
-      "url": "https://github.com/meta-llama/llama-cookbook",
-      "description": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  ",
-      "stars": 18593,
-      "created_at": "2023-07-17T07:33:48Z",
+      "rank": 81,
+      "repo_id": 679237742,
+      "full_name": "Pythagora-io/gpt-pilot",
+      "url": "https://github.com/Pythagora-io/gpt-pilot",
+      "description": "The first real AI developer",
+      "stars": 33645,
+      "created_at": "2023-08-16T11:56:07Z",
       "pool": "regular",
       "domains": [
-        "Agent",
-        "基础设施"
+        "研究",
+        "编程"
       ],
-      "forms": [
-        "Agent",
-        "基础设施",
-        "模型"
-      ],
+      "forms": [],
       "kinds": [
-        "model"
+        "tool"
       ],
       "added": 0,
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 46,
+      "rank": 82,
       "repo_id": 690106318,
       "full_name": "huggingface/nanotron",
       "url": "https://github.com/huggingface/nanotron",
@@ -1280,42 +2307,14 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 47,
-      "repo_id": 698288684,
-      "full_name": "llmware-ai/llmware",
-      "url": "https://github.com/llmware-ai/llmware",
-      "description": "Unified framework for building enterprise RAG pipelines with small, specialized models",
-      "stars": 14822,
-      "created_at": "2023-09-29T15:19:06Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 48,
+      "rank": 83,
       "repo_id": 817354652,
       "full_name": "TEN-framework/ten-framework",
       "url": "https://github.com/TEN-framework/ten-framework",
@@ -1337,25 +2336,30 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 49,
-      "repo_id": 895942941,
-      "full_name": "coderamp-labs/gitingest",
-      "url": "https://github.com/coderamp-labs/gitingest",
-      "description": "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase ",
-      "stars": 16137,
-      "created_at": "2024-11-29T08:27:18Z",
+      "rank": 84,
+      "repo_id": 847717439,
+      "full_name": "raga-ai-hub/RagaAI-Catalyst",
+      "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+      "description": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced analytics with timeline and execution graph view ",
+      "stars": 16189,
+      "created_at": "2024-08-26T12:13:15Z",
       "pool": "regular",
       "domains": [
+        "Agent",
+        "基础设施",
+        "研究",
         "编程"
       ],
-      "forms": [],
+      "forms": [
+        "Agent"
+      ],
       "kinds": [
         "tool"
       ],
@@ -1363,14 +2367,42 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 50,
+      "rank": 85,
+      "repo_id": 911303109,
+      "full_name": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "description": "Effortlessly compose, extend, observe, discover, and react to every service in real-time for the first time ever.",
+      "stars": 18932,
+      "created_at": "2025-01-02T17:45:02Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 86,
       "repo_id": 914964527,
       "full_name": "SolaceProducts/solace-agent-mesh",
       "url": "https://github.com/SolaceProducts/solace-agent-mesh",
@@ -1394,24 +2426,145 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 51,
-      "repo_id": 998732712,
-      "full_name": "StarTrail-org/LEANN",
-      "url": "https://github.com/StarTrail-org/LEANN",
-      "description": "[MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
-      "stars": 13795,
-      "created_at": "2025-06-09T06:52:59Z",
+      "rank": 87,
+      "repo_id": 942312530,
+      "full_name": "cocoindex-io/cocoindex",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "stars": 11899,
+      "created_at": "2025-03-03T23:03:09Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 88,
+      "repo_id": 997125912,
+      "full_name": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "stars": 12694,
+      "created_at": "2025-06-06T02:12:47Z",
       "pool": "regular",
       "domains": [
         "Agent",
-        "研究"
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 89,
+      "repo_id": 998428732,
+      "full_name": "BeehiveInnovations/pal-mcp-server",
+      "url": "https://github.com/BeehiveInnovations/pal-mcp-server",
+      "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+      "stars": 11840,
+      "created_at": "2025-06-08T15:36:50Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "基础设施",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 90,
+      "repo_id": 998796026,
+      "full_name": "hangwin/mcp-chrome",
+      "url": "https://github.com/hangwin/mcp-chrome",
+      "description": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.",
+      "stars": 12544,
+      "created_at": "2025-06-09T09:07:06Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "基础设施",
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 91,
+      "repo_id": 1008726722,
+      "full_name": "coze-dev/coze-studio",
+      "url": "https://github.com/coze-dev/coze-studio",
+      "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
+      "stars": 21815,
+      "created_at": "2025-06-26T02:19:21Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "基础设施",
+        "编程"
       ],
       "forms": [
         "Agent"
@@ -1423,40 +2576,73 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 52,
-      "repo_id": 1012480482,
-      "full_name": "coleam00/context-engineering-intro",
-      "url": "https://github.com/coleam00/context-engineering-intro",
-      "description": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!",
-      "stars": 13913,
-      "created_at": "2025-07-02T11:54:47Z",
+      "rank": 92,
+      "repo_id": 1016423859,
+      "full_name": "sapientinc/HRM",
+      "url": "https://github.com/sapientinc/HRM",
+      "description": "Hierarchical Reasoning Model Official Release",
+      "stars": 12668,
+      "created_at": "2025-07-09T02:09:32Z",
       "pool": "regular",
-      "domains": [
-        "编程"
+      "domains": [],
+      "forms": [
+        "模型"
       ],
-      "forms": [],
       "kinds": [
-        "tool"
+        "model"
       ],
       "added": 0,
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 53,
+      "rank": 93,
+      "repo_id": 1155576139,
+      "full_name": "rocketride-org/rocketride-server",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "description": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.",
+      "stars": 20029,
+      "created_at": "2026-02-11T17:02:53Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "基础设施",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施",
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 94,
       "repo_id": 1194596194,
       "full_name": "Bitterbot-AI/bitterbot-desktop",
       "url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
@@ -1480,45 +2666,14 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 54,
-      "repo_id": 1197029054,
-      "full_name": "sanbuphy/learn-coding-agent",
-      "url": "https://github.com/sanbuphy/learn-coding-agent",
-      "description": "Research on Coding Agents",
-      "stars": 12313,
-      "created_at": "2026-03-31T09:07:08Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "研究",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 55,
+      "rank": 95,
       "repo_id": 1221340426,
       "full_name": "allenpeng0705/EnvoyMesh",
       "url": "https://github.com/allenpeng0705/EnvoyMesh",
@@ -1540,48 +2695,19 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 56,
-      "repo_id": 1245256564,
-      "full_name": "Eynzof/Hermes-CN-Desktop",
-      "url": "https://github.com/Eynzof/Hermes-CN-Desktop",
-      "description": "Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides. ",
-      "stars": 1939,
-      "created_at": "2026-05-21T03:58:05Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 57,
+      "rank": 96,
       "repo_id": 1245476031,
       "full_name": "DEEIX-AI/DEEIX-Chat",
       "url": "https://github.com/DEEIX-AI/DEEIX-Chat",
       "description": "An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.",
-      "stars": 1637,
+      "stars": 1636,
       "created_at": "2026-05-21T08:57:01Z",
       "pool": "newcomer",
       "domains": [
@@ -1597,27 +2723,56 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 58,
-      "repo_id": 1248011103,
-      "full_name": "Stack-Cairn/LiveAgent",
-      "url": "https://github.com/Stack-Cairn/LiveAgent",
-      "description": "A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!",
-      "stars": 2262,
-      "created_at": "2026-05-24T04:22:22Z",
+      "rank": 97,
+      "repo_id": 1257533286,
+      "full_name": "superloglabs/superlog",
+      "url": "https://github.com/superloglabs/superlog",
+      "description": "Open-source observability tool that uses AI agents to self-heal your software",
+      "stars": 1483,
+      "created_at": "2026-06-02T19:13:48Z",
       "pool": "newcomer",
       "domains": [
         "Agent",
+        "基础设施"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 0,
+      "added_previous": 0,
+      "velocity": 0.0,
+      "acceleration": 0.0,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
+      "complete": true,
+      "days_available": 2
+    },
+    {
+      "rank": 98,
+      "repo_id": 1273878424,
+      "full_name": "Augani/dory",
+      "url": "https://github.com/Augani/dory",
+      "description": "Dory is the complete local development system for Apple Silicon: Docker, Compose, Kubernetes, virtual machines, and policy-bound agent sandboxes.",
+      "stars": 1637,
+      "created_at": "2026-06-19T00:54:29Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "基础设施",
         "编程"
       ],
       "forms": [
         "Agent",
+        "基础设施",
         "工具"
       ],
       "kinds": [
@@ -1627,58 +2782,28 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 59,
-      "repo_id": 1252432466,
-      "full_name": "Twigpine/zero",
-      "url": "https://github.com/Twigpine/zero",
-      "description": "The coding agent that answers to you, your model, your machine, your rules.",
-      "stars": 1778,
-      "created_at": "2026-05-28T14:11:35Z",
-      "pool": "newcomer",
+      "rank": 99,
+      "repo_id": 1274498048,
+      "full_name": "spinabot/brigade",
+      "url": "https://github.com/spinabot/brigade",
+      "description": "Brigade — Your personal intelligence, built enterprise-grade",
+      "stars": 11374,
+      "created_at": "2026-06-19T15:18:17Z",
+      "pool": "regular",
       "domains": [
-        "Agent",
-        "编程"
+        "Agent"
       ],
       "forms": [
         "Agent",
         "Harness",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 60,
-      "repo_id": 1255412388,
-      "full_name": "ClaudioDrews/memory-os",
-      "url": "https://github.com/ClaudioDrews/memory-os",
-      "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
-      "stars": 1397,
-      "created_at": "2026-05-31T19:50:25Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent"
+        "基础设施"
       ],
       "kinds": [
         "tool"
@@ -1687,73 +2812,14 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     },
     {
-      "rank": 61,
-      "repo_id": 1256082863,
-      "full_name": "org2AI/ORG2",
-      "url": "https://github.com/org2AI/ORG2",
-      "description": "System of record for how agents build software: Built-in rust harness & 20+ CLIs.",
-      "stars": 2590,
-      "created_at": "2026-06-01T12:52:57Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 62,
-      "repo_id": 1258962324,
-      "full_name": "agentlas-ai/Agentlas-OS",
-      "url": "https://github.com/agentlas-ai/Agentlas-OS",
-      "description": "The Open-Source AI Agent OS inspired by OpenAI Dots, Meta Muse, OpenClaw, Hermes & Mem0. Autonomous 3-tier headhunting, Receipt & Verifier loops, scoped memory, and BYOM for Claude Code, Codex & Cursor.",
-      "stars": 1456,
-      "created_at": "2026-06-04T04:33:26Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 63,
+      "rank": 100,
       "repo_id": 1280296384,
       "full_name": "aakarim/OpenLore",
       "url": "https://github.com/aakarim/OpenLore",
@@ -1774,1050 +2840,9 @@
       "added_previous": 0,
       "velocity": 0.0,
       "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 64,
-      "repo_id": 1288102626,
-      "full_name": "ai4s-research/open-science",
-      "url": "https://github.com/ai4s-research/open-science",
-      "description": "Open Science Desktop — local-first, model-agnostic AI research workbench for macOS, Windows & Linux. Open-source Claude Science desktop alternative built on Tauri + MCP + agent skills.",
-      "stars": 2097,
-      "created_at": "2026-07-03T09:22:31Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "研究"
-      ],
-      "forms": [
-        "Agent",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 65,
-      "repo_id": 1290658774,
-      "full_name": "dexmal/opendm",
-      "url": "https://github.com/dexmal/opendm",
-      "description": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
-      "stars": 2671,
-      "created_at": "2026-07-06T06:10:23Z",
-      "pool": "newcomer",
-      "domains": [],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 66,
-      "repo_id": 1301485123,
-      "full_name": "Paritok-official/paritok-4b-v1",
-      "url": "https://github.com/Paritok-official/paritok-4b-v1",
-      "description": "Non-destructive compression gateway for AI coding agents. Cuts token bills 25% on turn 1 to past 85% in long or saturated sessions, and fits ~3× more turns in the same context window. Powered by our open-source code-native 4B model. Drop-in for Claude Code, Cursor, Codex, OpenHands, and any BASE_URL agent.",
-      "stars": 1446,
-      "created_at": "2026-07-15T10:23:15Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "基础设施",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 67,
-      "repo_id": 1307252454,
-      "full_name": "hahhforest/pi-textbook",
-      "url": "https://github.com/hahhforest/pi-textbook",
-      "description": "《动手学 Pi》：沿 15 个真实 checkpoint 从零构建 Pi-style Agent",
-      "stars": 1435,
-      "created_at": "2026-07-21T04:17:35Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 68,
-      "repo_id": 1310666689,
-      "full_name": "tsingyuai/growth-lab",
-      "url": "https://github.com/tsingyuai/growth-lab",
-      "description": "An end-to-end growth tool that understands the product, fetch the data it needs, researches the market, executes campaigns, and reviews results to improve the next round of growth. 从代码到市场的开源端到端增长工具。理解产品、接入信息渠道、研究市场、执行增长行动，并基于真实数据自我改进。",
-      "stars": 1972,
-      "created_at": "2026-07-24T05:33:56Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 69,
-      "repo_id": 1316317581,
-      "full_name": "redhat-et/ripwire",
-      "url": "https://github.com/redhat-et/ripwire",
-      "description": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Cut agent token costs by finding code without reading the repo, then keep large codebases off the complexity wall: blast radius, tests to run, quality deltas as you write. Every guess labelled, every loss published. Paddle out with a map.",
-      "stars": 2543,
-      "created_at": "2026-07-29T15:58:33Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 70,
-      "repo_id": 1318893208,
-      "full_name": "memorax-ai/memorax-code",
-      "url": "https://github.com/memorax-ai/memorax-code",
-      "description": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.",
-      "stars": 2105,
-      "created_at": "2026-08-01T02:13:37Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 71,
-      "repo_id": 1322651268,
-      "full_name": "fuxicodex/Fuxi",
-      "url": "https://github.com/fuxicodex/Fuxi",
-      "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
-      "stars": 3193,
-      "created_at": "2026-08-04T07:32:11Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 72,
-      "repo_id": 1329561971,
-      "full_name": "ant-research/4DAnyone",
-      "url": "https://github.com/ant-research/4DAnyone",
-      "description": "[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-      "stars": 1495,
-      "created_at": "2026-08-10T07:46:06Z",
-      "pool": "newcomer",
-      "domains": [
-        "研究"
-      ],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 73,
-      "repo_id": 1349507889,
-      "full_name": "Player-YN/BrowserKitten",
-      "url": "https://github.com/Player-YN/BrowserKitten",
-      "description": "A Chrome side-panel agent for your signed-in browser. Read pages, take action, create files, and run local follow-ups. Bring your own models.",
-      "stars": 2392,
-      "created_at": "2026-08-28T10:56:56Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 74,
-      "repo_id": 1354611198,
-      "full_name": "adtexterry-lgtm/unigit-ecosystem",
-      "url": "https://github.com/adtexterry-lgtm/unigit-ecosystem",
-      "description": "UNIGIT public brand and ecosystem hub — AI should work for everyone.",
-      "stars": 2290,
-      "created_at": "2026-09-02T10:08:01Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 75,
-      "repo_id": 1356900025,
-      "full_name": "TokenRhythm/NeoHorse",
-      "url": "https://github.com/TokenRhythm/NeoHorse",
-      "description": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
-      "stars": 1704,
-      "created_at": "2026-09-04T08:34:54Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "基础设施"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 76,
-      "repo_id": 1379605083,
-      "full_name": "Tencent-Hunyuan/Prism",
-      "url": "https://github.com/Tencent-Hunyuan/Prism",
-      "description": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
-      "stars": 1517,
-      "created_at": "2026-09-21T11:31:58Z",
-      "pool": "newcomer",
-      "domains": [
-        "创作",
-        "基础设施"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 0,
-      "velocity": 0.0,
-      "acceleration": 0.0,
-      "p_added": 41.42,
-      "p_accel": 97.04,
-      "score": 69.23,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 77,
-      "repo_id": 610260322,
-      "full_name": "chatboxai/chatbox",
-      "url": "https://github.com/chatboxai/chatbox",
-      "description": "Powerful AI Client",
-      "stars": 42335,
-      "created_at": "2023-03-06T12:22:15Z",
-      "pool": "regular",
-      "domains": [
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 12,
-      "velocity": 1.0,
-      "acceleration": -11.0,
-      "p_added": 88.05,
-      "p_accel": 49.34,
-      "score": 68.69,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 78,
-      "repo_id": 898968194,
-      "full_name": "huggingface/smolagents",
-      "url": "https://github.com/huggingface/smolagents",
-      "description": "🤗 smolagents: a barebones library for agents that think in code.",
-      "stars": 30376,
-      "created_at": "2024-12-05T11:28:04Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 12,
-      "velocity": 1.0,
-      "acceleration": -11.0,
-      "p_added": 88.05,
-      "p_accel": 49.34,
-      "score": 68.69,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 79,
-      "repo_id": 1232669890,
-      "full_name": "microsoft/SkillOpt",
-      "url": "https://github.com/microsoft/SkillOpt",
-      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
-      "stars": 19083,
-      "created_at": "2026-05-08T06:41:01Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 12,
-      "velocity": 1.0,
-      "acceleration": -11.0,
-      "p_added": 88.05,
-      "p_accel": 49.34,
-      "score": 68.69,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 80,
-      "repo_id": 1281033762,
-      "full_name": "tianma-if/edgeever",
-      "url": "https://github.com/tianma-if/edgeever",
-      "description": "AI-native knowledge base & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
-      "stars": 3247,
-      "created_at": "2026-06-26T06:59:58Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 12,
-      "velocity": 1.0,
-      "acceleration": -11.0,
-      "p_added": 88.05,
-      "p_accel": 49.34,
-      "score": 68.69,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 81,
-      "repo_id": 764287615,
-      "full_name": "supermemoryai/supermemory",
-      "url": "https://github.com/supermemoryai/supermemory",
-      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-      "stars": 31628,
-      "created_at": "2024-02-27T20:10:04Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 13,
-      "velocity": 1.0,
-      "acceleration": -12.0,
-      "p_added": 88.05,
-      "p_accel": 47.6,
-      "score": 67.82,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 82,
-      "repo_id": 1329272295,
-      "full_name": "Leonxlnx/unlazy",
-      "url": "https://github.com/Leonxlnx/unlazy",
-      "description": "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
-      "stars": 4403,
-      "created_at": "2026-08-09T23:39:12Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公",
-        "研究",
-        "编程"
-      ],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 1,
-      "added_previous": 13,
-      "velocity": 1.0,
-      "acceleration": -12.0,
-      "p_added": 88.05,
-      "p_accel": 47.6,
-      "score": 67.82,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 83,
-      "repo_id": 1416386910,
-      "full_name": "Arekejoker/qwen21-nsfw-pose-skill",
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-      "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
-      "stars": 4412,
-      "created_at": "2026-10-13T03:09:42Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 13,
-      "velocity": 1.0,
-      "acceleration": -12.0,
-      "p_added": 88.05,
-      "p_accel": 47.6,
-      "score": 67.82,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 84,
-      "repo_id": 1166408297,
-      "full_name": "rohitg00/agentmemory",
-      "url": "https://github.com/rohitg00/agentmemory",
-      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-      "stars": 30367,
-      "created_at": "2026-02-25T07:32:52Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 14,
-      "velocity": 1.0,
-      "acceleration": -13.0,
-      "p_added": 88.05,
-      "p_accel": 45.81,
-      "score": 66.93,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 85,
-      "repo_id": 159152904,
-      "full_name": "jeecgboot/JeecgBoot",
-      "url": "https://github.com/jeecgboot/JeecgBoot",
-      "description": "一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型",
-      "stars": 48484,
-      "created_at": "2018-11-26T10:40:00Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1,
-      "added_previous": 15,
-      "velocity": 1.0,
-      "acceleration": -14.0,
-      "p_added": 88.05,
-      "p_accel": 44.02,
-      "score": 66.04,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 86,
-      "repo_id": 1597789,
-      "full_name": "melonjs/melonJS",
-      "url": "https://github.com/melonjs/melonJS",
-      "description": "A modern & fully featured HTML5 game engine (2D & 3D) for JavaScript/TypeScript, with WebGL/WebGPU rendering, built-in physics, Tiled map & glTF support and WebAudio.",
-      "stars": 6506,
-      "created_at": "2011-04-11T07:03:14Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "建模"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 87,
-      "repo_id": 2579069,
-      "full_name": "datopian/portaljs",
-      "url": "https://github.com/datopian/portaljs",
-      "description": "🌀 AI-native framework for building data portals. Scaffold a full portal from a brief and load datasets in minutes with agentic skills — any backend (CKAN, GitHub, Frictionless).",
-      "stars": 2371,
-      "created_at": "2011-10-14T21:44:30Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "建模",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 88,
-      "repo_id": 22475123,
-      "full_name": "amark/gun",
-      "url": "https://github.com/amark/gun",
-      "description": "An open source cybersecurity protocol for syncing decentralized graph data.",
-      "stars": 19158,
-      "created_at": "2014-07-31T15:52:10Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 89,
-      "repo_id": 33015583,
-      "full_name": "keras-team/keras",
-      "url": "https://github.com/keras-team/keras",
-      "description": "Deep Learning for humans",
-      "stars": 64426,
-      "created_at": "2015-03-28T00:35:42Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 90,
-      "repo_id": 51863547,
-      "full_name": "ageron/handson-ml",
-      "url": "https://github.com/ageron/handson-ml",
-      "description": "⛔️ DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead.",
-      "stars": 25607,
-      "created_at": "2016-02-16T19:48:39Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 91,
-      "repo_id": 53133861,
-      "full_name": "nikivdev/code",
-      "url": "https://github.com/nikivdev/code",
-      "description": null,
-      "stars": 21099,
-      "created_at": "2016-03-04T12:26:34Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 92,
-      "repo_id": 65711522,
-      "full_name": "PaddlePaddle/Paddle",
-      "url": "https://github.com/PaddlePaddle/Paddle",
-      "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
-      "stars": 24147,
-      "created_at": "2016-08-15T06:59:08Z",
-      "pool": "regular",
-      "domains": [
-        "基础设施"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 93,
-      "repo_id": 66841911,
-      "full_name": "qax-os/excelize",
-      "url": "https://github.com/qax-os/excelize",
-      "description": "Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets",
-      "stars": 21138,
-      "created_at": "2016-08-29T12:32:12Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "办公"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 94,
-      "repo_id": 70036319,
-      "full_name": "rushter/MLAlgorithms",
-      "url": "https://github.com/rushter/MLAlgorithms",
-      "description": "Minimal and clean examples of machine learning algorithms implementations",
-      "stars": 11183,
-      "created_at": "2016-10-05T06:46:45Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 95,
-      "repo_id": 70746484,
-      "full_name": "apache/tvm",
-      "url": "https://github.com/apache/tvm",
-      "description": "Open Machine Learning Compiler Framework",
-      "stars": 13900,
-      "created_at": "2016-10-12T22:20:28Z",
-      "pool": "regular",
-      "domains": [
-        "基础设施",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 96,
-      "repo_id": 74505259,
-      "full_name": "shap/shap",
-      "url": "https://github.com/shap/shap",
-      "description": "A game theoretic approach to explain the output of any machine learning model.",
-      "stars": 25862,
-      "created_at": "2016-11-22T19:17:08Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 97,
-      "repo_id": 83844720,
-      "full_name": "ageitgey/face_recognition",
-      "url": "https://github.com/ageitgey/face_recognition",
-      "description": "The world's simplest facial recognition api for Python and the command line",
-      "stars": 56900,
-      "created_at": "2017-03-03T21:52:39Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 98,
-      "repo_id": 84183882,
-      "full_name": "google/sentencepiece",
-      "url": "https://github.com/google/sentencepiece",
-      "description": "Unsupervised text tokenizer for Neural Network-based text generation.",
-      "stars": 12173,
-      "created_at": "2017-03-07T10:03:48Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 99,
-      "repo_id": 86031674,
-      "full_name": "wandb/wandb",
-      "url": "https://github.com/wandb/wandb",
-      "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
-      "stars": 11320,
-      "created_at": "2017-03-24T05:46:23Z",
-      "pool": "regular",
-      "domains": [
-        "研究"
-      ],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
-      "complete": true,
-      "days_available": 2
-    },
-    {
-      "rank": 100,
-      "repo_id": 92983437,
-      "full_name": "jacobgil/pytorch-grad-cam",
-      "url": "https://github.com/jacobgil/pytorch-grad-cam",
-      "description": "Advanced AI Explainability for computer vision.  Support for CNNs, Vision Transformers, Classification, Object detection, Segmentation, Image similarity and more.",
-      "stars": 13013,
-      "created_at": "2017-05-31T19:55:15Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 0,
-      "added_previous": 1,
-      "velocity": 0.0,
-      "acceleration": -1.0,
-      "p_added": 41.42,
-      "p_accel": 89.99,
-      "score": 65.7,
+      "p_added": 28.32,
+      "p_accel": 96.81,
+      "score": 62.56,
       "complete": true,
       "days_available": 2
     }
