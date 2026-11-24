@@ -4,8 +4,8 @@
   "window": 7,
   "board_type": "growth",
   "board_label": "绝对增长",
-  "end_day": "2026-11-22",
-  "generated_at": "2026-11-23T09:45:08+00:00",
+  "end_day": "2026-11-24",
+  "generated_at": "2026-11-24T11:08:01+00:00",
   "pool": {
     "repos": 1000,
     "regular": 800,
@@ -14,41 +14,15 @@
     "scope": "Top 100 是当前监控池内排名，不宣称全站无遗漏",
     "window_note": "指标来自官方 Star 历史接口的新增 Star；官方日/周边界不保证按 UTC 对齐"
   },
-  "incomplete_items": 4,
+  "incomplete_items": 1,
   "items": [
     {
       "rank": 1,
-      "repo_id": 1229774092,
-      "full_name": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "stars": 18637,
-      "created_at": "2026-05-05T11:22:32Z",
-      "pool": "regular",
-      "domains": [
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 8623,
-      "added_previous": 1303,
-      "velocity": 1231.857142857143,
-      "acceleration": 149.3877551020408,
-      "p_added": 100.0,
-      "p_accel": 100.0,
-      "score": 100.0,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 2,
       "repo_id": 1209966933,
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "stars": 474748,
+      "stars": 476328,
       "created_at": "2026-04-14T00:51:32Z",
       "pool": "regular",
       "domains": [
@@ -62,84 +36,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 5638,
-      "added_previous": 10309,
-      "velocity": 805.4285714285714,
-      "acceleration": -95.32653061224491,
-      "p_added": 99.9,
+      "added": 5151,
+      "added_previous": 9517,
+      "velocity": 735.8571428571429,
+      "acceleration": -89.10204081632654,
+      "p_added": 100.0,
       "p_accel": 0.0,
-      "score": 49.95,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 3,
-      "repo_id": 1385896447,
-      "full_name": "Ebony-Vinyl/dsh-our-free-model",
-      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-      "stars": 84522,
-      "created_at": "2026-09-24T16:17:19Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Harness",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 4003,
-      "added_previous": 6515,
-      "velocity": 571.8571428571429,
-      "acceleration": -51.26530612244897,
-      "p_added": 99.8,
-      "p_accel": 0.2,
       "score": 50.0,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 4,
-      "repo_id": 1235403234,
-      "full_name": "nexu-io/openmotion",
-      "url": "https://github.com/nexu-io/openmotion",
-      "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
-      "stars": 15547,
-      "created_at": "2026-05-11T09:40:38Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 3460,
-      "added_previous": 547,
-      "velocity": 494.2857142857143,
-      "acceleration": 59.44897959183673,
-      "p_added": 99.7,
-      "p_accel": 99.9,
-      "score": 99.8,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "repo_id": 1183888342,
       "full_name": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
       "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
-      "stars": 133683,
+      "stars": 135215,
       "created_at": "2026-03-17T03:28:57Z",
       "pool": "regular",
       "domains": [
@@ -155,23 +68,224 @@
       "kinds": [
         "tool"
       ],
-      "added": 3436,
-      "added_previous": 3844,
-      "velocity": 490.85714285714283,
-      "acceleration": -8.326530612244897,
-      "p_added": 99.59,
-      "p_accel": 6.18,
-      "score": 52.89,
+      "added": 3977,
+      "added_previous": 3982,
+      "velocity": 568.1428571428571,
+      "acceleration": -0.1020408163265399,
+      "p_added": 99.9,
+      "p_accel": 63.03,
+      "score": 81.46,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 3,
+      "repo_id": 1385896447,
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "stars": 85597,
+      "created_at": "2026-09-24T16:17:19Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Harness",
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 3852,
+      "added_previous": 6459,
+      "velocity": 550.2857142857143,
+      "acceleration": -53.20408163265305,
+      "p_added": 99.79,
+      "p_accel": 0.1,
+      "score": 49.95,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 4,
+      "repo_id": 787076358,
+      "full_name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "stars": 208376,
+      "created_at": "2024-04-15T21:02:29Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 3284,
+      "added_previous": 1221,
+      "velocity": 469.14285714285717,
+      "acceleration": 42.10204081632654,
+      "p_added": 99.69,
+      "p_accel": 99.79,
+      "score": 99.74,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 5,
+      "repo_id": 1073224795,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 325526,
+      "created_at": "2025-10-09T19:45:18Z",
+      "pool": "regular",
+      "domains": [
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 3032,
+      "added_previous": 2301,
+      "velocity": 433.14285714285717,
+      "acceleration": 14.918367346938778,
+      "p_added": 99.58,
+      "p_accel": 99.17,
+      "score": 99.38,
       "complete": true,
       "days_available": 14
     },
     {
       "rank": 6,
+      "repo_id": 1453006141,
+      "full_name": "XinaTian/MROffice",
+      "url": "https://github.com/XinaTian/MROffice",
+      "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+      "stars": 3516,
+      "created_at": "2026-11-10T17:54:07Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "办公",
+        "编程"
+      ],
+      "forms": [
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2882,
+      "added_previous": 3,
+      "velocity": 411.7142857142857,
+      "acceleration": 58.755102040816325,
+      "p_added": 99.48,
+      "p_accel": 100.0,
+      "score": 99.74,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 7,
+      "repo_id": 1015815983,
+      "full_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "stars": 14998,
+      "created_at": "2025-07-08T04:51:15Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2803,
+      "added_previous": 463,
+      "velocity": 400.42857142857144,
+      "acceleration": 47.75510204081633,
+      "p_added": 99.38,
+      "p_accel": 99.9,
+      "score": 99.64,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 8,
+      "repo_id": 1206390571,
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars": 117498,
+      "created_at": "2026-04-09T21:40:26Z",
+      "pool": "regular",
+      "domains": [
+        "创作",
+        "办公"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2519,
+      "added_previous": 3250,
+      "velocity": 359.85714285714283,
+      "acceleration": -14.918367346938778,
+      "p_added": 99.27,
+      "p_accel": 3.43,
+      "score": 51.35,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 9,
+      "repo_id": 1235403234,
+      "full_name": "nexu-io/openmotion",
+      "url": "https://github.com/nexu-io/openmotion",
+      "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
+      "stars": 15882,
+      "created_at": "2026-05-11T09:40:38Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2480,
+      "added_previous": 1887,
+      "velocity": 354.2857142857143,
+      "acceleration": 12.102040816326532,
+      "p_added": 99.17,
+      "p_accel": 99.07,
+      "score": 99.12,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 10,
       "repo_id": 1432967563,
       "full_name": "ccch1mneyyy/dsh-Go",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "stars": 30473,
+      "stars": 31117,
       "created_at": "2026-10-25T08:09:52Z",
       "pool": "regular",
       "domains": [
@@ -186,51 +300,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 3000,
-      "added_previous": 4325,
-      "velocity": 428.57142857142856,
-      "acceleration": -27.04081632653062,
-      "p_added": 99.49,
-      "p_accel": 1.11,
-      "score": 50.3,
+      "added": 2429,
+      "added_previous": 4475,
+      "velocity": 347.0,
+      "acceleration": -41.75510204081633,
+      "p_added": 99.07,
+      "p_accel": 0.31,
+      "score": 49.69,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 7,
-      "repo_id": 1073224795,
-      "full_name": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 324511,
-      "created_at": "2025-10-09T19:45:18Z",
-      "pool": "regular",
-      "domains": [
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2698,
-      "added_previous": 2128,
-      "velocity": 385.42857142857144,
-      "acceleration": 11.632653061224492,
-      "p_added": 99.39,
-      "p_accel": 98.78,
-      "score": 99.09,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 8,
+      "rank": 11,
       "repo_id": 1266797999,
       "full_name": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "stars": 197156,
+      "stars": 197776,
       "created_at": "2026-06-12T00:52:37Z",
       "pool": "regular",
       "domains": [
@@ -244,136 +330,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 2683,
-      "added_previous": 2563,
-      "velocity": 383.2857142857143,
-      "acceleration": 2.44897959183673,
-      "p_added": 99.29,
-      "p_accel": 97.26,
-      "score": 98.28,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 9,
-      "repo_id": 1206390571,
-      "full_name": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "stars": 116793,
-      "created_at": "2026-04-09T21:40:26Z",
-      "pool": "regular",
-      "domains": [
-        "创作",
-        "办公"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2665,
-      "added_previous": 3420,
-      "velocity": 380.7142857142857,
-      "acceleration": -15.408163265306118,
-      "p_added": 99.19,
-      "p_accel": 3.55,
-      "score": 51.37,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 10,
-      "repo_id": 1438661890,
-      "full_name": "JuneYaooo/rea-video",
-      "url": "https://github.com/JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
-      "stars": 12436,
-      "created_at": "2026-10-29T16:15:01Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2601,
-      "added_previous": 3568,
-      "velocity": 371.57142857142856,
-      "acceleration": -19.734693877551024,
-      "p_added": 99.09,
-      "p_accel": 2.43,
-      "score": 50.76,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 11,
-      "repo_id": 1421822085,
-      "full_name": "kingcharleslzy-ai/dsh-purge",
-      "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
-      "description": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。",
-      "stars": 11810,
-      "created_at": "2026-10-16T07:44:27Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2530,
-      "added_previous": 3194,
-      "velocity": 361.42857142857144,
-      "acceleration": -13.551020408163263,
-      "p_added": 98.99,
-      "p_accel": 4.26,
-      "score": 51.62,
+      "added": 2318,
+      "added_previous": 2968,
+      "velocity": 331.14285714285717,
+      "acceleration": -13.265306122448976,
+      "p_added": 98.96,
+      "p_accel": 3.84,
+      "score": 51.4,
       "complete": true,
       "days_available": 14
     },
     {
       "rank": 12,
-      "repo_id": 787076358,
-      "full_name": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "stars": 207377,
-      "created_at": "2024-04-15T21:02:29Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2496,
-      "added_previous": 1335,
-      "velocity": 356.57142857142856,
-      "acceleration": 23.693877551020403,
-      "p_added": 98.89,
-      "p_accel": 99.29,
-      "score": 99.09,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 13,
       "repo_id": 1140843380,
       "full_name": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "stars": 73054,
+      "stars": 73775,
       "created_at": "2026-01-23T20:37:37Z",
       "pool": "regular",
       "domains": [
@@ -387,890 +360,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 2487,
-      "added_previous": 463,
-      "velocity": 355.2857142857143,
-      "acceleration": 41.306122448979586,
-      "p_added": 98.78,
-      "p_accel": 99.7,
-      "score": 99.24,
+      "added": 2244,
+      "added_previous": 1392,
+      "velocity": 320.57142857142856,
+      "acceleration": 17.387755102040813,
+      "p_added": 98.86,
+      "p_accel": 99.27,
+      "score": 99.07,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 14,
-      "repo_id": 1261204838,
-      "full_name": "mjmirza/app-store-compliance",
-      "url": "https://github.com/mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-      "stars": 4361,
-      "created_at": "2026-06-06T11:29:45Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Harness",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2467,
-      "added_previous": 47,
-      "velocity": 352.42857142857144,
-      "acceleration": 49.38775510204082,
-      "p_added": 98.68,
-      "p_accel": 99.8,
-      "score": 99.24,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 15,
-      "repo_id": 1136590548,
-      "full_name": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 309217,
-      "created_at": "2026-01-18T00:51:51Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "办公",
-        "研究",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2404,
-      "added_previous": 2780,
-      "velocity": 343.42857142857144,
-      "acceleration": -7.6734693877551035,
-      "p_added": 98.58,
-      "p_accel": 6.69,
-      "score": 52.63,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 16,
-      "repo_id": 1466635339,
-      "full_name": "EL4CTEO/fast-anything",
-      "url": "https://github.com/EL4CTEO/fast-anything",
-      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
-      "stars": 2494,
-      "created_at": "2026-11-21T14:40:27Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "replica"
-      ],
-      "added": 2359,
-      "added_previous": null,
-      "velocity": 337.0,
-      "acceleration": null,
-      "p_added": null,
-      "p_accel": null,
-      "score": null,
-      "complete": false,
-      "days_available": 8
-    },
-    {
-      "rank": 17,
-      "repo_id": 1135847870,
-      "full_name": "google-labs-code/stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "stars": 12078,
-      "created_at": "2026-01-16T17:17:17Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2138,
-      "added_previous": 778,
-      "velocity": 305.42857142857144,
-      "acceleration": 27.75510204081633,
-      "p_added": 98.48,
-      "p_accel": 99.39,
-      "score": 98.94,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 18,
-      "repo_id": 543101941,
-      "full_name": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "stars": 31364,
-      "created_at": "2022-09-29T12:09:14Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "办公",
-        "编程"
-      ],
-      "forms": [
-        "Harness",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2131,
-      "added_previous": 2821,
-      "velocity": 304.42857142857144,
-      "acceleration": -14.081632653061222,
-      "p_added": 98.38,
-      "p_accel": 3.95,
-      "score": 51.17,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 19,
-      "repo_id": 1097346685,
-      "full_name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "stars": 115271,
-      "created_at": "2025-11-16T01:52:04Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 2055,
-      "added_previous": 2583,
-      "velocity": 293.57142857142856,
-      "acceleration": -10.775510204081636,
-      "p_added": 98.28,
-      "p_accel": 4.96,
-      "score": 51.62,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 20,
-      "repo_id": 1464271688,
-      "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
-      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-      "stars": 2760,
-      "created_at": "2026-11-19T14:43:10Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "建模",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 1941,
-      "added_previous": null,
-      "velocity": 277.2857142857143,
-      "acceleration": null,
-      "p_added": null,
-      "p_accel": null,
-      "score": null,
-      "complete": false,
-      "days_available": 8
-    },
-    {
-      "rank": 21,
-      "repo_id": 1424671157,
-      "full_name": "shinyobjectz/raea",
-      "url": "https://github.com/shinyobjectz/raea",
-      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
-      "stars": 4542,
-      "created_at": "2026-10-18T18:08:48Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "创作",
-        "基础设施",
-        "建模",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1909,
-      "added_previous": 1694,
-      "velocity": 272.7142857142857,
-      "acceleration": 4.387755102040818,
-      "p_added": 98.18,
-      "p_accel": 97.87,
-      "score": 98.02,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 22,
-      "repo_id": 1453006141,
-      "full_name": "XinaTian/MROffice",
-      "url": "https://github.com/XinaTian/MROffice",
-      "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
-      "stars": 2589,
-      "created_at": "2026-11-10T17:54:07Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公",
-        "编程"
-      ],
-      "forms": [
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1859,
-      "added_previous": 1,
-      "velocity": 265.57142857142856,
-      "acceleration": 37.91836734693877,
-      "p_added": 98.07,
-      "p_accel": 99.59,
-      "score": 98.83,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 23,
-      "repo_id": 1463963309,
-      "full_name": "iamajmeena/neonclipping",
-      "url": "https://github.com/iamajmeena/neonclipping",
-      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-      "stars": 2208,
-      "created_at": "2026-11-19T10:00:43Z",
-      "pool": "newcomer",
-      "domains": [
-        "创作"
-      ],
-      "forms": [
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1858,
-      "added_previous": null,
-      "velocity": 265.42857142857144,
-      "acceleration": null,
-      "p_added": null,
-      "p_accel": null,
-      "score": null,
-      "complete": false,
-      "days_available": 8
-    },
-    {
-      "rank": 24,
-      "repo_id": 1333065091,
-      "full_name": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "stars": 285823,
-      "created_at": "2026-08-13T11:56:32Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Harness",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1855,
-      "added_previous": 3023,
-      "velocity": 265.0,
-      "acceleration": -23.83673469387755,
-      "p_added": 97.97,
-      "p_accel": 1.62,
-      "score": 49.8,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 25,
-      "repo_id": 1222917575,
-      "full_name": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "stars": 59765,
-      "created_at": "2026-04-27T20:47:10Z",
-      "pool": "regular",
-      "domains": [
-        "创作",
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1846,
-      "added_previous": 2558,
-      "velocity": 263.7142857142857,
-      "acceleration": -14.530612244897961,
-      "p_added": 97.87,
-      "p_accel": 3.75,
-      "score": 50.81,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 26,
-      "repo_id": 1015815983,
-      "full_name": "zhouxiaoka/autoclip",
-      "url": "https://github.com/zhouxiaoka/autoclip",
-      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-      "stars": 13963,
-      "created_at": "2025-07-08T04:51:15Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1827,
-      "added_previous": 392,
-      "velocity": 261.0,
-      "acceleration": 29.285714285714285,
-      "p_added": 97.77,
-      "p_accel": 99.49,
-      "score": 98.63,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 27,
-      "repo_id": 1278676884,
-      "full_name": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
-      "stars": 4425,
-      "created_at": "2026-06-24T02:32:26Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "研究",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1793,
-      "added_previous": 1357,
-      "velocity": 256.14285714285717,
-      "acceleration": 8.897959183673473,
-      "p_added": 97.67,
-      "p_accel": 98.68,
-      "score": 98.18,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 28,
-      "repo_id": 1162099055,
-      "full_name": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "stars": 120362,
-      "created_at": "2026-02-19T21:44:05Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1790,
-      "added_previous": 2529,
-      "velocity": 255.71428571428572,
-      "acceleration": -15.081632653061222,
-      "p_added": 97.57,
-      "p_accel": 3.65,
-      "score": 50.61,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 29,
-      "repo_id": 1217040185,
-      "full_name": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "stars": 56909,
-      "created_at": "2026-04-21T13:38:59Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 1715,
-      "added_previous": 2216,
-      "velocity": 245.0,
-      "acceleration": -10.224489795918364,
-      "p_added": 97.47,
-      "p_accel": 5.37,
-      "score": 51.42,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 30,
-      "repo_id": 1061953414,
-      "full_name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "stars": 199195,
-      "created_at": "2025-09-22T15:53:31Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1695,
-      "added_previous": 3092,
-      "velocity": 242.14285714285714,
-      "acceleration": -28.510204081632654,
-      "p_added": 97.37,
-      "p_accel": 0.71,
-      "score": 49.04,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 31,
-      "repo_id": 1177402105,
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
-      "stars": 88555,
-      "created_at": "2026-03-10T01:51:06Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "建模",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1687,
-      "added_previous": 1967,
-      "velocity": 241.0,
-      "acceleration": -5.714285714285714,
-      "p_added": 97.26,
-      "p_accel": 8.31,
-      "score": 52.79,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 32,
-      "repo_id": 1123956658,
-      "full_name": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
-      "stars": 14547,
-      "created_at": "2025-12-28T02:09:40Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "办公",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1655,
-      "added_previous": 2181,
-      "velocity": 236.42857142857142,
-      "acceleration": -10.73469387755102,
-      "p_added": 97.16,
-      "p_accel": 5.07,
-      "score": 51.11,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 33,
-      "repo_id": 1200597263,
-      "full_name": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "stars": 152221,
-      "created_at": "2026-04-03T15:49:07Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1613,
-      "added_previous": 2501,
-      "velocity": 230.42857142857142,
-      "acceleration": -18.122448979591837,
-      "p_added": 97.06,
-      "p_accel": 2.53,
-      "score": 49.8,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 34,
-      "repo_id": 1460417668,
-      "full_name": "sybil-solutions/inference-optimisation-skill",
-      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-      "stars": 2020,
-      "created_at": "2026-11-16T18:40:04Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "基础设施",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1610,
-      "added_previous": null,
-      "velocity": 230.0,
-      "acceleration": null,
-      "p_added": null,
-      "p_accel": null,
-      "score": null,
-      "complete": false,
-      "days_available": 8
-    },
-    {
-      "rank": 35,
-      "repo_id": 1438623288,
-      "full_name": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "stars": 20516,
-      "created_at": "2026-10-29T15:41:21Z",
-      "pool": "regular",
-      "domains": [],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1562,
-      "added_previous": 2814,
-      "velocity": 223.14285714285714,
-      "acceleration": -25.551020408163264,
-      "p_added": 96.96,
-      "p_accel": 1.22,
-      "score": 49.09,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 36,
-      "repo_id": 1331261687,
-      "full_name": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "stars": 27006,
-      "created_at": "2026-08-11T18:58:55Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1493,
-      "added_previous": 2638,
-      "velocity": 213.28571428571428,
-      "acceleration": -23.36734693877551,
-      "p_added": 96.86,
-      "p_accel": 1.72,
-      "score": 49.29,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 37,
-      "repo_id": 1389011744,
-      "full_name": "lemomo-ai/lemo-opuscar",
-      "url": "https://github.com/lemomo-ai/lemo-opuscar",
-      "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
-      "stars": 20063,
-      "created_at": "2026-09-26T10:10:41Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 1443,
-      "added_previous": 1981,
-      "velocity": 206.14285714285714,
-      "acceleration": -10.979591836734695,
-      "p_added": 96.76,
-      "p_accel": 4.86,
-      "score": 50.81,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 38,
-      "repo_id": 1212769188,
-      "full_name": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "stars": 70602,
-      "created_at": "2026-04-16T18:01:16Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1438,
-      "added_previous": 1002,
-      "velocity": 205.42857142857142,
-      "acceleration": 8.897959183673468,
-      "p_added": 96.66,
-      "p_accel": 98.58,
-      "score": 97.62,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 39,
-      "repo_id": 1241960226,
-      "full_name": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "stars": 55543,
-      "created_at": "2026-05-18T02:16:36Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1436,
-      "added_previous": 1925,
-      "velocity": 205.14285714285714,
-      "acceleration": -9.979591836734695,
-      "p_added": 96.56,
-      "p_accel": 5.57,
-      "score": 51.06,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 40,
-      "repo_id": 1383809012,
-      "full_name": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "stars": 40294,
-      "created_at": "2026-09-23T16:22:35Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 1435,
-      "added_previous": 2618,
-      "velocity": 205.0,
-      "acceleration": -24.142857142857142,
-      "p_added": 96.45,
-      "p_accel": 1.52,
-      "score": 48.99,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 41,
-      "repo_id": 1106996539,
-      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "stars": 153042,
-      "created_at": "2025-11-30T11:36:31Z",
-      "pool": "regular",
-      "domains": [
-        "创作",
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1374,
-      "added_previous": 1899,
-      "velocity": 196.28571428571428,
-      "acceleration": -10.714285714285714,
-      "p_added": 96.35,
-      "p_accel": 5.17,
-      "score": 50.76,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 42,
-      "repo_id": 1136666433,
-      "full_name": "blader/humanizer",
-      "url": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "stars": 72522,
-      "created_at": "2026-01-18T05:30:15Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1356,
-      "added_previous": 1592,
-      "velocity": 193.71428571428572,
-      "acceleration": -4.816326530612242,
-      "p_added": 96.25,
-      "p_accel": 9.12,
-      "score": 52.68,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 43,
+      "rank": 13,
       "repo_id": 1284653133,
       "full_name": "xerj-org/xerj",
       "url": "https://github.com/xerj-org/xerj",
       "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
-      "stars": 19620,
+      "stars": 20323,
       "created_at": "2026-06-30T04:32:45Z",
       "pool": "regular",
       "domains": [
@@ -1286,84 +392,58 @@
       "kinds": [
         "model"
       ],
-      "added": 1354,
-      "added_previous": 306,
-      "velocity": 193.42857142857142,
-      "acceleration": 21.387755102040813,
-      "p_added": 96.15,
-      "p_accel": 99.19,
-      "score": 97.67,
+      "added": 2150,
+      "added_previous": 242,
+      "velocity": 307.14285714285717,
+      "acceleration": 38.93877551020409,
+      "p_added": 98.75,
+      "p_accel": 99.69,
+      "score": 99.22,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 44,
-      "repo_id": 1368913638,
-      "full_name": "FlashML-org/FreeVideo",
-      "url": "https://github.com/FlashML-org/FreeVideo",
-      "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
-      "stars": 4472,
-      "created_at": "2026-09-13T21:25:08Z",
+      "rank": 14,
+      "repo_id": 1463963309,
+      "full_name": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "stars": 2380,
+      "created_at": "2026-11-19T10:00:43Z",
       "pool": "newcomer",
       "domains": [
-        "基础设施"
+        "创作"
       ],
       "forms": [
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 1321,
-      "added_previous": 280,
-      "velocity": 188.71428571428572,
-      "acceleration": 21.244897959183675,
-      "p_added": 96.05,
-      "p_accel": 99.09,
-      "score": 97.57,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 45,
-      "repo_id": 888092115,
-      "full_name": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "stars": 197965,
-      "created_at": "2024-11-13T19:56:40Z",
-      "pool": "regular",
-      "domains": [
-        "办公"
-      ],
-      "forms": [
-        "Agent",
+        "基础设施",
         "工具"
       ],
       "kinds": [
         "tool"
       ],
-      "added": 1185,
-      "added_previous": 756,
-      "velocity": 169.28571428571428,
-      "acceleration": 8.755102040816325,
-      "p_added": 95.95,
-      "p_accel": 98.48,
-      "score": 97.21,
-      "complete": true,
-      "days_available": 14
+      "added": 2064,
+      "added_previous": null,
+      "velocity": 294.85714285714283,
+      "acceleration": null,
+      "p_added": null,
+      "p_accel": null,
+      "score": null,
+      "complete": false,
+      "days_available": 10
     },
     {
-      "rank": 46,
-      "repo_id": 979392131,
-      "full_name": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "stars": 21282,
-      "created_at": "2025-05-07T12:49:37Z",
+      "rank": 15,
+      "repo_id": 1212769188,
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars": 71418,
+      "created_at": "2026-04-16T18:01:16Z",
       "pool": "regular",
       "domains": [
-        "Agent"
+        "Agent",
+        "创作",
+        "编程"
       ],
       "forms": [
         "Agent"
@@ -1371,114 +451,235 @@
       "kinds": [
         "tool"
       ],
-      "added": 1121,
-      "added_previous": 1064,
-      "velocity": 160.14285714285714,
-      "acceleration": 1.1632653061224485,
-      "p_added": 95.85,
-      "p_accel": 95.95,
-      "score": 95.9,
+      "added": 2032,
+      "added_previous": 1074,
+      "velocity": 290.2857142857143,
+      "acceleration": 19.551020408163264,
+      "p_added": 98.65,
+      "p_accel": 99.38,
+      "score": 99.01,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 47,
-      "repo_id": 1061041576,
-      "full_name": "p-e-w/heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
-      "stars": 42713,
-      "created_at": "2025-09-21T05:46:16Z",
+      "rank": 16,
+      "repo_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 309849,
+      "created_at": "2026-01-18T00:51:51Z",
       "pool": "regular",
       "domains": [
-        "基础设施"
+        "Agent",
+        "办公",
+        "研究",
+        "编程"
       ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 2026,
+      "added_previous": 3251,
+      "velocity": 289.42857142857144,
+      "acceleration": -25.0,
+      "p_added": 98.55,
+      "p_accel": 1.25,
+      "score": 49.9,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 17,
+      "repo_id": 1421822085,
+      "full_name": "kingcharleslzy-ai/dsh-purge",
+      "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+      "description": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。",
+      "stars": 12163,
+      "created_at": "2026-10-16T07:44:27Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1927,
+      "added_previous": 3190,
+      "velocity": 275.2857142857143,
+      "acceleration": -25.775510204081634,
+      "p_added": 98.44,
+      "p_accel": 1.04,
+      "score": 49.74,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 18,
+      "repo_id": 1097346685,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "stars": 115928,
+      "created_at": "2025-11-16T01:52:04Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1904,
+      "added_previous": 2755,
+      "velocity": 272.0,
+      "acceleration": -17.36734693877551,
+      "p_added": 98.34,
+      "p_accel": 2.8,
+      "score": 50.57,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 19,
+      "repo_id": 1440131709,
+      "full_name": "atuizz/posewear",
+      "url": "https://github.com/atuizz/posewear",
+      "description": "姿势、服装、人像参考图库，附中英文提示词，可在浏览器里 AI 试穿 · Pose, outfit & portrait reference library with bilingual prompts and in-browser AI try-on",
+      "stars": 2013,
+      "created_at": "2026-10-30T19:08:14Z",
+      "pool": "newcomer",
+      "domains": [
+        "创作"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1885,
+      "added_previous": 24,
+      "velocity": 269.2857142857143,
+      "acceleration": 37.97959183673469,
+      "p_added": 98.23,
+      "p_accel": 99.58,
+      "score": 98.91,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 20,
+      "repo_id": 1217040185,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "stars": 57565,
+      "created_at": "2026-04-21T13:38:59Z",
+      "pool": "regular",
+      "domains": [],
       "forms": [
         "模型"
       ],
       "kinds": [
         "model"
       ],
-      "added": 1115,
-      "added_previous": 367,
-      "velocity": 159.28571428571428,
-      "acceleration": 15.265306122448978,
-      "p_added": 95.74,
-      "p_accel": 98.89,
-      "score": 97.32,
+      "added": 1847,
+      "added_previous": 2221,
+      "velocity": 263.85714285714283,
+      "acceleration": -7.6326530612244925,
+      "p_added": 98.13,
+      "p_accel": 5.82,
+      "score": 51.97,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 48,
-      "repo_id": 1385946301,
-      "full_name": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "stars": 47251,
-      "created_at": "2026-09-24T16:40:20Z",
+      "rank": 21,
+      "repo_id": 1135847870,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "stars": 12488,
+      "created_at": "2026-01-16T17:17:17Z",
       "pool": "regular",
       "domains": [
-        "基础设施"
+        "Agent",
+        "编程"
       ],
       "forms": [
-        "基础设施"
+        "Agent",
+        "Harness",
+        "基础设施",
+        "工具"
       ],
       "kinds": [
         "tool"
       ],
-      "added": 1087,
-      "added_previous": 1430,
-      "velocity": 155.28571428571428,
-      "acceleration": -7.0,
-      "p_added": 95.64,
-      "p_accel": 7.04,
-      "score": 51.34,
+      "added": 1838,
+      "added_previous": 1495,
+      "velocity": 262.57142857142856,
+      "acceleration": 6.999999999999996,
+      "p_added": 98.03,
+      "p_accel": 98.65,
+      "score": 98.34,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 49,
-      "repo_id": 1113573066,
-      "full_name": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "stars": 79444,
-      "created_at": "2025-12-10T06:54:33Z",
+      "rank": 22,
+      "repo_id": 1333065091,
+      "full_name": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "stars": 286379,
+      "created_at": "2026-08-13T11:56:32Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1811,
+      "added_previous": 2875,
+      "velocity": 258.7142857142857,
+      "acceleration": -21.714285714285715,
+      "p_added": 97.92,
+      "p_accel": 1.66,
+      "score": 49.79,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 23,
+      "repo_id": 1177402105,
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+      "stars": 89242,
+      "created_at": "2026-03-10T01:51:06Z",
       "pool": "regular",
       "domains": [
         "Agent",
         "创作",
-        "办公"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 995,
-      "added_previous": 1434,
-      "velocity": 142.14285714285714,
-      "acceleration": -8.959183673469388,
-      "p_added": 95.54,
-      "p_accel": 5.88,
-      "score": 50.71,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 50,
-      "repo_id": 1222527844,
-      "full_name": "ifixai-ai/iFixAi",
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-      "stars": 46904,
-      "created_at": "2026-04-27T13:02:34Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "研究",
+        "建模",
         "编程"
       ],
       "forms": [
@@ -1488,24 +689,163 @@
       "kinds": [
         "tool"
       ],
-      "added": 977,
-      "added_previous": 1040,
-      "velocity": 139.57142857142858,
-      "acceleration": -1.2857142857142858,
-      "p_added": 95.44,
-      "p_accel": 20.77,
-      "score": 58.11,
+      "added": 1681,
+      "added_previous": 2135,
+      "velocity": 240.14285714285714,
+      "acceleration": -9.26530612244898,
+      "p_added": 97.82,
+      "p_accel": 5.09,
+      "score": 51.45,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 51,
-      "repo_id": 1368596582,
-      "full_name": "google/elephant-goldfish-model",
-      "url": "https://github.com/google/elephant-goldfish-model",
-      "description": "Open-source plugin for designing and reviewing software with agents",
-      "stars": 22285,
-      "created_at": "2026-09-13T16:31:06Z",
+      "rank": 24,
+      "repo_id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "stars": 60315,
+      "created_at": "2026-04-27T20:47:10Z",
+      "pool": "regular",
+      "domains": [
+        "创作",
+        "编程"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1657,
+      "added_previous": 2490,
+      "velocity": 236.71428571428572,
+      "acceleration": -17.0,
+      "p_added": 97.72,
+      "p_accel": 2.91,
+      "score": 50.31,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 25,
+      "repo_id": 1438623288,
+      "full_name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "stars": 21055,
+      "created_at": "2026-10-29T15:41:21Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1581,
+      "added_previous": 2338,
+      "velocity": 225.85714285714286,
+      "acceleration": -15.448979591836734,
+      "p_added": 97.61,
+      "p_accel": 3.32,
+      "score": 50.47,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 26,
+      "repo_id": 1061953414,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars": 199672,
+      "created_at": "2025-09-22T15:53:31Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1545,
+      "added_previous": 2559,
+      "velocity": 220.71428571428572,
+      "acceleration": -20.693877551020403,
+      "p_added": 97.51,
+      "p_accel": 1.77,
+      "score": 49.64,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 27,
+      "repo_id": 1200597263,
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 152733,
+      "created_at": "2026-04-03T15:49:07Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1540,
+      "added_previous": 2500,
+      "velocity": 220.0,
+      "acceleration": -19.59183673469388,
+      "p_added": 97.4,
+      "p_accel": 2.08,
+      "score": 49.74,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 28,
+      "repo_id": 1162099055,
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "stars": 120891,
+      "created_at": "2026-02-19T21:44:05Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1508,
+      "added_previous": 2931,
+      "velocity": 215.42857142857142,
+      "acceleration": -29.040816326530614,
+      "p_added": 97.3,
+      "p_accel": 0.62,
+      "score": 48.96,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 29,
+      "repo_id": 1383809012,
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "stars": 40850,
+      "created_at": "2026-09-23T16:22:35Z",
       "pool": "regular",
       "domains": [
         "Agent",
@@ -1519,114 +859,54 @@
       "kinds": [
         "model"
       ],
-      "added": 957,
-      "added_previous": 2386,
-      "velocity": 136.71428571428572,
-      "acceleration": -29.163265306122444,
-      "p_added": 95.34,
-      "p_accel": 0.61,
-      "score": 47.97,
+      "added": 1451,
+      "added_previous": 2423,
+      "velocity": 207.28571428571428,
+      "acceleration": -19.836734693877556,
+      "p_added": 97.2,
+      "p_accel": 1.97,
+      "score": 49.58,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 52,
-      "repo_id": 1423101235,
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "stars": 60448,
-      "created_at": "2026-10-17T08:12:35Z",
+      "rank": 30,
+      "repo_id": 1106996539,
+      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "stars": 153544,
+      "created_at": "2025-11-30T11:36:31Z",
       "pool": "regular",
       "domains": [
+        "创作",
         "编程"
       ],
       "forms": [],
       "kinds": [
         "tool"
       ],
-      "added": 953,
-      "added_previous": 1965,
-      "velocity": 136.14285714285714,
-      "acceleration": -20.653061224489797,
-      "p_added": 95.24,
-      "p_accel": 1.93,
-      "score": 48.58,
+      "added": 1426,
+      "added_previous": 1950,
+      "velocity": 203.71428571428572,
+      "acceleration": -10.693877551020405,
+      "p_added": 97.09,
+      "p_accel": 4.67,
+      "score": 50.88,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 53,
-      "repo_id": 1165277268,
-      "full_name": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "stars": 114121,
-      "created_at": "2026-02-24T02:10:24Z",
+      "rank": 31,
+      "repo_id": 1136666433,
+      "full_name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "stars": 72936,
+      "created_at": "2026-01-18T05:30:15Z",
       "pool": "regular",
       "domains": [
         "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 950,
-      "added_previous": 1079,
-      "velocity": 135.71428571428572,
-      "acceleration": -2.632653061224488,
-      "p_added": 95.14,
-      "p_accel": 13.17,
-      "score": 54.15,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 54,
-      "repo_id": 1124219907,
-      "full_name": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "stars": 61757,
-      "created_at": "2025-12-28T15:35:54Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 948,
-      "added_previous": 1264,
-      "velocity": 135.42857142857142,
-      "acceleration": -6.448979591836738,
-      "p_added": 95.04,
-      "p_accel": 7.5,
-      "score": 51.27,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 55,
-      "repo_id": 1024554267,
-      "full_name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "stars": 265539,
-      "created_at": "2025-07-22T22:22:28Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "研究",
         "编程"
       ],
       "forms": [
@@ -1635,23 +915,198 @@
       "kinds": [
         "tool"
       ],
-      "added": 929,
-      "added_previous": 1243,
-      "velocity": 132.71428571428572,
-      "acceleration": -6.408163265306123,
-      "p_added": 94.93,
-      "p_accel": 7.6,
-      "score": 51.27,
+      "added": 1321,
+      "added_previous": 1626,
+      "velocity": 188.71428571428572,
+      "acceleration": -6.224489795918365,
+      "p_added": 96.99,
+      "p_accel": 7.17,
+      "score": 52.08,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 56,
+      "rank": 32,
+      "repo_id": 543101941,
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "stars": 31614,
+      "created_at": "2022-09-29T12:09:14Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "办公",
+        "编程"
+      ],
+      "forms": [
+        "Harness",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1301,
+      "added_previous": 3851,
+      "velocity": 185.85714285714286,
+      "acceleration": -52.0408163265306,
+      "p_added": 96.88,
+      "p_accel": 0.21,
+      "score": 48.55,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 33,
+      "repo_id": 1389011744,
+      "full_name": "lemomo-ai/lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+      "stars": 20475,
+      "created_at": "2026-09-26T10:10:41Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 1284,
+      "added_previous": 2155,
+      "velocity": 183.42857142857142,
+      "acceleration": -17.77551020408163,
+      "p_added": 96.78,
+      "p_accel": 2.7,
+      "score": 49.74,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 34,
+      "repo_id": 1133141258,
+      "full_name": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "The open-source agent for CI/CD reliability.",
+      "stars": 15002,
+      "created_at": "2026-01-13T00:04:47Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "基础设施"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1264,
+      "added_previous": 39,
+      "velocity": 180.57142857142858,
+      "acceleration": 25.0,
+      "p_added": 96.68,
+      "p_accel": 99.48,
+      "score": 98.08,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 35,
+      "repo_id": 1331261687,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "stars": 27356,
+      "created_at": "2026-08-11T18:58:55Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1212,
+      "added_previous": 2555,
+      "velocity": 173.14285714285714,
+      "acceleration": -27.408163265306122,
+      "p_added": 96.57,
+      "p_accel": 0.93,
+      "score": 48.75,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 36,
+      "repo_id": 1385946301,
+      "full_name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "stars": 47646,
+      "created_at": "2026-09-24T16:40:20Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1147,
+      "added_previous": 1453,
+      "velocity": 163.85714285714286,
+      "acceleration": -6.244897959183675,
+      "p_added": 96.47,
+      "p_accel": 6.96,
+      "score": 51.71,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 37,
+      "repo_id": 1170821064,
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "stars": 116550,
+      "created_at": "2026-03-02T15:01:51Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1139,
+      "added_previous": 978,
+      "velocity": 162.71428571428572,
+      "acceleration": 3.2857142857142856,
+      "p_added": 96.37,
+      "p_accel": 97.92,
+      "score": 97.14,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 38,
       "repo_id": 1211139949,
       "full_name": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-      "stars": 98923,
+      "stars": 99354,
       "created_at": "2026-04-15T05:27:37Z",
       "pool": "regular",
       "domains": [
@@ -1667,24 +1122,54 @@
       "kinds": [
         "tool"
       ],
-      "added": 926,
-      "added_previous": 1308,
-      "velocity": 132.28571428571428,
-      "acceleration": -7.795918367346941,
-      "p_added": 94.83,
-      "p_accel": 6.59,
-      "score": 50.71,
+      "added": 1060,
+      "added_previous": 1347,
+      "velocity": 151.42857142857142,
+      "acceleration": -5.857142857142857,
+      "p_added": 96.26,
+      "p_accel": 7.79,
+      "score": 52.02,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 57,
-      "repo_id": 1170821064,
-      "full_name": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "stars": 116118,
-      "created_at": "2026-03-02T15:01:51Z",
+      "rank": 39,
+      "repo_id": 1241960226,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": 55920,
+      "created_at": "2026-05-18T02:16:36Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1046,
+      "added_previous": 2656,
+      "velocity": 149.42857142857142,
+      "acceleration": -32.85714285714286,
+      "p_added": 96.16,
+      "p_accel": 0.52,
+      "score": 48.34,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 40,
+      "repo_id": 1124219907,
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "stars": 62147,
+      "created_at": "2025-12-28T15:35:54Z",
       "pool": "regular",
       "domains": [
         "Agent",
@@ -1697,23 +1182,172 @@
       "kinds": [
         "tool"
       ],
-      "added": 913,
-      "added_previous": 1042,
-      "velocity": 130.42857142857142,
-      "acceleration": -2.632653061224492,
-      "p_added": 94.73,
-      "p_accel": 12.87,
-      "score": 53.8,
+      "added": 1025,
+      "added_previous": 1237,
+      "velocity": 146.42857142857142,
+      "acceleration": -4.326530612244901,
+      "p_added": 96.05,
+      "p_accel": 8.62,
+      "score": 52.34,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 58,
+      "rank": 41,
+      "repo_id": 888092115,
+      "full_name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "stars": 198169,
+      "created_at": "2024-11-13T19:56:40Z",
+      "pool": "regular",
+      "domains": [
+        "办公"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 1018,
+      "added_previous": 948,
+      "velocity": 145.42857142857142,
+      "acceleration": 1.4285714285714286,
+      "p_added": 95.95,
+      "p_accel": 96.88,
+      "score": 96.42,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 42,
+      "repo_id": 1222527844,
+      "full_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "stars": 47075,
+      "created_at": "2026-04-27T13:02:34Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "研究",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 980,
+      "added_previous": 974,
+      "velocity": 140.0,
+      "acceleration": 0.12244897959183731,
+      "p_added": 95.85,
+      "p_accel": 90.65,
+      "score": 93.25,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 43,
+      "repo_id": 1113573066,
+      "full_name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "stars": 79769,
+      "created_at": "2025-12-10T06:54:33Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "办公"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 932,
+      "added_previous": 1453,
+      "velocity": 133.14285714285714,
+      "acceleration": -10.632653061224492,
+      "p_added": 95.74,
+      "p_accel": 4.78,
+      "score": 50.26,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 44,
+      "repo_id": 1195360525,
+      "full_name": "OpenMontageInc/OpenMontage",
+      "url": "https://github.com/OpenMontageInc/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "stars": 82932,
+      "created_at": "2026-03-29T15:23:22Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 892,
+      "added_previous": 1133,
+      "velocity": 127.42857142857143,
+      "acceleration": -4.918367346938775,
+      "p_added": 95.64,
+      "p_accel": 8.0,
+      "score": 51.82,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 45,
+      "repo_id": 1024554267,
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars": 265765,
+      "created_at": "2025-07-22T22:22:28Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "研究",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 881,
+      "added_previous": 1183,
+      "velocity": 125.85714285714286,
+      "acceleration": -6.163265306122448,
+      "p_added": 95.53,
+      "p_accel": 7.27,
+      "score": 51.4,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 46,
       "repo_id": 1031912724,
       "full_name": "farion1231/cc-switch",
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-      "stars": 156549,
+      "stars": 156824,
       "created_at": "2025-08-04T14:16:16Z",
       "pool": "regular",
       "domains": [
@@ -1727,24 +1361,24 @@
       "kinds": [
         "tool"
       ],
-      "added": 896,
-      "added_previous": 1228,
-      "velocity": 128.0,
-      "acceleration": -6.775510204081631,
-      "p_added": 94.63,
-      "p_accel": 7.4,
-      "score": 51.01,
+      "added": 878,
+      "added_previous": 1240,
+      "velocity": 125.42857142857143,
+      "acceleration": -7.387755102040815,
+      "p_added": 95.43,
+      "p_accel": 6.02,
+      "score": 50.73,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 59,
-      "repo_id": 1161958643,
-      "full_name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "stars": 26239,
-      "created_at": "2026-02-19T18:00:49Z",
+      "rank": 47,
+      "repo_id": 1165277268,
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "stars": 114397,
+      "created_at": "2026-02-24T02:10:24Z",
       "pool": "regular",
       "domains": [
         "Agent",
@@ -1757,50 +1391,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 858,
-      "added_previous": 2332,
-      "velocity": 122.57142857142857,
-      "acceleration": -30.08163265306123,
-      "p_added": 94.53,
-      "p_accel": 0.51,
-      "score": 47.52,
+      "added": 859,
+      "added_previous": 1211,
+      "velocity": 122.71428571428571,
+      "acceleration": -7.183673469387756,
+      "p_added": 95.33,
+      "p_accel": 6.13,
+      "score": 50.73,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 60,
-      "repo_id": 1453132706,
-      "full_name": "FrigadeHQ/yogurt",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "description": "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.",
-      "stars": 3011,
-      "created_at": "2026-11-10T20:01:01Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "办公"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 855,
-      "added_previous": 1718,
-      "velocity": 122.14285714285714,
-      "acceleration": -17.612244897959183,
-      "p_added": 94.43,
-      "p_accel": 2.74,
-      "score": 48.58,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 61,
+      "rank": 48,
       "repo_id": 1157102282,
       "full_name": "cheaper-inference/OmniRoute",
       "url": "https://github.com/cheaper-inference/OmniRoute",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
-      "stars": 89714,
+      "stars": 89986,
       "created_at": "2026-02-13T12:38:31Z",
       "pool": "regular",
       "domains": [
@@ -1815,23 +1422,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 846,
-      "added_previous": 1302,
-      "velocity": 120.85714285714286,
-      "acceleration": -9.306122448979592,
-      "p_added": 94.33,
-      "p_accel": 5.67,
-      "score": 50.0,
+      "added": 850,
+      "added_previous": 1299,
+      "velocity": 121.42857142857143,
+      "acceleration": -9.163265306122451,
+      "p_added": 95.22,
+      "p_accel": 5.19,
+      "score": 50.21,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 62,
+      "rank": 49,
       "repo_id": 1152014594,
       "full_name": "AgriciDaniel/claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "stars": 31747,
+      "stars": 32057,
       "created_at": "2026-02-07T08:17:38Z",
       "pool": "regular",
       "domains": [
@@ -1845,23 +1452,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 843,
-      "added_previous": 1350,
-      "velocity": 120.42857142857143,
-      "acceleration": -10.346938775510205,
-      "p_added": 94.17,
-      "p_accel": 5.27,
-      "score": 49.72,
+      "added": 847,
+      "added_previous": 1490,
+      "velocity": 121.0,
+      "acceleration": -13.122448979591837,
+      "p_added": 95.07,
+      "p_accel": 3.95,
+      "score": 49.51,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 63,
+      "rank": 50,
       "repo_id": 1201173969,
       "full_name": "JuliusBrussee/caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
-      "stars": 122261,
+      "stars": 122538,
       "created_at": "2026-04-04T10:03:00Z",
       "pool": "regular",
       "domains": [
@@ -1875,80 +1482,50 @@
       "kinds": [
         "tool"
       ],
-      "added": 843,
-      "added_previous": 1454,
-      "velocity": 120.42857142857143,
-      "acceleration": -12.469387755102042,
-      "p_added": 94.17,
-      "p_accel": 4.36,
-      "score": 49.27,
+      "added": 847,
+      "added_previous": 1513,
+      "velocity": 121.0,
+      "acceleration": -13.591836734693876,
+      "p_added": 95.07,
+      "p_accel": 3.74,
+      "score": 49.4,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 64,
-      "repo_id": 1133141258,
-      "full_name": "Tracer-Cloud/opensre",
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "description": "The open-source agent for CI/CD reliability.",
-      "stars": 14575,
-      "created_at": "2026-01-13T00:04:47Z",
+      "rank": 51,
+      "repo_id": 1423101235,
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "stars": 60679,
+      "created_at": "2026-10-17T08:12:35Z",
       "pool": "regular",
       "domains": [
-        "Agent",
-        "基础设施"
+        "编程"
       ],
       "forms": [],
       "kinds": [
         "tool"
       ],
-      "added": 832,
-      "added_previous": 29,
-      "velocity": 118.85714285714286,
-      "acceleration": 16.387755102040817,
-      "p_added": 94.02,
-      "p_accel": 98.99,
-      "score": 96.5,
+      "added": 835,
+      "added_previous": 1763,
+      "velocity": 119.28571428571429,
+      "acceleration": -18.938775510204078,
+      "p_added": 94.91,
+      "p_accel": 2.49,
+      "score": 48.7,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 65,
-      "repo_id": 1387586059,
-      "full_name": "n8n-io/nod",
-      "url": "https://github.com/n8n-io/nod",
-      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
-      "stars": 3164,
-      "created_at": "2026-09-25T13:46:42Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "模型"
-      ],
-      "kinds": [
-        "model"
-      ],
-      "added": 828,
-      "added_previous": 1802,
-      "velocity": 118.28571428571429,
-      "acceleration": -19.877551020408166,
-      "p_added": 93.92,
-      "p_accel": 2.33,
-      "score": 48.13,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 66,
-      "repo_id": 1158722119,
-      "full_name": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "stars": 119881,
-      "created_at": "2026-02-15T20:20:26Z",
+      "rank": 52,
+      "repo_id": 1368596582,
+      "full_name": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "stars": 22521,
+      "created_at": "2026-09-13T16:31:06Z",
       "pool": "regular",
       "domains": [
         "Agent",
@@ -1956,28 +1533,58 @@
       ],
       "forms": [
         "Agent",
-        "Harness"
+        "工具",
+        "模型"
       ],
       "kinds": [
-        "tool"
+        "model"
       ],
-      "added": 805,
-      "added_previous": 2323,
-      "velocity": 115.0,
-      "acceleration": -30.97959183673469,
-      "p_added": 93.82,
-      "p_accel": 0.41,
-      "score": 47.11,
+      "added": 816,
+      "added_previous": 2191,
+      "velocity": 116.57142857142857,
+      "acceleration": -28.061224489795922,
+      "p_added": 94.81,
+      "p_accel": 0.83,
+      "score": 47.82,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 67,
+      "rank": 53,
+      "repo_id": 872119017,
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "stars": 105430,
+      "created_at": "2024-10-13T20:29:53Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent",
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 782,
+      "added_previous": 1707,
+      "velocity": 111.71428571428571,
+      "acceleration": -18.877551020408166,
+      "p_added": 94.7,
+      "p_accel": 2.6,
+      "score": 48.65,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 54,
       "repo_id": 1048065319,
       "full_name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "stars": 119177,
+      "stars": 119429,
       "created_at": "2025-08-31T20:50:03Z",
       "pool": "regular",
       "domains": [
@@ -1992,200 +1599,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 799,
-      "added_previous": 1406,
-      "velocity": 114.14285714285714,
-      "acceleration": -12.387755102040817,
-      "p_added": 93.72,
-      "p_accel": 4.46,
-      "score": 49.09,
+      "added": 778,
+      "added_previous": 1263,
+      "velocity": 111.14285714285714,
+      "acceleration": -9.897959183673468,
+      "p_added": 94.6,
+      "p_accel": 4.98,
+      "score": 49.79,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 68,
-      "repo_id": 1142983825,
-      "full_name": "multica-ai/andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "stars": 235192,
-      "created_at": "2026-01-27T03:53:13Z",
-      "pool": "regular",
-      "domains": [
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 785,
-      "added_previous": 1471,
-      "velocity": 112.14285714285714,
-      "acceleration": -14.0,
-      "p_added": 93.62,
-      "p_accel": 4.05,
-      "score": 48.83,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 69,
-      "repo_id": 1195360525,
-      "full_name": "OpenMontageInc/OpenMontage",
-      "url": "https://github.com/OpenMontageInc/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "stars": 82540,
-      "created_at": "2026-03-29T15:23:22Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 783,
-      "added_previous": 1119,
-      "velocity": 111.85714285714286,
-      "acceleration": -6.857142857142857,
-      "p_added": 93.52,
-      "p_accel": 7.29,
-      "score": 50.41,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 70,
-      "repo_id": 872119017,
-      "full_name": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-      "stars": 105148,
-      "created_at": "2024-10-13T20:29:53Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 758,
-      "added_previous": 2009,
-      "velocity": 108.28571428571429,
-      "acceleration": -25.53061224489796,
-      "p_added": 93.41,
-      "p_accel": 1.32,
-      "score": 47.37,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 71,
-      "repo_id": 1132001614,
-      "full_name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "stars": 53506,
-      "created_at": "2026-01-11T05:38:15Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 753,
-      "added_previous": 2082,
-      "velocity": 107.57142857142857,
-      "acceleration": -27.12244897959184,
-      "p_added": 93.31,
-      "p_accel": 1.01,
-      "score": 47.16,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 72,
-      "repo_id": 1419708427,
-      "full_name": "EL4CTEO/blender-skills",
-      "url": "https://github.com/EL4CTEO/blender-skills",
-      "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
-      "stars": 2733,
-      "created_at": "2026-10-14T19:08:14Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent",
-        "创作",
-        "建模",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "基础设施",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 751,
-      "added_previous": 443,
-      "velocity": 107.28571428571429,
-      "acceleration": 6.2857142857142865,
-      "p_added": 93.21,
-      "p_accel": 98.28,
-      "score": 95.74,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 73,
-      "repo_id": 1305663861,
-      "full_name": "Vincentwei1021/video-shotcraft",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
-      "stars": 22185,
-      "created_at": "2026-07-19T11:44:41Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 731,
-      "added_previous": 1513,
-      "velocity": 104.42857142857143,
-      "acceleration": -15.959183673469386,
-      "p_added": 93.11,
-      "p_accel": 3.34,
-      "score": 48.23,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 74,
+      "rank": 55,
       "repo_id": 1333165619,
       "full_name": "dataelement/dsh-desktop",
       "url": "https://github.com/dataelement/dsh-desktop",
       "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
-      "stars": 20893,
+      "stars": 21156,
       "created_at": "2026-08-13T13:45:50Z",
       "pool": "regular",
       "domains": [
@@ -2199,23 +1629,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 724,
-      "added_previous": 1020,
-      "velocity": 103.42857142857143,
-      "acceleration": -6.040816326530613,
-      "p_added": 93.01,
-      "p_accel": 7.9,
-      "score": 50.46,
+      "added": 769,
+      "added_previous": 1003,
+      "velocity": 109.85714285714286,
+      "acceleration": -4.775510204081631,
+      "p_added": 94.5,
+      "p_accel": 8.31,
+      "score": 51.4,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 75,
+      "rank": 56,
       "repo_id": 1086419061,
       "full_name": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
-      "stars": 62785,
+      "stars": 63029,
       "created_at": "2025-10-30T11:49:48Z",
       "pool": "regular",
       "domains": [
@@ -2227,23 +1657,79 @@
       "kinds": [
         "tool"
       ],
-      "added": 682,
-      "added_previous": 796,
-      "velocity": 97.42857142857143,
-      "acceleration": -2.326530612244897,
-      "p_added": 92.91,
-      "p_accel": 14.49,
-      "score": 53.7,
+      "added": 739,
+      "added_previous": 813,
+      "velocity": 105.57142857142857,
+      "acceleration": -1.5102040816326527,
+      "p_added": 94.39,
+      "p_accel": 17.81,
+      "score": 56.1,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 76,
+      "rank": 57,
+      "repo_id": 1142983825,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "stars": 235398,
+      "created_at": "2026-01-27T03:53:13Z",
+      "pool": "regular",
+      "domains": [
+        "编程"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 736,
+      "added_previous": 1289,
+      "velocity": 105.14285714285714,
+      "acceleration": -11.285714285714286,
+      "p_added": 94.29,
+      "p_accel": 4.47,
+      "score": 49.38,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 58,
+      "repo_id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars": 120098,
+      "created_at": "2026-02-15T20:20:26Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 731,
+      "added_previous": 1907,
+      "velocity": 104.42857142857143,
+      "acceleration": -24.0,
+      "p_added": 94.18,
+      "p_accel": 1.35,
+      "score": 47.77,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 59,
       "repo_id": 1135212071,
       "full_name": "coreyhaines31/marketingskills",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "stars": 62129,
+      "stars": 62343,
       "created_at": "2026-01-15T19:45:23Z",
       "pool": "regular",
       "domains": [
@@ -2259,50 +1745,194 @@
       "kinds": [
         "tool"
       ],
-      "added": 678,
-      "added_previous": 814,
-      "velocity": 96.85714285714286,
-      "acceleration": -2.775510204081633,
-      "p_added": 92.81,
-      "p_accel": 12.61,
-      "score": 52.71,
+      "added": 673,
+      "added_previous": 887,
+      "velocity": 96.14285714285714,
+      "acceleration": -4.36734693877551,
+      "p_added": 94.08,
+      "p_accel": 8.52,
+      "score": 51.3,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 77,
-      "repo_id": 1408082051,
-      "full_name": "Jakeschincariol/founder-skill",
-      "url": "https://github.com/Jakeschincariol/founder-skill",
-      "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
-      "stars": 4699,
-      "created_at": "2026-10-07T01:07:13Z",
-      "pool": "newcomer",
+      "rank": 60,
+      "repo_id": 1161958643,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "stars": 26428,
+      "created_at": "2026-02-19T18:00:49Z",
+      "pool": "regular",
       "domains": [
         "Agent",
         "编程"
       ],
-      "forms": [],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
       "kinds": [
         "tool"
       ],
-      "added": 652,
-      "added_previous": 993,
-      "velocity": 93.14285714285714,
-      "acceleration": -6.959183673469389,
-      "p_added": 92.71,
-      "p_accel": 7.19,
-      "score": 49.95,
+      "added": 667,
+      "added_previous": 1925,
+      "velocity": 95.28571428571429,
+      "acceleration": -25.6734693877551,
+      "p_added": 93.98,
+      "p_accel": 1.14,
+      "score": 47.56,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 78,
+      "rank": 61,
+      "repo_id": 1215145625,
+      "full_name": "alchaincyf/huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "description": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "stars": 30779,
+      "created_at": "2026-04-19T14:42:06Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 656,
+      "added_previous": 365,
+      "velocity": 93.71428571428571,
+      "acceleration": 5.9387755102040805,
+      "p_added": 93.87,
+      "p_accel": 98.44,
+      "score": 96.16,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 62,
+      "repo_id": 1132001614,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stars": 53703,
+      "created_at": "2026-01-11T05:38:15Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 653,
+      "added_previous": 1666,
+      "velocity": 93.28571428571429,
+      "acceleration": -20.6734693877551,
+      "p_added": 93.77,
+      "p_accel": 1.87,
+      "score": 47.82,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 63,
+      "repo_id": 979392131,
+      "full_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "stars": 21474,
+      "created_at": "2025-05-07T12:49:37Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 648,
+      "added_previous": 1730,
+      "velocity": 92.57142857142857,
+      "acceleration": -22.081632653061224,
+      "p_added": 93.67,
+      "p_accel": 1.56,
+      "score": 47.61,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 64,
+      "repo_id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "stars": 145357,
+      "created_at": "2024-03-11T02:57:34Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 630,
+      "added_previous": 1155,
+      "velocity": 90.0,
+      "acceleration": -10.714285714285714,
+      "p_added": 93.56,
+      "p_accel": 4.57,
+      "score": 49.07,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 65,
+      "repo_id": 1131513930,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "stars": 74185,
+      "created_at": "2026-01-10T06:43:20Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 629,
+      "added_previous": 1438,
+      "velocity": 89.85714285714286,
+      "acceleration": -16.51020408163265,
+      "p_added": 93.46,
+      "p_accel": 3.12,
+      "score": 48.29,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 66,
       "repo_id": 1201476594,
       "full_name": "career-ops-hq/career-ops",
       "url": "https://github.com/career-ops-hq/career-ops",
       "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
-      "stars": 84284,
+      "stars": 84517,
       "created_at": "2026-04-04T18:21:18Z",
       "pool": "regular",
       "domains": [
@@ -2316,103 +1946,79 @@
       "kinds": [
         "tool"
       ],
-      "added": 627,
-      "added_previous": 938,
-      "velocity": 89.57142857142857,
-      "acceleration": -6.346938775510204,
-      "p_added": 92.6,
-      "p_accel": 7.7,
-      "score": 50.15,
+      "added": 624,
+      "added_previous": 929,
+      "velocity": 89.14285714285714,
+      "acceleration": -6.224489795918369,
+      "p_added": 93.35,
+      "p_accel": 7.06,
+      "score": 50.21,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 79,
-      "repo_id": 770153867,
-      "full_name": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "stars": 145161,
-      "created_at": "2024-03-11T02:57:34Z",
+      "rank": 67,
+      "repo_id": 1305663861,
+      "full_name": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "stars": 22369,
+      "created_at": "2026-07-19T11:44:41Z",
       "pool": "regular",
-      "domains": [],
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 611,
+      "added_previous": 1544,
+      "velocity": 87.28571428571429,
+      "acceleration": -19.04081632653061,
+      "p_added": 93.25,
+      "p_accel": 2.28,
+      "score": 47.77,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 68,
+      "repo_id": 1133707766,
+      "full_name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "stars": 57671,
+      "created_at": "2026-01-13T17:59:46Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
       "forms": [],
       "kinds": [
         "tool"
       ],
-      "added": 620,
-      "added_previous": 1319,
-      "velocity": 88.57142857142857,
-      "acceleration": -14.265306122448978,
-      "p_added": 92.5,
-      "p_accel": 3.85,
-      "score": 48.18,
+      "added": 608,
+      "added_previous": 527,
+      "velocity": 86.85714285714286,
+      "acceleration": 1.6530612244897955,
+      "p_added": 93.15,
+      "p_accel": 97.09,
+      "score": 95.12,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 80,
-      "repo_id": 895508656,
-      "full_name": "microsoft/ai-agents-for-beginners",
-      "url": "https://github.com/microsoft/ai-agents-for-beginners",
-      "description": "18 Lessons to Get Started Building AI Agents",
-      "stars": 80813,
-      "created_at": "2024-11-28T10:42:52Z",
-      "pool": "regular",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 597,
-      "added_previous": 338,
-      "velocity": 85.28571428571429,
-      "acceleration": 5.2857142857142865,
-      "p_added": 92.4,
-      "p_accel": 97.97,
-      "score": 95.19,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 81,
-      "repo_id": 1397434450,
-      "full_name": "cloudflare/kitesurf",
-      "url": "https://github.com/cloudflare/kitesurf",
-      "description": "Kitesurf is an experimental browser engine that runs on Cloudflare Workers.",
-      "stars": 2567,
-      "created_at": "2026-09-30T08:51:43Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 593,
-      "added_previous": 1724,
-      "velocity": 84.71428571428571,
-      "acceleration": -23.081632653061224,
-      "p_added": 92.3,
-      "p_accel": 1.82,
-      "score": 47.06,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 82,
+      "rank": 69,
       "repo_id": 1223170290,
       "full_name": "nexu-io/open-design",
       "url": "https://github.com/nexu-io/open-design",
       "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-      "stars": 109070,
+      "stars": 109255,
       "created_at": "2026-04-28T04:25:20Z",
       "pool": "regular",
       "domains": [
@@ -2428,23 +2034,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 589,
-      "added_previous": 667,
-      "velocity": 84.14285714285714,
-      "acceleration": -1.591836734693879,
-      "p_added": 92.2,
-      "p_accel": 17.73,
-      "score": 54.96,
+      "added": 602,
+      "added_previous": 668,
+      "velocity": 86.0,
+      "acceleration": -1.3469387755102045,
+      "p_added": 93.04,
+      "p_accel": 19.0,
+      "score": 56.02,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 83,
+      "rank": 70,
       "repo_id": 1222953295,
       "full_name": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "stars": 14449,
+      "stars": 14738,
       "created_at": "2026-04-27T21:45:56Z",
       "pool": "regular",
       "domains": [
@@ -2456,194 +2062,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 584,
-      "added_previous": 1462,
-      "velocity": 83.42857142857143,
-      "acceleration": -17.918367346938776,
-      "p_added": 92.1,
-      "p_accel": 2.63,
-      "score": 47.37,
+      "added": 601,
+      "added_previous": 1190,
+      "velocity": 85.85714285714286,
+      "acceleration": -12.020408163265305,
+      "p_added": 92.94,
+      "p_accel": 4.15,
+      "score": 48.55,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 84,
-      "repo_id": 612354784,
-      "full_name": "ggml-org/llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "description": "LLM inference in C/C++",
-      "stars": 136166,
-      "created_at": "2023-03-10T18:58:00Z",
-      "pool": "regular",
-      "domains": [
-        "基础设施"
-      ],
-      "forms": [
-        "基础设施"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 583,
-      "added_previous": 1082,
-      "velocity": 83.28571428571429,
-      "acceleration": -10.183673469387756,
-      "p_added": 92.0,
-      "p_accel": 5.47,
-      "score": 48.73,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 85,
-      "repo_id": 1035029907,
-      "full_name": "earendil-works/pi",
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "stars": 123438,
-      "created_at": "2025-08-09T14:03:50Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "Agent",
-        "Harness",
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 561,
-      "added_previous": 789,
-      "velocity": 80.14285714285714,
-      "acceleration": -4.653061224489796,
-      "p_added": 91.89,
-      "p_accel": 9.52,
-      "score": 50.71,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 86,
-      "repo_id": 976921297,
-      "full_name": "asgeirtj/system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.",
-      "stars": 72471,
-      "created_at": "2025-05-03T02:43:56Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "创作",
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 560,
-      "added_previous": 345,
-      "velocity": 80.0,
-      "acceleration": 4.387755102040816,
-      "p_added": 91.79,
-      "p_accel": 97.77,
-      "score": 94.78,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 87,
-      "repo_id": 1032808806,
-      "full_name": "usestrix/strix",
-      "url": "https://github.com/usestrix/strix",
-      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "stars": 77156,
-      "created_at": "2025-08-05T21:28:30Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "编程"
-      ],
-      "forms": [
-        "工具"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 551,
-      "added_previous": 742,
-      "velocity": 78.71428571428571,
-      "acceleration": -3.8979591836734704,
-      "p_added": 91.69,
-      "p_accel": 10.54,
-      "score": 51.11,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 88,
-      "repo_id": 1042367133,
-      "full_name": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with SDD or any other process!",
-      "stars": 151079,
-      "created_at": "2025-08-21T22:54:31Z",
-      "pool": "regular",
-      "domains": [
-        "编程"
-      ],
-      "forms": [],
-      "kinds": [
-        "tool"
-      ],
-      "added": 546,
-      "added_previous": 674,
-      "velocity": 78.0,
-      "acceleration": -2.6122448979591844,
-      "p_added": 91.54,
-      "p_accel": 13.27,
-      "score": 52.41,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 89,
-      "repo_id": 1410124849,
-      "full_name": "wheresryan22/anatomy",
-      "url": "https://github.com/wheresryan22/anatomy",
-      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-      "stars": 28792,
-      "created_at": "2026-10-08T10:12:49Z",
-      "pool": "regular",
-      "domains": [
-        "Agent",
-        "建模"
-      ],
-      "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 546,
-      "added_previous": 840,
-      "velocity": 78.0,
-      "acceleration": -6.0,
-      "p_added": 91.54,
-      "p_accel": 8.11,
-      "score": 49.82,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 90,
+      "rank": 71,
       "repo_id": 193215554,
       "full_name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 211887,
+      "stars": 211936,
       "created_at": "2019-06-22T09:24:21Z",
       "pool": "regular",
       "domains": [
@@ -2658,23 +2093,138 @@
       "kinds": [
         "tool"
       ],
-      "added": 534,
-      "added_previous": 480,
-      "velocity": 76.28571428571429,
-      "acceleration": 1.1020408163265318,
-      "p_added": 91.39,
-      "p_accel": 95.74,
-      "score": 93.57,
+      "added": 598,
+      "added_previous": 478,
+      "velocity": 85.42857142857143,
+      "acceleration": 2.4489795918367343,
+      "p_added": 92.83,
+      "p_accel": 97.4,
+      "score": 95.12,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 91,
+      "rank": 72,
+      "repo_id": 153097643,
+      "full_name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "stars": 12371,
+      "created_at": "2018-10-15T10:54:40Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 595,
+      "added_previous": 40,
+      "velocity": 85.0,
+      "acceleration": 11.326530612244898,
+      "p_added": 92.73,
+      "p_accel": 98.96,
+      "score": 95.85,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 73,
+      "repo_id": 976921297,
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.",
+      "stars": 72551,
+      "created_at": "2025-05-03T02:43:56Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 580,
+      "added_previous": 338,
+      "velocity": 82.85714285714286,
+      "acceleration": 4.938775510204082,
+      "p_added": 92.63,
+      "p_accel": 98.23,
+      "score": 95.43,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 74,
+      "repo_id": 1035029907,
+      "full_name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "stars": 123639,
+      "created_at": "2025-08-09T14:03:50Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent",
+        "Harness",
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 579,
+      "added_previous": 793,
+      "velocity": 82.71428571428571,
+      "acceleration": -4.367346938775512,
+      "p_added": 92.52,
+      "p_accel": 8.41,
+      "score": 50.47,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 75,
+      "repo_id": 1061041576,
+      "full_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "stars": 42916,
+      "created_at": "2025-09-21T05:46:16Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 566,
+      "added_previous": 1058,
+      "velocity": 80.85714285714286,
+      "acceleration": -10.040816326530612,
+      "p_added": 92.42,
+      "p_accel": 4.88,
+      "score": 48.65,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 76,
       "repo_id": 589831718,
       "full_name": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "stars": 148211,
+      "stars": 148388,
       "created_at": "2023-01-17T03:15:56Z",
       "pool": "regular",
       "domains": [
@@ -2687,107 +2237,162 @@
       "kinds": [
         "model"
       ],
-      "added": 533,
-      "added_previous": 769,
-      "velocity": 76.14285714285714,
-      "acceleration": -4.816326530612246,
-      "p_added": 91.29,
-      "p_accel": 8.92,
-      "score": 50.1,
+      "added": 556,
+      "added_previous": 720,
+      "velocity": 79.42857142857143,
+      "acceleration": -3.3469387755102042,
+      "p_added": 92.32,
+      "p_accel": 10.44,
+      "score": 51.38,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 92,
-      "repo_id": 1185389803,
-      "full_name": "ai-job-search-dev/ai-job-search",
-      "url": "https://github.com/ai-job-search-dev/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "stars": 73079,
-      "created_at": "2026-03-18T14:33:04Z",
+      "rank": 77,
+      "repo_id": 1408082051,
+      "full_name": "Jakeschincariol/founder-skill",
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+      "stars": 4817,
+      "created_at": "2026-10-07T01:07:13Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 529,
+      "added_previous": 917,
+      "velocity": 75.57142857142857,
+      "acceleration": -7.918367346938775,
+      "p_added": 92.21,
+      "p_accel": 5.5,
+      "score": 48.86,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 78,
+      "repo_id": 1182081931,
+      "full_name": "Egonex-AI/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "stars": 93937,
+      "created_at": "2026-03-15T02:30:51Z",
       "pool": "regular",
       "domains": [
         "Agent",
         "编程"
       ],
       "forms": [
-        "Agent"
-      ],
-      "kinds": [
-        "tool"
-      ],
-      "added": 532,
-      "added_previous": 774,
-      "velocity": 76.0,
-      "acceleration": -4.938775510204081,
-      "p_added": 91.19,
-      "p_accel": 8.81,
-      "score": 50.0,
-      "complete": true,
-      "days_available": 14
-    },
-    {
-      "rank": 93,
-      "repo_id": 1413849053,
-      "full_name": "helloHub1212/dsh-windows-mcp",
-      "url": "https://github.com/helloHub1212/dsh-windows-mcp",
-      "description": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
-      "stars": 2262,
-      "created_at": "2026-10-11T02:20:53Z",
-      "pool": "newcomer",
-      "domains": [
-        "Agent"
-      ],
-      "forms": [
-        "Harness",
+        "Agent",
         "工具"
       ],
       "kinds": [
         "tool"
       ],
-      "added": 527,
-      "added_previous": 1103,
-      "velocity": 75.28571428571429,
-      "acceleration": -11.755102040816327,
-      "p_added": 91.08,
-      "p_accel": 4.76,
-      "score": 47.92,
+      "added": 523,
+      "added_previous": 639,
+      "velocity": 74.71428571428571,
+      "acceleration": -2.367346938775512,
+      "p_added": 92.11,
+      "p_accel": 13.19,
+      "score": 52.65,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 94,
-      "repo_id": 1209343409,
-      "full_name": "h4ckf0r0day/obscura",
-      "url": "https://github.com/h4ckf0r0day/obscura",
-      "description": "The headless browser for AI agents and web scraping",
-      "stars": 37075,
-      "created_at": "2026-04-13T10:31:41Z",
+      "rank": 79,
+      "repo_id": 1167300963,
+      "full_name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "stars": 58356,
+      "created_at": "2026-02-26T06:31:01Z",
       "pool": "regular",
       "domains": [
-        "Agent"
+        "研究",
+        "编程"
       ],
       "forms": [],
       "kinds": [
         "tool"
       ],
-      "added": 526,
-      "added_previous": 2500,
-      "velocity": 75.14285714285714,
-      "acceleration": -40.285714285714285,
-      "p_added": 90.98,
-      "p_accel": 0.3,
-      "score": 45.64,
+      "added": 519,
+      "added_previous": 572,
+      "velocity": 74.14285714285714,
+      "acceleration": -1.0816326530612241,
+      "p_added": 92.0,
+      "p_accel": 22.53,
+      "score": 57.27,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 95,
+      "rank": 80,
+      "repo_id": 1410124849,
+      "full_name": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "stars": 28977,
+      "created_at": "2026-10-08T10:12:49Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "建模"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 517,
+      "added_previous": 815,
+      "velocity": 73.85714285714286,
+      "acceleration": -6.081632653061225,
+      "p_added": 91.9,
+      "p_accel": 7.58,
+      "score": 49.74,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 81,
+      "repo_id": 1042367133,
+      "full_name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "stars": 151226,
+      "created_at": "2025-08-21T22:54:31Z",
+      "pool": "regular",
+      "domains": [
+        "编程"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 509,
+      "added_previous": 703,
+      "velocity": 72.71428571428571,
+      "acceleration": -3.959183673469389,
+      "p_added": 91.8,
+      "p_accel": 9.03,
+      "score": 50.42,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 82,
       "repo_id": 1193909050,
       "full_name": "herdrdev/herdr",
       "url": "https://github.com/herdrdev/herdr",
       "description": "the runtime your coding agents live on",
-      "stars": 52426,
+      "stars": 52576,
       "created_at": "2026-03-27T17:54:33Z",
       "pool": "regular",
       "domains": [
@@ -2803,25 +2408,222 @@
       "kinds": [
         "tool"
       ],
-      "added": 519,
-      "added_previous": 922,
-      "velocity": 74.14285714285714,
-      "acceleration": -8.22448979591837,
-      "p_added": 90.88,
-      "p_accel": 6.28,
-      "score": 48.58,
+      "added": 506,
+      "added_previous": 849,
+      "velocity": 72.28571428571429,
+      "acceleration": -7.0,
+      "p_added": 91.69,
+      "p_accel": 6.23,
+      "score": 48.96,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 96,
-      "repo_id": 1215145625,
-      "full_name": "alchaincyf/huashu-design",
-      "url": "https://github.com/alchaincyf/huashu-design",
-      "description": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
-      "stars": 30586,
-      "created_at": "2026-04-19T14:42:06Z",
+      "rank": 83,
+      "repo_id": 638513786,
+      "full_name": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Uncensored AI Image & Video Generator — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "stars": 36062,
+      "created_at": "2023-05-09T14:12:37Z",
       "pool": "regular",
+      "domains": [
+        "创作"
+      ],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 498,
+      "added_previous": 699,
+      "velocity": 71.14285714285714,
+      "acceleration": -4.102040816326531,
+      "p_added": 91.54,
+      "p_accel": 8.93,
+      "score": 50.23,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 84,
+      "repo_id": 1032808806,
+      "full_name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "stars": 77343,
+      "created_at": "2025-08-05T21:28:30Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "工具"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 498,
+      "added_previous": 834,
+      "velocity": 71.14285714285714,
+      "acceleration": -6.857142857142857,
+      "p_added": 91.54,
+      "p_accel": 6.54,
+      "score": 49.04,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 85,
+      "repo_id": 1403307052,
+      "full_name": "jiwoochris/artex-global",
+      "url": "https://github.com/jiwoochris/artex-global",
+      "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "stars": 4760,
+      "created_at": "2026-10-03T14:49:48Z",
+      "pool": "newcomer",
+      "domains": [
+        "Agent",
+        "研究"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 494,
+      "added_previous": 568,
+      "velocity": 70.57142857142857,
+      "acceleration": -1.5102040816326527,
+      "p_added": 91.33,
+      "p_accel": 17.81,
+      "score": 54.57,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 86,
+      "repo_id": 1075372545,
+      "full_name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "stars": 170003,
+      "created_at": "2025-10-13T12:12:29Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 494,
+      "added_previous": 868,
+      "velocity": 70.57142857142857,
+      "acceleration": -7.63265306122449,
+      "p_added": 91.33,
+      "p_accel": 5.92,
+      "score": 48.62,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 87,
+      "repo_id": 911256711,
+      "full_name": "apify/apify-mcp-server",
+      "url": "https://github.com/apify/apify-mcp-server",
+      "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
+      "stars": 17664,
+      "created_at": "2025-01-02T15:43:09Z",
+      "pool": "regular",
+      "domains": [
+        "Agent"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 488,
+      "added_previous": 664,
+      "velocity": 69.71428571428571,
+      "acceleration": -3.591836734693879,
+      "p_added": 91.17,
+      "p_accel": 10.07,
+      "score": 50.62,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 88,
+      "repo_id": 1185389803,
+      "full_name": "ai-job-search-dev/ai-job-search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "stars": 73206,
+      "created_at": "2026-03-18T14:33:04Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 485,
+      "added_previous": 746,
+      "velocity": 69.28571428571429,
+      "acceleration": -5.3265306122448965,
+      "p_added": 91.02,
+      "p_accel": 7.89,
+      "score": 49.45,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 89,
+      "repo_id": 612354784,
+      "full_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "stars": 136133,
+      "created_at": "2023-03-10T18:58:00Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 485,
+      "added_previous": 1164,
+      "velocity": 69.28571428571429,
+      "acceleration": -13.857142857142856,
+      "p_added": 91.02,
+      "p_accel": 3.53,
+      "score": 47.27,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 90,
+      "repo_id": 1330417082,
+      "full_name": "WhiteTowerAI/ohmygame",
+      "url": "https://github.com/WhiteTowerAI/ohmygame",
+      "description": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas.  Bring your own key.",
+      "stars": 3413,
+      "created_at": "2026-08-11T02:24:24Z",
+      "pool": "newcomer",
       "domains": [
         "Agent",
         "创作",
@@ -2834,27 +2636,28 @@
       "kinds": [
         "tool"
       ],
-      "added": 518,
-      "added_previous": 385,
-      "velocity": 74.0,
-      "acceleration": 2.7142857142857144,
-      "p_added": 90.78,
-      "p_accel": 97.47,
-      "score": 94.12,
+      "added": 482,
+      "added_previous": 184,
+      "velocity": 68.85714285714286,
+      "acceleration": 6.0816326530612255,
+      "p_added": 90.86,
+      "p_accel": 98.55,
+      "score": 94.7,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 97,
-      "repo_id": 1075372545,
-      "full_name": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "stars": 169865,
-      "created_at": "2025-10-13T12:12:29Z",
+      "rank": 91,
+      "repo_id": 1212503250,
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "stars": 24308,
+      "created_at": "2026-04-16T12:51:09Z",
       "pool": "regular",
       "domains": [
-        "Agent"
+        "Agent",
+        "编程"
       ],
       "forms": [
         "Agent"
@@ -2862,51 +2665,78 @@
       "kinds": [
         "tool"
       ],
-      "added": 515,
-      "added_previous": 858,
-      "velocity": 73.57142857142857,
-      "acceleration": -7.0,
-      "p_added": 90.68,
-      "p_accel": 7.04,
-      "score": 48.86,
+      "added": 472,
+      "added_previous": 567,
+      "velocity": 67.42857142857143,
+      "acceleration": -1.9387755102040813,
+      "p_added": 90.76,
+      "p_accel": 15.58,
+      "score": 53.17,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 98,
-      "repo_id": 1167300963,
-      "full_name": "Imbad0202/academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "stars": 58192,
-      "created_at": "2026-02-26T06:31:01Z",
+      "rank": 92,
+      "repo_id": 1209343409,
+      "full_name": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "stars": 37194,
+      "created_at": "2026-04-13T10:31:41Z",
       "pool": "regular",
       "domains": [
-        "研究",
-        "编程"
+        "Agent"
       ],
       "forms": [],
       "kinds": [
         "tool"
       ],
-      "added": 513,
-      "added_previous": 560,
-      "velocity": 73.28571428571429,
-      "acceleration": -0.9591836734693869,
-      "p_added": 90.58,
-      "p_accel": 24.87,
-      "score": 57.73,
+      "added": 471,
+      "added_previous": 2156,
+      "velocity": 67.28571428571429,
+      "acceleration": -34.38775510204082,
+      "p_added": 90.65,
+      "p_accel": 0.42,
+      "score": 45.53,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 99,
-      "repo_id": 1131513930,
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "stars": 73806,
-      "created_at": "2026-01-10T06:43:20Z",
+      "rank": 93,
+      "repo_id": 652712035,
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "stars": 43284,
+      "created_at": "2023-06-12T16:28:41Z",
+      "pool": "regular",
+      "domains": [
+        "基础设施"
+      ],
+      "forms": [
+        "基础设施"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 459,
+      "added_previous": 303,
+      "velocity": 65.57142857142857,
+      "acceleration": 3.183673469387755,
+      "p_added": 90.55,
+      "p_accel": 97.82,
+      "score": 94.18,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 94,
+      "repo_id": 906251482,
+      "full_name": "ashishpatel26/500-AI-Agents-Projects",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+      "stars": 40679,
+      "created_at": "2024-12-20T13:37:15Z",
       "pool": "regular",
       "domains": [
         "Agent"
@@ -2917,23 +2747,23 @@
       "kinds": [
         "tool"
       ],
-      "added": 511,
-      "added_previous": 1520,
-      "velocity": 73.0,
-      "acceleration": -20.591836734693878,
-      "p_added": 90.48,
-      "p_accel": 2.03,
-      "score": 46.25,
+      "added": 440,
+      "added_previous": 197,
+      "velocity": 62.857142857142854,
+      "acceleration": 4.959183673469387,
+      "p_added": 90.45,
+      "p_accel": 98.34,
+      "score": 94.39,
       "complete": true,
       "days_available": 14
     },
     {
-      "rank": 100,
+      "rank": 95,
       "repo_id": 1316470719,
       "full_name": "hypit-ai/hypit",
       "url": "https://github.com/hypit-ai/hypit",
       "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
-      "stars": 31171,
+      "stars": 31316,
       "created_at": "2026-07-29T18:49:19Z",
       "pool": "regular",
       "domains": [
@@ -2946,13 +2776,159 @@
       "kinds": [
         "replica"
       ],
-      "added": 508,
-      "added_previous": 803,
-      "velocity": 72.57142857142857,
-      "acceleration": -6.020408163265306,
-      "p_added": 90.37,
-      "p_accel": 8.0,
-      "score": 49.19,
+      "added": 423,
+      "added_previous": 715,
+      "velocity": 60.42857142857143,
+      "acceleration": -5.959183673469387,
+      "p_added": 90.34,
+      "p_accel": 7.68,
+      "score": 49.01,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 96,
+      "repo_id": 658928958,
+      "full_name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "stars": 187978,
+      "created_at": "2023-06-26T19:39:32Z",
+      "pool": "regular",
+      "domains": [],
+      "forms": [],
+      "kinds": [
+        "tool"
+      ],
+      "added": 419,
+      "added_previous": 576,
+      "velocity": 59.857142857142854,
+      "acceleration": -3.2040816326530623,
+      "p_added": 90.24,
+      "p_accel": 10.9,
+      "score": 50.57,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 97,
+      "repo_id": 1079456184,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "stars": 58310,
+      "created_at": "2025-10-19T20:54:15Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "研究",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 413,
+      "added_previous": 534,
+      "velocity": 59.0,
+      "acceleration": -2.4693877551020416,
+      "p_added": 90.13,
+      "p_accel": 12.98,
+      "score": 51.56,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 98,
+      "repo_id": 1184045765,
+      "full_name": "wzyn20051216/solidworks-automation-skill",
+      "url": "https://github.com/wzyn20051216/solidworks-automation-skill",
+      "description": "Reliable AI Skill + MCP toolkit for agent-driven desktop CAD automation.",
+      "stars": 2580,
+      "created_at": "2026-03-17T07:40:21Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "建模"
+      ],
+      "forms": [
+        "Agent",
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 408,
+      "added_previous": 226,
+      "velocity": 58.285714285714285,
+      "acceleration": 3.7142857142857144,
+      "p_added": 90.03,
+      "p_accel": 98.03,
+      "score": 94.03,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 99,
+      "repo_id": 820087727,
+      "full_name": "onlook-dev/onlook",
+      "url": "https://github.com/onlook-dev/onlook",
+      "description": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
+      "stars": 27866,
+      "created_at": "2024-06-25T19:16:02Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "创作",
+        "编程"
+      ],
+      "forms": [
+        "Agent"
+      ],
+      "kinds": [
+        "tool"
+      ],
+      "added": 404,
+      "added_previous": 56,
+      "velocity": 57.714285714285715,
+      "acceleration": 7.1020408163265305,
+      "p_added": 89.93,
+      "p_accel": 98.75,
+      "score": 94.34,
+      "complete": true,
+      "days_available": 14
+    },
+    {
+      "rank": 100,
+      "repo_id": 944414751,
+      "full_name": "ahujasid/mcp-for-blender",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+      "stars": 35602,
+      "created_at": "2025-03-07T09:58:58Z",
+      "pool": "regular",
+      "domains": [
+        "Agent",
+        "建模"
+      ],
+      "forms": [
+        "工具",
+        "模型"
+      ],
+      "kinds": [
+        "model"
+      ],
+      "added": 396,
+      "added_previous": 533,
+      "velocity": 56.57142857142857,
+      "acceleration": -2.7959183673469385,
+      "p_added": 89.77,
+      "p_accel": 11.84,
+      "score": 50.8,
       "complete": true,
       "days_available": 14
     }
